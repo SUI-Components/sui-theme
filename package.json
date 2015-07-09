@@ -1,0 +1,20 @@
+{
+  "name": "@schibstedspain/theme-basic",
+  "version": "1.0.0",
+  "description": "Generic theme to add styles to all generic components",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scm-spain/theme-basic.git"
+  },
+  "keywords": [
+    "sass",
+    "theme",
+    "basic"
+  ],
+  "author": "David Garcia <david.garcia@scmspain.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scm-spain/theme-basic/issues"
+  },
+  "homepage": "https://github.com/scm-spain/theme-basic#readme"
+}
