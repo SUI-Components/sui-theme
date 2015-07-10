@@ -20,8 +20,8 @@
 
 // Background colors
 $c-bg: #fafafa      !default;
-$c-bg-light: #fff   !default;
-$c-bg-dark: #000    !default;
+$c-bg-light: #ffffff   !default;
+$c-bg-dark: #000000    !default;
 
 // Shades of gray
 $c-gray-darker:            lighten($c-bg-dark, 13.5%) !default; // #222
@@ -39,10 +39,10 @@ $c-darkness: rgba($c-bg-dark, .2) !default;
 $c-darkness-light:  rgba($c-bg-dark, .08) !default;
 
 
-$c-brightness: rgba(#fff, .2) !default;
-$c-brightness-sweet: rgba(#fff, .25) !default;
-$c-brightness-light: rgba(#fff, .08) !default;
-$c-brightness-strong: rgba(#fff, .5) !default;
+$c-brightness: rgba(#ffffff, .2) !default;
+$c-brightness-sweet: rgba(#ffffff, .25) !default;
+$c-brightness-light: rgba(#ffffff, .08) !default;
+$c-brightness-strong: rgba(#ffffff, .5) !default;
 
 // ### Semantic colors
 $c-success:       #68cc68 !default; // Success color (positive messages)

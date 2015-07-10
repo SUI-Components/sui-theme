@@ -2,6 +2,10 @@
   "name": "@schibstedspain/theme-basic",
   "version": "1.0.0",
   "description": "Generic theme to add styles to all generic components",
+  "scripts": {
+    "lint": "npm run lint:sass",
+    "lint:sass": "scss-lint src/"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/scm-spain/theme-basic.git"
@@ -11,10 +15,16 @@
     "theme",
     "basic"
   ],
+  "pre-commit": [
+    "lint"
+  ],
   "author": "David Garcia <david.garcia@scmspain.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/scm-spain/theme-basic/issues"
   },
-  "homepage": "https://github.com/scm-spain/theme-basic#readme"
+  "homepage": "https://github.com/scm-spain/theme-basic#readme",
+  "dependencies": {
+    "@schibstedspain/frontend-pre-commit-rules": "latest"
+  }
 }
