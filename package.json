@@ -1,6 +1,6 @@
 {
   "name": "@schibstedspain/theme-basic",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Generic theme to add styles to all generic components",
   "scripts": {
     "lint": "npm run lint:sass",
