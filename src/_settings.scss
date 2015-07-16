@@ -57,12 +57,12 @@ $c-danger:        #e43731 !default; // Color for negative messages/icons
 // Font, line-height, and color for body text, headings, and more.
 
 // ### Font families
-$ff-sans-serif: "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$ff-sans-serif: "Open Sans", Helvetica, Arial, sans-serif !default;
 $ff-serif: Georgia, "Times New Roman", Times, serif !default;
-$ff-condensed: "Open Sans", sans-serif !default;
+$ff-condensed: 'Open Sans Condensed', sans-serif !default;
 $ff-body: $ff-sans-serif !default;
 $ff-headers: $ff-sans-serif !default;
-
+$ff-main-sans: "OpenSans", sans-serif !default;
 
 // ### Font sizes
 $fz-base: 16 !default;
