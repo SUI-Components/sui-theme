@@ -1,6 +1,6 @@
 {
   "name": "@schibstedspain/theme-basic",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Generic theme to add styles to all generic components",
   "scripts": {
     "lint": "npm run lint:sass",
@@ -25,6 +25,6 @@
   },
   "homepage": "https://github.com/scm-spain/theme-basic#readme",
   "dependencies": {
-    "@schibstedspain/frontend-pre-commit-rules": "latest"
+    "@schibstedspain/frontend-pre-commit-rules": "6.6.1"
   }
 }
