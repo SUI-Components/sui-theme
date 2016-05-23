@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/scm-spain/theme-basic.git"
+    "url": "git+https://github.com/SUI-Components/theme-basic.git"
   },
   "keywords": [
     "sass",
