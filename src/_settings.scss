@@ -1,4 +1,3 @@
-//
 // # Theme Variables
 // --------------------------------------------------
 // The naming convention used for variables is the
@@ -17,9 +16,9 @@
 // ### Contrast colors
 
 // Background colors
-$c-bg: #fafafa      !default;
-$c-bg-light: #ffffff   !default;
-$c-bg-dark: #000000    !default;
+$c-bg:         #fafafa !default;
+$c-bg-light:   #ffffff !default;
+$c-bg-dark:    #000000 !default;
 
 // Pure white
 $c-white: #ffffff !default;
@@ -29,7 +28,7 @@ $c-gray-darker:            lighten($c-bg-dark, 13.5%) !default; // #222
 $c-gray-dark:              lighten($c-bg-dark, 20%) !default;   // #333
 $c-gray:                   lighten($c-bg-dark, 33.5%) !default; // #555
 $c-gray-light:             lighten($c-bg-dark, 46.7%) !default; // #777
-$c-gray-lighter:           lighten($c-bg-dark, 60%) !default; // #999
+$c-gray-lighter:           lighten($c-bg-dark, 60%) !default;   // #999
 
 // Contrast to background (default text color)
 $c-fg: $c-gray-dark    !default;
