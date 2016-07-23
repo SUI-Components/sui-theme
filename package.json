@@ -24,7 +24,7 @@
     "url": "https://github.com/scm-spain/theme-basic/issues"
   },
   "homepage": "https://github.com/scm-spain/theme-basic#readme",
-  "dependencies": {
-    "@schibstedspain/frontend-pre-commit-rules": "6.6.1"
+  "devDependencies": {
+    "@schibstedspain/frontend-pre-commit-rules": "6.7"
   }
 }

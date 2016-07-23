@@ -12,8 +12,6 @@
 // * p = padding
 // * lh = line-height
 
-
-
 // ## Colors
 
 // ### Contrast colors
@@ -22,6 +20,9 @@
 $c-bg: #fafafa      !default;
 $c-bg-light: #ffffff   !default;
 $c-bg-dark: #000000    !default;
+
+// Pure white
+$c-white: #ffffff !default;
 
 // Shades of gray
 $c-gray-darker:            lighten($c-bg-dark, 13.5%) !default; // #222
@@ -39,10 +40,10 @@ $c-darkness: rgba($c-bg-dark, .2) !default;
 $c-darkness-light:  rgba($c-bg-dark, .08) !default;
 
 
-$c-brightness: rgba(#ffffff, .2) !default;
-$c-brightness-sweet: rgba(#ffffff, .25) !default;
-$c-brightness-light: rgba(#ffffff, .08) !default;
-$c-brightness-strong: rgba(#ffffff, .5) !default;
+$c-brightness: rgba($c-white, .2) !default;
+$c-brightness-sweet: rgba($c-white, .25) !default;
+$c-brightness-light: rgba($c-white, .08) !default;
+$c-brightness-strong: rgba($c-white, .5) !default;
 
 // ### Semantic colors
 $c-success:       #68cc68 !default; // Success color (positive messages)
@@ -50,19 +51,17 @@ $c-info:          #5ba0de !default; // Informative color
 $c-warning:       #f1ce30 !default; // Color for warnings
 $c-danger:        #e43731 !default; // Color for negative messages/icons
 
-
-
 // ## Typography
 //
 // Font, line-height, and color for body text, headings, and more.
 
 // ### Font families
-$ff-sans-serif: "Open Sans", Helvetica, Arial, sans-serif !default;
-$ff-serif: Georgia, "Times New Roman", Times, serif !default;
+$ff-sans-serif: 'Open Sans', Helvetica, Arial, sans-serif !default;
+$ff-serif: Georgia, 'Times New Roman', Times, serif !default;
 $ff-condensed: 'Open Sans Condensed', sans-serif !default;
 $ff-body: $ff-sans-serif !default;
 $ff-headers: $ff-sans-serif !default;
-$ff-main-sans: "OpenSans", sans-serif !default;
+$ff-main-sans: 'OpenSans', sans-serif !default;
 
 // ### Font sizes
 $fz-base: 16 !default;
@@ -82,16 +81,16 @@ $fz-h6:   ceil(($fz-base * .85)) * 1px !default; // ~12px
 
 // For any absolute margin
 $m-base: $fz-body !default;
-$m-v: ceil($m-base/2) !default;
+$m-v: ceil($m-base / 2) !default;
 $m-h: $m-base !default;
 
 // For relative paddings in scalable elements
 $p-base: .8em !default;
-$p-v: ceil($p-base/2) !default;
+$p-v: ceil($p-base / 2) !default;
 $p-h: $p-base !default;
 
 
 //** Unit-less `line-height` for use in components like buttons.
-$lh-base: 24/$fz-base !default; // 24/16
-//** Computed "line-height" (`fz` * `line-height`) for use with `margin`, `padding`, etc.
+$lh-base: 24 / $fz-base !default; // 24/16
+//** Computed 'line-height' (`fz` * `line-height`) for use with `margin`, `padding`, etc.
 $lh-computed:    floor(($fz-base * $lh-base)) !default; // 24px
