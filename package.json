@@ -1,6 +1,6 @@
 {
   "name": "@schibstedspain/theme-basic",
-  "version": "3.0.2",
+  "version": "4.0.0",
   "description": "Generic theme to add styles to all generic components",
   "scripts": {
     "lint": "npm run lint:sass",
@@ -19,6 +19,18 @@
     "lint"
   ],
   "author": "David Garcia <david.garcia@scmspain.com>",
+  "contributors": [
+    {
+      "name": "Kiko Ruiz",
+      "email": "francisco.ruiz@scmspain.com",
+      "url": "https://github.com/kikoruiz"
+    },
+    {
+      "name": "Joan Claret",
+      "email": "joan.claret@scmspain.com",
+      "url": "https://github.com/JoanClaret"
+    }
+  ],
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/scm-spain/theme-basic/issues"
