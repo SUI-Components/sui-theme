@@ -1,0 +1,26 @@
+// --- SUI Select --- //
+// @extend %sui-select;
+
+%sui-select {
+  @include appearance(none);
+  background-color: $bgc-select;
+  border: $bd-select;
+  border-radius: $bdrs-base;
+  display: inline-block;
+  font-family: $ff-sans-serif;
+  font-size: $fz-l;
+  outline: none;
+  padding: $p-v $p-h;
+  width: 100%;
+
+  &:hover {
+    background-color: $bgc-select-hover;
+    border: $bd-select-hover;
+  }
+
+  &:focus {
+    background-color: $bgc-select-focus;
+    border: $bd-select-focus;
+    box-shadow: $bd-select-focus;
+  }
+}

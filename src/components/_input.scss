@@ -1,0 +1,28 @@
+// --- SUI Input --- //
+// @extend %sui-input;
+
+%sui-input {
+  @include input-placeholder {
+    font-style: italic;
+  }
+
+  background-color: $bgc-input;
+  border: $bd-input;
+  border-radius: $bdrs-base;
+  font-family: $ff-sans-serif;
+  font-size: $fz-l;
+  font-weight: $fw-light;
+  outline: none;
+  padding: $p-v $p-h;
+  width: 100%;
+
+  &:hover {
+    background-color: $bgc-input-hover;
+    border: $bd-input-hover;
+  }
+
+  &:focus {
+    background-color: $bgc-input-focus;
+    box-shadow: $bd-input-focus;
+  }
+}
