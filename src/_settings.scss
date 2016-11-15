@@ -33,9 +33,9 @@ $c-gray-dark: lighten($c-gray, 20%);
 $c-gray-light: lighten($c-gray, 33%) !default;
 $c-gray-lightest: lighten($c-gray-light, 15%) !default;
 
-$c-font-base: $c-gray-dark;
-$c-font-accent: $c-primary;
-$c-font-link: $c-font-accent;
+$c-font-base: $c-gray-dark !default;
+$c-font-accent: $c-primary !default;
+$c-font-link: $c-font-accent !default;
 
 
 // --- Fonts --- //

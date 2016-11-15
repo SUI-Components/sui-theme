@@ -1,12 +1,27 @@
-# Theme-basic
-Basic theme containing a set of generic variables to initialize default values to colors, font families and sizing, margins, paddings and line-height.
+# SUI Components Basic Theme
+
+This repository contains:
+
+* Generic variables to initialize default values and component styles
+* A set of placeholders ready to style your component (buttons, tabs, forms, grid system...)
+* Functions and mixins helpers
 
 ## Usage
+
 Import `theme-basic` into your sui-component including the path in `index.scss`:
 
 ```
-@import '../node_modules/@schibstedspain/theme-sui/src/settings';
+@import '../node_modules/@schibstedspain/theme-sui/src/index';
 ```
+
+If you want to customize your components, create your own theme and add it to yor component just __before__ the theme-basic import. And if your custom settings requires some functions (e.g.: `image-url`), import them before your settings.
+
+```
+@import '../functions'; // optional
+@import '../custom-settings';
+@import '../node_modules/@schibstedspain/theme-sui/src/index';
+```
+
 
 ## Update
 If you need to update any of these variables please pull request.
