@@ -1,0 +1,22 @@
+// --- SUI Grid --- //
+// @extend %sui-grid;
+// @extend %sui-cell-large;
+
+%sui-grid {
+  display: flex;
+  padding: 0 $gutter $gutter;
+}
+
+%sui-cell {
+  flex: 1;
+  margin: 0;
+  padding: 0;
+
+  &:not(:last-child) {
+    margin-right: $gutter;
+  }
+}
+
+%sui-cell-large {
+  flex: 3;
+}

@@ -1,0 +1,18 @@
+// --- SUI Button --- //
+// @extend %sui-button;
+
+%sui-button {
+  background-color: $c-primary;
+  border: 0;
+  border-radius: 3px;
+  color: $c-white;
+  cursor: pointer;
+  font-family: $ff-sans-serif;
+  font-size: $fz-xl;
+  outline: none;
+  padding: $p-v $p-h;
+
+  &:hover {
+    background-color: $c-primary-dark;
+  }
+}

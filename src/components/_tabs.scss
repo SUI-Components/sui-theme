@@ -1,0 +1,22 @@
+// --- SUI Tab --- //
+// @extend %sui-tab;
+
+%sui-tab {
+  background-color: $bgc-tab;
+  color: $c-white;
+  cursor: pointer;
+  display: inline-block;
+  font-size: $fz-m;
+  margin-right: 1px;
+  padding: $p-v $p-h;
+
+  &:hover {
+    background-color: $bgc-tab-hover;
+  }
+
+  &.is-active {
+    background-color: $bgc-tab-active;
+    box-shadow: 0 2px 0 $c-primary inset;
+    color: $c-gray-dark;
+  }
+}

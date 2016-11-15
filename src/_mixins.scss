@@ -1,0 +1,27 @@
+// --- Mixins --- //
+
+// Placeholder
+ @mixin input-placeholder {
+  &::-webkit-input-placeholder {
+    @content;
+  }
+
+  &:-moz-placeholder {
+    @content;
+  }
+
+  &::-moz-placeholder {
+    @content;
+  }
+
+  &:-ms-input-placeholder {
+    @content;
+  }
+}
+
+// Appearance
+@mixin appearance($value) {
+  -moz-appearance: $value;
+  -webkit-appearance: $value;
+  appearance: $value;
+}

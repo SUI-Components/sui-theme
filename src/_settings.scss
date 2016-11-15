@@ -4,92 +4,116 @@
 // [ZenCSSProperties](https://code.google.com/p/zen-coding/wiki/ZenCSSPropertiesEn)
 //
 // Some of the prefixes used:
+// * bg = background
+// * bgc = background-color
 // * c = color
 // * ff = font-family
+// * fw = font-weight
 // * fz = font-size
 // * m = margin
 // * p = padding
 // * lh = line-height
 
-// ## Colors
 
-// ### Contrast colors
+// --- Misc --- //
 
-// Background colors
-$c-bg:         #fafafa !default;
-$c-bg-light:   #ffffff !default;
-$c-bg-dark:    #000000 !default;
+$url-statics: '' !default;
 
-// Pure white
+
+// --- Colors --- //
+
+$c-primary: #005496 !default;
+$c-primary-dark: #003661 !default;
+
 $c-white: #ffffff !default;
+$c-black: #000000 !default;
 
-// Shades of gray
-$c-gray-darker:            lighten($c-bg-dark, 13.5%) !default; // #222
-$c-gray-dark:              lighten($c-bg-dark, 20%) !default;   // #333
-$c-gray:                   lighten($c-bg-dark, 33.5%) !default; // #555
-$c-gray-light:             lighten($c-bg-dark, 46.7%) !default; // #777
-$c-gray-lighter:           lighten($c-bg-dark, 60%) !default;   // #999
+$c-gray: #777777 !default;
+$c-gray-dark: lighten($c-gray, 20%);
+$c-gray-light: lighten($c-gray, 33%) !default;
+$c-gray-lightest: lighten($c-gray-light, 15%) !default;
 
-// Contrast to background (default text color)
-$c-fg: $c-gray-dark    !default;
-$c-fg-light: $c-gray   !default;
-
-// Used to darken background
-$c-darkness: rgba($c-bg-dark, .2) !default;
-$c-darkness-light:  rgba($c-bg-dark, .08) !default;
+$c-font-base: $c-gray-dark;
+$c-font-accent: $c-primary;
+$c-font-link: $c-font-accent;
 
 
-$c-brightness: rgba($c-white, .2) !default;
-$c-brightness-sweet: rgba($c-white, .25) !default;
-$c-brightness-light: rgba($c-white, .08) !default;
-$c-brightness-strong: rgba($c-white, .5) !default;
+// --- Fonts --- //
 
-// ### Semantic colors
-$c-success:       #68cc68 !default; // Success color (positive messages)
-$c-info:          #5ba0de !default; // Informative color
-$c-warning:       #f1ce30 !default; // Color for warnings
-$c-danger:        #e43731 !default; // Color for negative messages/icons
+// Font family
+$ff-sans-serif: 'Open sans', Helvetica, Arial, sans-serif !default;
 
-// ## Typography
-//
-// Font, line-height, and color for body text, headings, and more.
+// Font weights
+$fw-light: 300 !default;
+$fw-regular: 400 !default;
+$fw-semi-bold: 600 !default;
+$fw-bold: 700 !default;
 
-// ### Font families
-$ff-sans-serif: 'Open Sans', Helvetica, Arial, sans-serif !default;
-$ff-serif: Georgia, 'Times New Roman', Times, serif !default;
-$ff-condensed: 'Open Sans Condensed', sans-serif !default;
-$ff-body: $ff-sans-serif !default;
-$ff-headers: $ff-sans-serif !default;
-$ff-main-sans: 'OpenSans', sans-serif !default;
-
-// ### Font sizes
-$fz-base: 16 !default;
+// Font sizes
+$fz-base: 14 !default;
 $fz-body: $fz-base * 1px !default;
-$fz-l:    ceil(($fz-base * 1.25)) * 1px !default; // ~18px
-$fz-s:    ceil(($fz-base * .85)) * 1px !default; // ~12px
-
-$fz-h1:   floor(($fz-base * 2.6)) * 1px !default; // ~36px
-$fz-h2:   floor(($fz-base * 2.15)) * 1px !default; // ~30px
-$fz-h3:   ceil(($fz-base * 1.7)) * 1px !default; // ~24px
-$fz-h4:   ceil(($fz-base * 1.25)) * 1px !default; // ~18px
-$fz-h5:   $fz-base * 1px !default;
-$fz-h6:   ceil(($fz-base * .85)) * 1px !default; // ~12px
+$fz-m: $fz-base * 1px !default;
+$fz-l: ceil(($fz-base * 1.25)) * 1px !default;
+$fz-xl: ceil($fz-base * 1.5) * 1px !default;
 
 
-// ## Spacings
+// --- Layout --- //
 
-// For any absolute margin
-$m-base: $fz-body !default;
+// Margins
+$m-base: 8px !default;
 $m-v: ceil($m-base / 2) !default;
 $m-h: $m-base !default;
+$m-v-small: $m-v / 2 !default;
+$m-h-small: $m-h / 2 !default;
+$m-v-large: $m-v * 2 !default;
+$m-h-large: $m-h * 2 !default;
 
-// For relative paddings in scalable elements
-$p-base: .8em !default;
-$p-v: ceil($p-base / 2) !default;
+// Paddings
+$p-base: 15px !default;
+$p-v: $p-base / 1.5 !default;
 $p-h: $p-base !default;
+$p-v-small: $p-v / 2 !default;
+$p-h-small: $p-h / 2 !default;
+$p-v-large: $p-v * 2 !default;
+$p-h-large: $p-h * 2 !default;
+
+// Gutter
+$gutter: $p-base;
+
+// Border radius
+$bdrs-base: 4px !default;
+
+// Box shadows
+$bxsh-base: 0 1px 3px rgba($c-black, .3) !default;
 
 
-//** Unit-less `line-height` for use in components like buttons.
-$lh-base: 24 / $fz-base !default; // 24/16
-//** Computed 'line-height' (`fz` * `line-height`) for use with `margin`, `padding`, etc.
-$lh-computed:    floor(($fz-base * $lh-base)) !default; // 24px
+// --- Forms --- //
+
+// Inputs
+$bgc-input: $c-white !default;
+$bgc-input-hover: $c-white !default;
+$bgc-input-focus: $c-gray-lightest !default;
+
+$bd-input: 1px solid $c-gray !default;
+$bd-input-hover: 1px solid $c-gray !default;
+$bd-input-focus: 1px solid $c-gray !default;
+
+// Selects
+$bgc-select: $c-white !default;
+$bgc-select-hover: $c-white !default;
+$bgc-select-focus: $c-gray-lightest !default;
+
+$bd-select: 1px solid $c-gray !default;
+$bd-select-hover: 1px solid $c-gray !default;
+$bd-select-focus: 1px solid $c-gray !default;
+
+
+// --- Components --- //
+
+// Tabs
+$bgc-tab: rgba($c-black, .6) !default;
+$bgc-tab-hover: rgba($c-black, .8) !default;
+$bgc-tab-active: $c-white !default;
+
+// Search box
+$bg-search-box: $c-gray-light !default;
