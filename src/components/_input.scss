@@ -23,6 +23,6 @@
 
   &:focus {
     background-color: $bgc-input-focus;
-    box-shadow: $bd-input-focus;
+    border: $bd-input-focus;
   }
 }
