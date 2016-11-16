@@ -19,7 +19,7 @@ If you want to customize your components, create your own theme and add it to yo
 ```
 @import '../functions'; // optional
 @import '../custom-settings';
-@import '../node_modules/@schibstedspain/theme-sui/src/index';
+@import '@schibstedspain/theme-sui/src/index';
 ```
 
 
