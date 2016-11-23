@@ -2,9 +2,14 @@
   "name": "@schibstedspain/theme-basic",
   "version": "4.0.2",
   "description": "Generic theme to add styles to all generic components",
+  "main": "lib/",
   "scripts": {
-    "lint": "npm run lint:sass",
-    "lint:sass": "scss-lint src/"
+    "lint": "npm run lint:js && npm run lint:sass",
+    "lint:sass": "node_modules/.bin/sass-lint src/**/*.scss -c -v",
+    "lint:js": "node_modules/.bin/eslint --ext .js,.jsx src/",
+    "lib": "npm run lib:styles",
+    "lib:styles": "cpx './src/**/*.scss' lib",
+    "prepublish": "npm run lib"
   },
   "repository": {
     "type": "git",
@@ -37,6 +42,7 @@
   },
   "homepage": "https://github.com/scm-spain/theme-basic#readme",
   "devDependencies": {
-    "@schibstedspain/frontend-pre-commit-rules": "7.0"
+    "@schibstedspain/frontend-pre-commit-rules": "7",
+    "cpx": "1.5.0"
   }
 }
