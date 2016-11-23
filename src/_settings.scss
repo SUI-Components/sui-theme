@@ -104,6 +104,10 @@ $bgc-select: $c-white !default;
 $bgc-select-hover: $c-white !default;
 $bgc-select-focus: $c-gray-lightest !default;
 
+$bgc-select-icon-wrap: $c-gray-lightest !default;
+$p-select-icon-wrap: 0 $p-h-small !default;
+$w-select-icon-wrap: 30px !default;
+
 $bd-select: 1px solid $c-gray !default;
 $bd-select-hover: 1px solid $c-gray !default;
 $bd-select-focus: 1px solid $c-gray !default;
