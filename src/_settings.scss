@@ -116,9 +116,21 @@ $bd-select-focus: 1px solid $c-gray !default;
 // --- Components --- //
 
 // Tabs
-$bgc-tab: rgba($c-black, .6) !default;
-$bgc-tab-hover: rgba($c-black, .8) !default;
+$bd-tab-wrap: 1px solid $c-gray-light !default;
+
+$bgc-tab: $c-white !default;
+$c-tab: $c-font-base !default;
+$fw-tab: $fw-semi-bold !default;
+$mr-tab: 0 !default;
+$p-tab: $p-v * 1.5 $p-h !default;
+$tt-tab: uppercase !default;
+
+$bgc-tab-hover: $c-white !default;
+
 $bgc-tab-active: $c-white !default;
+$bxsh-tab-active: 0 -4px 0 $c-primary inset !default;
+$c-tab-active: $c-primary !default;
+
 
 // Search box
 $bg-search-box: $c-gray-light !default;
