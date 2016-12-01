@@ -1,0 +1,42 @@
+%h1 {
+  font-size: $fz-h1;
+  font-weight: $fw-bold;
+  margin: 0 0 $m-v;
+}
+
+%h2 {
+  font-size: $fz-h2;
+  font-weight: $fw-bold;
+  margin: 0 0 $m-v;
+}
+
+%h3 {
+  font-size: $fz-h3;
+  font-weight: $fw-bold;
+  margin: 0 0 $m-v-small;
+}
+
+%h4 {
+  font-size: $fz-h4;
+  font-weight: $fw-bold;
+  margin: 0 0 $m-v-small;
+}
+
+%h5 {
+  font-size: $fz-h5;
+  font-weight: $fw-bold;
+  margin: 0 0 $m-v-small;
+}
+
+%text-link {
+  color: $c-text-link;
+  text-decoration: underline;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+%text-highlighted {
+  background-color: $c-highlighted;
+}
