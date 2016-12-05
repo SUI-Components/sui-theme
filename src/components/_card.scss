@@ -1,0 +1,60 @@
+// --- SUI Card --- //
+// @extend %sui-card;
+
+// SUI Card
+%sui-card {
+  background-color: $c-white;
+  border: 0;
+  border-radius: $bdrs-card;
+  box-shadow: $bxsh-card;
+  transition: box-shadow $trs-base;
+
+  &:hover {
+    box-shadow: $bxsh-card-hover;
+  }
+
+  &:hover &-title {
+    color: $c-card-title-hover;
+  }
+
+  &.is-disabled {
+    opacity: .3;
+  }
+
+  &-media {
+    img {
+      height: auto;
+      width: 100%;
+    }
+  }
+}
+
+// SUI Card -- Default
+%sui-card--default {
+  &-content {
+    padding: $p-v-large $p-h;
+  }
+
+  &-title {
+    @extend %h2;
+  }
+
+  &-description {
+    font-size: $fz-m;
+  }
+}
+
+// SUI Card -- Small
+%sui-card--small {
+  &-content {
+    padding: $p-v $p-h;
+  }
+
+  &-title {
+    @extend %h3;
+  }
+
+  &-description {
+    font-size: $fz-m;
+  }
+}

@@ -4,7 +4,7 @@
 %sui-button {
   background-color: $c-primary;
   border: 0;
-  border-radius: 3px;
+  border-radius: $bdrs-button;
   color: $c-white;
   cursor: pointer;
   font-family: $ff-sans-serif;
