@@ -1,5 +1,6 @@
 // --- SUI Card --- //
 // @extend %sui-card;
+// @extend %sui-card--default;
 
 // SUI Card
 %sui-card {
@@ -24,6 +25,7 @@
   &-media {
     img {
       height: auto;
+      vertical-align: bottom;
       width: 100%;
     }
   }
