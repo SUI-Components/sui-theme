@@ -1,18 +1,66 @@
 // --- SUI Button --- //
 // @extend %sui-button;
+// @extend %sui-button--primary;
+// @extend %sui-button--medium;
 
 %sui-button {
-  background-color: $c-primary;
-  border: 0;
   border-radius: $bdrs-button;
-  color: $c-white;
   cursor: pointer;
   font-family: $ff-sans-serif;
-  font-size: $fz-xl;
   outline: none;
   padding: $p-v $p-h;
+}
+
+// Button types
+
+%sui-button--primary {
+  background-color: $c-primary;
+  border: 0;
+  color: $c-white;
 
   &:hover {
-    background-color: $c-primary-dark;
+    background-color: $c-primary-light;
   }
+}
+
+%sui-button--secondary {
+  background-color: $c-white;
+  border: 1px solid $c-gray-dark;
+  color: $c-gray-dark;
+
+  &:hover {
+    background-color: $c-gray-lightest;
+  }
+}
+
+%sui-button--ghost {
+  $c-hover: rgba($c-gray, .75);
+  background-color: transparent;
+  border: 1px solid $c-gray-dark;
+  color: $c-gray-dark;
+
+  &:hover {
+    border-color: $c-hover;
+    color: $c-hover;
+  }
+}
+
+// Button sizes
+
+%sui-button--small {
+  font-size: $fz-s;
+}
+
+%sui-button--medium {
+  font-size: $fz-m;
+}
+
+%sui-button--large {
+  font-size: $fz-xl;
+}
+
+%sui-button--full {
+  display: block;
+  text-align: center;
+  width: 100%;
 }

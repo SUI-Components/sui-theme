@@ -23,6 +23,7 @@ $url-statics: '' !default;
 
 // --- Colors --- //
 
+$c-primary-light: #80a9ca !default;
 $c-primary: #005496 !default;
 $c-primary-dark: #003661 !default;
 $c-highlighted: #f2cd96 !default;
@@ -31,9 +32,9 @@ $c-white: #ffffff !default;
 $c-black: #000000 !default;
 
 $c-gray: #777777 !default;
-$c-gray-dark: darken($c-gray, 20%) !default;
-$c-gray-light: lighten($c-gray, 33%) !default;
-$c-gray-lightest: lighten($c-gray-light, 15%) !default;
+$c-gray-dark: #4d4d4d !default;
+$c-gray-light: #bbbbbb !default;
+$c-gray-lightest: #f1f1f1 !default;
 
 $c-text-base: $c-gray-dark !default;
 $c-text-accent: $c-primary !default;
