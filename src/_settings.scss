@@ -1,7 +1,7 @@
 // # Theme Variables
 // --------------------------------------------------
-// The naming convention used for variables is the
-// [emmet cheatsheet](http://docs.emmet.io/cheat-sheet/)
+// The naming convention used for variables is based on Emmet.
+// See [Emmet cheat sheet](http://docs.emmet.io/cheat-sheet/)
 //
 // Some of the prefixes used:
 // * bg = background
@@ -94,6 +94,17 @@ $p-v-small: ceil($p-v / 2) !default;
 $p-h-small: ceil($p-h / 2) !default;
 $p-v-large: ceil($p-v * 2) !default;
 $p-h-large: ceil($p-h * 2) !default;
+
+// Breakpoints
+$breakpoints: (
+  xxs: 0,
+  xs: 320px,
+  s: 576px,
+  m: 768px,
+  l: 992px,
+  xl: 1200px
+) !default;
+$breakpoint-names: map-keys($breakpoints) !default;
 
 // Gutter
 $gutter: $p-base !default;
