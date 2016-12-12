@@ -1,6 +1,6 @@
 {
   "name": "@schibstedspain/theme-basic",
-  "version": "4.9.0",
+  "version": "4.10.0",
   "description": "Generic theme to add styles to all generic components",
   "main": "lib/index.scss",
   "scripts": {
@@ -10,7 +10,7 @@
     "clean:lib": "rimraf ./lib/*",
     "prelib": "npm run clean:lib -s",
     "lib": "npm run lib:styles",
-    "lib:styles": "cpx './src/**/*.scss' lib",
+    "lib:styles": "cpx './src/**/*.scss' lib/",
     "prepublish": "npm run lib"
   },
   "repository": {
