@@ -1,11 +1,7 @@
 node_modules
 npm-debug.log
 src
-.babelrc
 .editorconfig
-.eslintignore
-.eslintrc
 .gitignore
-.jscsrc
 .sass-lint.yml
 .scss-lint.yml

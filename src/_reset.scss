@@ -1,4 +1,4 @@
-%reset-link {
+@mixin reset-link {
   color: $c-text-base;
   text-decoration: none;
 }

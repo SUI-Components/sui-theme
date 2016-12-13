@@ -6,7 +6,6 @@
   "scripts": {
     "lint": "npm run lint:js && npm run lint:sass",
     "lint:sass": "node_modules/.bin/sass-lint src/**/*.scss -c -v",
-    "lint:js": "node_modules/.bin/eslint --ext .js,.jsx src/",
     "clean:lib": "rimraf ./lib/*",
     "prelib": "npm run clean:lib -s",
     "lib": "npm run lib:styles",

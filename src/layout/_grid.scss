@@ -1,13 +1,13 @@
 // --- SUI Grid --- //
-// @extend %sui-grid;
-// @extend %sui-cell-large;
+// @include sui-grid;
+// @include sui-cell;
 
-%sui-grid {
+@mixin sui-grid {
   display: flex;
   padding: 0 $gutter $gutter;
 }
 
-%sui-cell {
+@mixin sui-cell {
   flex: 1;
   margin: 0;
   padding: 0;
