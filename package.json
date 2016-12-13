@@ -4,7 +4,7 @@
   "description": "Generic theme to add styles to all generic components",
   "main": "lib/index.scss",
   "scripts": {
-    "lint": "npm run lint:js && npm run lint:sass",
+    "lint": "npm run lint:sass",
     "lint:sass": "node_modules/.bin/sass-lint src/**/*.scss -c -v",
     "clean:lib": "rimraf ./lib/*",
     "prelib": "npm run clean:lib -s",
