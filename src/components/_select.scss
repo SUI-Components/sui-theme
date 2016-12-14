@@ -8,11 +8,9 @@
 //   </div>
 // </div>
 //
-// @extend %sui-select;
-// @extend %sui-select-wrap;
-// @extend %sui-select-icon-wrap;
+// @include sui-select;
 
-%sui-select {
+@mixin sui-select {
   @include appearance(none);
   background-color: $bgc-select;
   border: $bd-select;

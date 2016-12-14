@@ -1,9 +1,10 @@
-// --- SUI Card --- //
-// @extend %sui-card;
-// @extend %sui-card--default;
+/* sass-lint:disable class-name-format */
 
-// SUI Card
-%sui-card {
+// --- SUI Card --- //
+// @include sui-card;
+// @include sui-card--small;
+
+@mixin sui-card {
   background-color: $c-white;
   border: 0;
   border-radius: $bdrs-card;
@@ -29,16 +30,13 @@
       width: 100%;
     }
   }
-}
 
-// SUI Card -- Default
-%sui-card--default {
   &-content {
     padding: $p-v-large $p-h;
   }
 
   &-title {
-    @extend %h2;
+    @include h2;
   }
 
   &-description {
@@ -46,14 +44,15 @@
   }
 }
 
-// SUI Card -- Small
-%sui-card--small {
+// Card sizes (modifiers)
+
+@mixin sui-card--small {
   &-content {
     padding: $p-v $p-h;
   }
 
   &-title {
-    @extend %h3;
+    @include h3;
   }
 
   &-description {

@@ -1,19 +1,40 @@
 // --- SUI Button --- //
-// @extend %sui-button;
-// @extend %sui-button--primary;
-// @extend %sui-button--medium;
+// @include sui-button();
+// @include sui-button('secondary', 'small');
+// @include sui-button('ghost', 'large', 'full');
 
-%sui-button {
+@mixin sui-button($type: 'primary', $size: 'medium', $layout: null) {
   border-radius: $bdrs-button;
   cursor: pointer;
   font-family: $ff-sans-serif;
   outline: none;
   padding: $p-v $p-h;
+
+  @if $type == 'primary' {
+    @include sui-button--primary;
+  }
+  @if $type == 'secondary' {
+    @include sui-button--secondary;
+  }
+  @if $type == 'ghost' {
+    @include sui-button--ghost;
+  }
+
+  @if $size == 'small' {
+    @include sui-button--small;
+  }
+  @if $size == 'medium' {
+    @include sui-button--medium;
+  }
+
+  @if $layout == 'full' {
+    @include sui-button--full;
+  }
 }
 
 // Button types
 
-%sui-button--primary {
+@mixin sui-button--primary {
   background-color: $c-primary;
   border: 0;
   color: $c-white;
@@ -23,7 +44,7 @@
   }
 }
 
-%sui-button--secondary {
+@mixin sui-button--secondary {
   background-color: $c-white;
   border: 1px solid $c-gray-dark;
   color: $c-gray-dark;
@@ -33,7 +54,7 @@
   }
 }
 
-%sui-button--ghost {
+@mixin sui-button--ghost {
   $c-hover: rgba($c-gray, .75);
   background-color: transparent;
   border: 1px solid $c-gray-dark;
@@ -47,19 +68,21 @@
 
 // Button sizes
 
-%sui-button--small {
+@mixin sui-button--small {
   font-size: $fz-s;
 }
 
-%sui-button--medium {
+@mixin sui-button--medium {
   font-size: $fz-m;
 }
 
-%sui-button--large {
+@mixin sui-button--large {
   font-size: $fz-l;
 }
 
-%sui-button--full {
+// Button layouts
+
+@mixin sui-button--full {
   display: block;
   text-align: center;
   width: 100%;

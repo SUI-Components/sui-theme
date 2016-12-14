@@ -1,7 +1,9 @@
-// --- SUI Tab --- //
-// @extend %sui-tab;
+/* sass-lint:disable class-name-format */
 
-%sui-tab {
+// --- SUI Tab --- //
+// @include sui-tab;
+
+@mixin sui-tab {
   background-color: $bgc-tab;
   color: $c-tab;
   cursor: pointer;
