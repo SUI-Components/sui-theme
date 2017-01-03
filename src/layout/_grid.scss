@@ -30,4 +30,8 @@
   &:nth-child(#{$col-num}n) {
     margin-right: 0;
   }
+
+  &:not(:nth-last-child(-n+#{$col-num})) {
+    margin-bottom: $gutter;
+  }
 }
