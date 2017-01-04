@@ -26,6 +26,9 @@
   @if $size == 'medium' {
     @include sui-button--medium;
   }
+  @if $size == 'large' {
+    @include sui-button--large;
+  }
 
   @if $layout == 'full' {
     @include sui-button--full;
