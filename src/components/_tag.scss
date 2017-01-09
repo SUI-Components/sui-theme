@@ -6,9 +6,10 @@
 @mixin sui-tag {
   border: $bd-tag;
   border-radius: $bdrs-tag;
+  display: inline-block;
   margin-right: $m-h-small;
   padding: $p-h-xsmall $p-h-small;
-  display: inline-block;
+
   &:hover {
     background-color: $bgc-tag-hover;
   }
