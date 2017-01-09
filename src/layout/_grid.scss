@@ -1,9 +1,13 @@
 // --- SUI Grid --- //
 // @include sui-grid;
+//
 // @include sui-cell;
+// or...
+// @include sui-cell-of(2);
 
 @mixin sui-grid {
   display: flex;
+  flex-wrap: wrap;
   padding: 0 $gutter $gutter;
 }
 
@@ -14,5 +18,20 @@
 
   &:not(:last-child) {
     margin-right: $gutter;
+  }
+}
+
+@mixin sui-cell-of($col-num) {
+  $w-content: 100% / $col-num;
+
+  @include sui-cell;
+  flex-basis: calc(#{$w-content} - #{$gutter});
+
+  &:nth-child(#{$col-num}n) {
+    margin-right: 0;
+  }
+
+  &:not(:nth-last-child(-n+#{$col-num})) {
+    margin-bottom: $gutter;
   }
 }
