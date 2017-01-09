@@ -9,3 +9,13 @@
   margin: 0;
   padding-left: 0;
 }
+
+@mixin reset-button {
+  background: none;
+  border: 0;
+  user-select: none;
+
+  &:focus {
+    outline: 0;
+  }
+}
