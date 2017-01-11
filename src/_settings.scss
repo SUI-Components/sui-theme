@@ -170,9 +170,10 @@ $size-dropdown-arrow-up: 0 !default;
 $size-dropdown-icon: 18px !default;
 
 // Dropdown user
+$bd-dropdown-user-last-item: 1px solid $c-gray-light !default;
 $bg-dropdown-user-button: $c-gray !default;
 $bgc-dropdown-user: $c-white !default;
-$bd-dropdown-user-last-item: 1px solid $c-gray-light !default;
+$w-dropdown-user-avatar: 48px;
 
 // Tabs
 $bd-tab-wrap: 1px solid $c-gray-light !default;
