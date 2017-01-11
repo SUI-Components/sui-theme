@@ -158,6 +158,17 @@ $bd-select-focus: 1px solid $c-gray !default;
 // Buton
 $bdrs-button: 0 !default;
 
+// Dropdown
+$bdw-dropdown-menu: 4px !default;
+$bgc-dropdown-menu: $c-gray-lightest !default;
+$size-dropdown-arrow-up: 9px !default;
+$size-dropdown-icon: 18px !default;
+
+// Dropdown user
+$bg-dropdown-user-button: $c-gray !default;
+$bgc-dropdown-user: $c-white !default;
+$bd-dropdown-user-last-item: 1px solid $c-gray-light !default;
+
 // Tabs
 $bd-tab-wrap: 1px solid $c-gray-light !default;
 
@@ -190,6 +201,9 @@ $bgc-tag: $c-white !default;
 $bgc-tag-hover: $c-white !default;
 $bdrs-tag: $bdrs-base !default;
 $fz-tag: $fz-s !default;
+
+
+
 
 // --- Animation --- //
 
