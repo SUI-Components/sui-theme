@@ -1,0 +1,21 @@
+@mixin reset-link {
+  color: $c-text-base;
+  text-decoration: none;
+}
+
+// For: ul, ol...
+@mixin reset-list {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+@mixin reset-button {
+  background: none;
+  border: 0;
+  user-select: none;
+
+  &:focus {
+    outline: 0;
+  }
+}

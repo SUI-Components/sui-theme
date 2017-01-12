@@ -1,0 +1,20 @@
+/* sass-lint:disable class-name-format */
+
+// --- SUI Tag --- //
+// @include sui-tag;
+
+@mixin sui-tag {
+  background-color: $bgc-tag;
+  border: $bd-tag;
+  border-radius: $bdrs-tag;
+  display: inline-block;
+  font-size: $fz-tag;
+  margin-bottom: $m-h-xsmall;
+  margin-right: $m-h-small;
+  padding: $p-h-xsmall $p-h-small;
+
+  &:hover {
+    background-color: $bgc-tag-hover;
+    border-color: $c-gray-dark;
+  }
+}

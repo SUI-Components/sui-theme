@@ -1,18 +1,92 @@
 // --- SUI Button --- //
-// @extend %sui-button;
+// @include sui-button();
+// @include sui-button('secondary', 'small');
+// @include sui-button('ghost', 'large', 'full');
 
-%sui-button {
-  background-color: $c-primary;
-  border: 0;
-  border-radius: 3px;
-  color: $c-white;
+@mixin sui-button($type: 'primary', $size: 'medium', $layout: null) {
+  border-radius: $bdrs-button;
   cursor: pointer;
   font-family: $ff-sans-serif;
-  font-size: $fz-xl;
   outline: none;
   padding: $p-v $p-h;
 
-  &:hover {
-    background-color: $c-primary-dark;
+  @if $type == 'primary' {
+    @include sui-button--primary;
   }
+  @if $type == 'secondary' {
+    @include sui-button--secondary;
+  }
+  @if $type == 'ghost' {
+    @include sui-button--ghost;
+  }
+
+  @if $size == 'small' {
+    @include sui-button--small;
+  }
+  @if $size == 'medium' {
+    @include sui-button--medium;
+  }
+  @if $size == 'large' {
+    @include sui-button--large;
+  }
+
+  @if $layout == 'full' {
+    @include sui-button--full;
+  }
+}
+
+// Button types
+
+@mixin sui-button--primary {
+  background-color: $c-primary;
+  border: 0;
+  color: $c-white;
+
+  &:hover {
+    background-color: $c-primary-light;
+  }
+}
+
+@mixin sui-button--secondary {
+  background-color: $c-white;
+  border: 1px solid $c-gray-dark;
+  color: $c-gray-dark;
+
+  &:hover {
+    background-color: $c-gray-lightest;
+  }
+}
+
+@mixin sui-button--ghost {
+  $c-hover: rgba($c-gray, .75);
+  background-color: transparent;
+  border: 1px solid $c-gray-dark;
+  color: $c-gray-dark;
+
+  &:hover {
+    border-color: $c-hover;
+    color: $c-hover;
+  }
+}
+
+// Button sizes
+
+@mixin sui-button--small {
+  font-size: $fz-s;
+}
+
+@mixin sui-button--medium {
+  font-size: $fz-m;
+}
+
+@mixin sui-button--large {
+  font-size: $fz-l;
+}
+
+// Button layouts
+
+@mixin sui-button--full {
+  display: block;
+  text-align: center;
+  width: 100%;
 }

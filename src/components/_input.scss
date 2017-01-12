@@ -1,7 +1,7 @@
 // --- SUI Input --- //
-// @extend %sui-input;
+// @include sui-input;
 
-%sui-input {
+@mixin sui-input {
   @include input-placeholder {
     font-style: italic;
   }
@@ -23,6 +23,6 @@
 
   &:focus {
     background-color: $bgc-input-focus;
-    box-shadow: $bd-input-focus;
+    border: $bd-input-focus;
   }
 }

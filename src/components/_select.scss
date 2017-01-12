@@ -1,7 +1,16 @@
 // --- SUI Select --- //
-// @extend %sui-select;
+// Markup:
+// <div class="sui-selectWrap">
+//   <select class="sui-select">
+//     [...]
+//   </select>
+//   <div class="sui-selectIcon">
+//   </div>
+// </div>
+//
+// @include sui-select;
 
-%sui-select {
+@mixin sui-select {
   @include appearance(none);
   background-color: $bgc-select;
   border: $bd-select;
@@ -13,6 +22,23 @@
   padding: $p-v $p-h;
   width: 100%;
 
+  &-wrap {
+    position: relative;
+  }
+
+  &-icon-wrap {
+    background-color: $bgc-select-icon-wrap;
+    border-bottom-right-radius: $bdrs-base;
+    border-top-right-radius: $bdrs-base;
+    bottom: 1px;
+    padding: $p-select-icon-wrap;
+    pointer-events: none;
+    position: absolute;
+    right: 1px;
+    top: 1px;
+    width: $w-select-icon-wrap;
+  }
+
   &:hover {
     background-color: $bgc-select-hover;
     border: $bd-select-hover;
@@ -21,6 +47,5 @@
   &:focus {
     background-color: $bgc-select-focus;
     border: $bd-select-focus;
-    box-shadow: $bd-select-focus;
   }
 }

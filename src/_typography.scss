@@ -1,0 +1,42 @@
+@mixin h1 {
+  font-size: $fz-h1;
+  font-weight: $fw-bold;
+  margin: 0 0 $m-v;
+}
+
+@mixin h2 {
+  font-size: $fz-h2;
+  font-weight: $fw-bold;
+  margin: 0 0 $m-v;
+}
+
+@mixin h3 {
+  font-size: $fz-h3;
+  font-weight: $fw-bold;
+  margin: 0 0 $m-v-small;
+}
+
+@mixin h4 {
+  font-size: $fz-h4;
+  font-weight: $fw-bold;
+  margin: 0 0 $m-v-small;
+}
+
+@mixin h5 {
+  font-size: $fz-h5;
+  font-weight: $fw-bold;
+  margin: 0 0 $m-v-small;
+}
+
+@mixin text-link {
+  color: $c-text-link;
+  text-decoration: underline;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+@mixin text-highlighted {
+  background-color: $c-highlighted;
+}

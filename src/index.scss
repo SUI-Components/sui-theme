@@ -1,8 +1,21 @@
+// Settings
 @import './settings';
-@import './functions';
-@import './mixins';
+// Utils
+@import './utils';
+// Default styles
+@import './default';
+// Typography
+@import './typography';
+// Reset
+@import './reset';
+// Components
 @import './components/button';
 @import './components/input';
 @import './components/select';
 @import './components/tabs';
+@import './components/tag';
+@import './components/card';
+// Icons
+@import './icons/arrow';
+// Layout
 @import './layout/grid';

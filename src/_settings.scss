@@ -1,7 +1,7 @@
 // # Theme Variables
 // --------------------------------------------------
-// The naming convention used for variables is the
-// [emmet cheatsheet](http://docs.emmet.io/cheat-sheet/)
+// The naming convention used for variables is based on Emmet.
+// See [Emmet cheat sheet](http://docs.emmet.io/cheat-sheet/)
 //
 // Some of the prefixes used:
 // * bg = background
@@ -17,31 +17,40 @@
 
 // --- Misc --- //
 
+// URLs
 $url-statics: '' !default;
 
 
 // --- Colors --- //
 
+$c-primary-light: #80a9ca !default;
 $c-primary: #005496 !default;
 $c-primary-dark: #003661 !default;
+$c-highlighted: #f2cd96 !default;
 
 $c-white: #ffffff !default;
 $c-black: #000000 !default;
 
 $c-gray: #777777 !default;
-$c-gray-dark: lighten($c-gray, 20%);
-$c-gray-light: lighten($c-gray, 33%) !default;
-$c-gray-lightest: lighten($c-gray-light, 15%) !default;
+$c-gray-dark: #4d4d4d !default;
+$c-gray-light: #bbbbbb !default;
+$c-gray-lightest: #f1f1f1 !default;
 
-$c-font-base: $c-gray-dark !default;
-$c-font-accent: $c-primary !default;
-$c-font-link: $c-font-accent !default;
+$c-text-base: $c-gray-dark !default;
+$c-text-accent: $c-primary !default;
+$c-text-link: $c-text-accent !default;
+
+// Social
+$c-facebook: #3b5998;
+$c-twitter: #55acee;
+$c-google: #d34836;
+$c-youtube: #bb0000;
 
 
-// --- Fonts --- //
+// --- Fonts and typography --- //
 
 // Font family
-$ff-sans-serif: 'Open sans', Helvetica, Arial, sans-serif !default;
+$ff-sans-serif: 'Open Sans', Helvetica, sans-serif !default;
 
 // Font weights
 $fw-light: 300 !default;
@@ -52,39 +61,71 @@ $fw-bold: 700 !default;
 // Font sizes
 $fz-base: 14 !default;
 $fz-body: $fz-base * 1px !default;
+$fz-xs: ceil($fz-base * .666) * 1px !default;
+$fz-s: ceil($fz-base * .75) * 1px !default;
 $fz-m: $fz-base * 1px !default;
-$fz-l: ceil(($fz-base * 1.25)) * 1px !default;
-$fz-xl: ceil($fz-base * 1.5) * 1px !default;
+$fz-l: ceil($fz-base * 1.25) * 1px !default;
+$fz-xl: ceil($fz-base * 1.75) * 1px !default;
+
+// Font sizes for headings
+$fz-h1: 32px !default;
+$fz-h2: 24px !default;
+$fz-h3: 18px !default;
+$fz-h4: 14px !default;
+$fz-h5: 12px !default;
+
+// Line heights
+$lh-base: 1.715 !default;
 
 
 // --- Layout --- //
 
 // Margins
-$m-base: 8px !default;
+$m-base: 16px !default;
 $m-v: ceil($m-base / 2) !default;
 $m-h: $m-base !default;
-$m-v-small: $m-v / 2 !default;
-$m-h-small: $m-h / 2 !default;
-$m-v-large: $m-v * 2 !default;
-$m-h-large: $m-h * 2 !default;
+$m-v-xsmall: ceil($m-v / 3) !default;
+$m-h-xsmall: ceil($m-h / 3) !default;
+$m-v-small: ceil($m-v / 2) !default;
+$m-h-small: ceil($m-h / 2) !default;
+$m-v-large: ceil($m-v * 2) !default;
+$m-h-large: ceil($m-h * 2) !default;
+$m-v-xlarge: ceil($m-v * 3) !default;
+$m-h-xlarge: ceil($m-h * 3) !default;
 
 // Paddings
-$p-base: 15px !default;
-$p-v: $p-base / 1.5 !default;
+$p-base: 16px !default;
+$p-v: ceil($p-base / 2) !default;
 $p-h: $p-base !default;
-$p-v-small: $p-v / 2 !default;
-$p-h-small: $p-h / 2 !default;
-$p-v-large: $p-v * 2 !default;
-$p-h-large: $p-h * 2 !default;
+$p-v-xsmall: ceil($p-v / 3) !default;
+$p-h-xsmall: ceil($p-h / 3) !default;
+$p-v-small: ceil($p-v / 2) !default;
+$p-h-small: ceil($p-h / 2) !default;
+$p-v-large: ceil($p-v * 2) !default;
+$p-h-large: ceil($p-h * 2) !default;
+$p-v-xlarge: ceil($p-v * 3) !default;
+$p-h-xlarge: ceil($p-h * 3) !default;
+
+// Breakpoints
+$breakpoints: (
+  xxs: 0,
+  xs: 320px,
+  s: 576px,
+  m: 768px,
+  l: 992px,
+  xl: 1200px
+) !default;
+$breakpoint-names: map-keys($breakpoints) !default;
 
 // Gutter
-$gutter: $p-base;
+$gutter: $p-base !default;
 
 // Border radius
 $bdrs-base: 4px !default;
+$bdrs-small: ceil($bdrs-base / 2) !default;
 
 // Box shadows
-$bxsh-base: 0 1px 3px rgba($c-black, .3) !default;
+$bxsh-base: 0 1px 3px rgba($c-black, .15) !default;
 
 
 // --- Forms --- //
@@ -103,6 +144,10 @@ $bgc-select: $c-white !default;
 $bgc-select-hover: $c-white !default;
 $bgc-select-focus: $c-gray-lightest !default;
 
+$bgc-select-icon-wrap: $c-gray-lightest !default;
+$p-select-icon-wrap: 0 $p-h-small !default;
+$w-select-icon-wrap: 30px !default;
+
 $bd-select: 1px solid $c-gray !default;
 $bd-select-hover: 1px solid $c-gray !default;
 $bd-select-focus: 1px solid $c-gray !default;
@@ -110,10 +155,64 @@ $bd-select-focus: 1px solid $c-gray !default;
 
 // --- Components --- //
 
+// Buton
+$bdrs-button: 0 !default;
+
+// Dropdown
+$bd-dropdown-menu-top: 0 !default;
+$bdw-dropdown-menu: 0 !default;
+$bgc-dropdown-button-hover: $c-white !default;
+$bgc-dropdown-menu-hover: $c-white !default;
+$bgc-dropdown-menu: $c-gray-lightest !default;
+$bxsh-dropdown-menu: 0 !default;
+$c-dropdown-arrow: transparent !default;
+$size-dropdown-arrow-up: 0 !default;
+$size-dropdown-icon: 18px !default;
+
+// Dropdown user
+$bd-dropdown-user-last-item: 1px solid $c-gray-light !default;
+$bg-dropdown-user-button: $c-gray !default;
+$bgc-dropdown-user: $c-white !default;
+$w-dropdown-user-avatar: 48px;
+$w-dropdown-user-text: 100px;
+
 // Tabs
-$bgc-tab: rgba($c-black, .6) !default;
-$bgc-tab-hover: rgba($c-black, .8) !default;
+$bd-tab-wrap: 1px solid $c-gray-light !default;
+
+$bgc-tab: $c-white !default;
+$c-tab: $c-text-base !default;
+$fw-tab: $fw-semi-bold !default;
+$mr-tab: 0 !default;
+$p-tab: $p-v * 1.5 $p-h !default;
+$tt-tab: uppercase !default;
+
+$bgc-tab-hover: $c-white !default;
+
 $bgc-tab-active: $c-white !default;
+$bxsh-tab-active: 0 -4px 0 $c-primary inset !default;
+$c-tab-active: $c-primary !default;
+
+// Card
+$bdrs-card: 0 !default;
+$bxsh-card: $bxsh-base !default;
+$bxsh-card-hover: 0 1px 6px 2px rgba($c-black, .15) !default;
+
+$c-card-title-hover: inherit !default;
 
 // Search box
 $bg-search-box: $c-gray-light !default;
+
+// Tag
+$bd-tag: 1px solid $c-gray-light !default;
+$bgc-tag: $c-white !default;
+$bgc-tag-hover: $c-white !default;
+$bdrs-tag: $bdrs-base !default;
+$fz-tag: $fz-s !default;
+
+
+
+
+// --- Animation --- //
+
+// Transitions
+$trs-base: .3s ease !default;

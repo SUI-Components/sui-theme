@@ -1,14 +1,22 @@
-// --- SUI Tab --- //
-// @extend %sui-tab;
+/* sass-lint:disable class-name-format */
 
-%sui-tab {
+// --- SUI Tab --- //
+// @include sui-tab;
+
+@mixin sui-tab {
   background-color: $bgc-tab;
-  color: $c-white;
+  color: $c-tab;
   cursor: pointer;
   display: inline-block;
   font-size: $fz-m;
-  margin-right: 1px;
-  padding: $p-v $p-h;
+  font-weight: $fw-tab;
+  margin-right: $mr-tab;
+  padding: $p-tab;
+  text-transform: $tt-tab;
+
+  &-wrap {
+    border-bottom: $bd-tab-wrap;
+  }
 
   &:hover {
     background-color: $bgc-tab-hover;
@@ -16,7 +24,7 @@
 
   &.is-active {
     background-color: $bgc-tab-active;
-    box-shadow: 0 2px 0 $c-primary inset;
-    color: $c-gray-dark;
+    box-shadow: $bxsh-tab-active;
+    color: $c-tab-active;
   }
 }
