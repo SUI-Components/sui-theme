@@ -11,15 +11,14 @@ This repository contains:
 Import `theme-basic` into your sui-component including the path in `index.scss`:
 
 ```
-@import '../node_modules/@schibstedspain/theme-sui/src/index';
+@import '../node_modules/@schibstedspain/theme-basic/src/index';
 ```
 
-If you want to customize your components, create your own theme and add it to yor component just __before__ the theme-basic import. And if your custom settings requires some functions (e.g.: `image-url`), import them before your settings.
+If you want to customize your components, create your own theme and add it to yor component just __before__ the theme-basic import.
 
 ```
-@import '../functions'; // optional
 @import '../custom-settings';
-@import '@schibstedspain/theme-sui/src/index';
+@import '~@schibstedspain/theme-basic/src/index';
 ```
 
 
