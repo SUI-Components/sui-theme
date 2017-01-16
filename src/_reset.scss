@@ -13,6 +13,7 @@
 @mixin reset-button {
   background: none;
   border: 0;
+  cursor: pointer;
   user-select: none;
 
   &:focus {

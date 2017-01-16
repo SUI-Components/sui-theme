@@ -159,12 +159,11 @@ $bd-select-focus: 1px solid $c-gray !default;
 $bdrs-button: 0 !default;
 
 // Dropdown
-$bd-dropdown-menu-top: 0 !default;
-$bdw-dropdown-menu: 0 !default;
+$bdt-dropdown-menu: 1px solid $c-primary !default;
 $bgc-dropdown-button-hover: $c-white !default;
 $bgc-dropdown-menu-hover: $c-white !default;
 $bgc-dropdown-menu: $c-gray-lightest !default;
-$bxsh-dropdown-menu: 0 !default;
+$bxsh-dropdown-menu: $bxsh-base !default;
 $c-dropdown-arrow: transparent !default;
 $size-dropdown-arrow-up: 0 !default;
 $size-dropdown-icon: 18px !default;
