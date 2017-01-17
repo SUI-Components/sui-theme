@@ -175,6 +175,16 @@ $bgc-dropdown-user: $c-white !default;
 $w-dropdown-user-avatar: 48px;
 $w-dropdown-user-text: 100px;
 
+// Topbar user
+$bgc-topbar-user: $c-white !default;
+$bxsh-topbar-user: $bxsh-base !default;
+$bg-topbar-user-brand: null !default;
+$h-topbar-user-brand: 0 !default;
+$w-topbar-user-brand: 0 !default;
+$size-topbar-user-toggle-icon: 24px !default;
+$w-topbar-user-nav: 75% !default;
+$bgc-topbar-user-cta: $c-text-base !default;
+
 // Tabs
 $bd-tab-wrap: 1px solid $c-gray-light !default;
 
@@ -207,7 +217,6 @@ $bgc-tag: $c-white !default;
 $bgc-tag-hover: $c-white !default;
 $bdrs-tag: $bdrs-base !default;
 $fz-tag: $fz-s !default;
-
 
 
 
