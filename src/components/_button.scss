@@ -1,11 +1,20 @@
+/* sass-lint:disable no-important */
 // --- SUI Button --- //
 // @include sui-button();
 // @include sui-button('secondary', 'small');
 // @include sui-button('ghost', 'large', 'full');
 
-@mixin sui-button($type: 'primary', $size: 'medium', $layout: null) {
+@mixin sui-button(
+  $type: 'primary',
+  $size: 'medium',
+  $layout: null,
+  $color: null,
+  $size-icon: 16px
+) {
+  align-items: center;
   border-radius: $bdrs-button;
   cursor: pointer;
+  display: flex;
   font-family: $ff-sans-serif;
   outline: none;
   padding: $p-v $p-h;
@@ -33,6 +42,23 @@
   @if $layout == 'full' {
     @include sui-button--full;
   }
+
+  @if $color != null {
+    @include sui-button--custom($color);
+  }
+
+  & > [class$='Icon'] {
+    height: $size-icon;
+    width: $size-icon;
+
+    &:first-child {
+      margin-right: $m-h-small;
+    }
+
+    &:last-child {
+      margin-left: $m-h-small;
+    }
+  }
 }
 
 // Button types
@@ -45,6 +71,10 @@
   &:hover {
     background-color: $c-primary-light;
   }
+
+  & > [class$='Icon'] {
+    fill: $c-white !important;
+  }
 }
 
 @mixin sui-button--secondary {
@@ -54,6 +84,10 @@
 
   &:hover {
     background-color: $c-gray-lightest;
+  }
+
+  & > [class$='Icon'] {
+    fill: $c-gray-dark !important;
   }
 }
 
@@ -66,6 +100,24 @@
   &:hover {
     border-color: $c-hover;
     color: $c-hover;
+  }
+
+  & > [class$='Icon'] {
+    fill: $c-gray-dark !important;
+  }
+}
+
+@mixin sui-button--custom($color) {
+  background-color: $color;
+  border: 0;
+  color: $c-white;
+
+  &:hover {
+    background-color: lighten($color, 15%);
+  }
+
+  & > [class$='Icon'] {
+    fill: $c-white !important;
   }
 }
 
@@ -86,7 +138,6 @@
 // Button layouts
 
 @mixin sui-button--full {
-  display: block;
-  text-align: center;
+  justify-content: center;
   width: 100%;
 }
