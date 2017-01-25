@@ -41,10 +41,10 @@ $c-text-accent: $c-primary !default;
 $c-text-link: $c-text-accent !default;
 
 // Social
-$c-facebook: #3b5998;
-$c-twitter: #55acee;
-$c-google: #d34836;
-$c-youtube: #bb0000;
+$c-facebook: #3b5998 !default;
+$c-twitter: #55acee !default;
+$c-google: #d34836 !default;
+$c-youtube: #bb0000 !default;
 
 
 // --- Fonts and typography --- //
@@ -79,6 +79,9 @@ $lh-base: 1.715 !default;
 
 
 // --- Layout --- //
+
+$w-layout: 980px !default;
+$w-layout-large: 1280px !default;
 
 // Margins
 $m-base: 16px !default;
@@ -154,6 +157,12 @@ $bd-select-focus: 1px solid $c-gray !default;
 
 
 // --- Components --- //
+
+// Ads
+$h-ad-l-top: 90px !default;
+$w-ad-l-top:  980px !default;
+$h-ad-l-right: 600px !default;
+$w-ad-l-right:  300px !default;
 
 // Buton
 $bdrs-button: 0 !default;
