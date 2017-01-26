@@ -23,21 +23,26 @@ $url-statics: '' !default;
 
 // --- Colors --- //
 
+// Main
 $c-primary-light: #80a9ca !default;
 $c-primary: #005496 !default;
 $c-primary-dark: #003661 !default;
 $c-highlighted: #f2cd96 !default;
 
+$c-accent: #964200 !default;
+
 $c-white: #ffffff !default;
 $c-black: #000000 !default;
 
+// Grays
 $c-gray: #777777 !default;
 $c-gray-dark: #4d4d4d !default;
 $c-gray-light: #bbbbbb !default;
 $c-gray-lightest: #f1f1f1 !default;
 
+// Text
 $c-text-base: $c-gray-dark !default;
-$c-text-accent: $c-primary !default;
+$c-text-accent: $c-accent !default;
 $c-text-link: $c-text-accent !default;
 
 // Social
@@ -192,7 +197,7 @@ $h-topbar-user-brand: 0 !default;
 $w-topbar-user-brand: 0 !default;
 $size-topbar-user-toggle-icon: 24px !default;
 $w-topbar-user-nav: 75% !default;
-$bgc-topbar-user-cta: $c-text-base !default;
+$bgc-topbar-user-cta: $c-accent !default;
 
 // Tabs
 $bd-tab-wrap: 1px solid $c-gray-light !default;
