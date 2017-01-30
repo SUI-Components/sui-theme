@@ -5,10 +5,13 @@
 // or...
 // @include sui-cell-of(2);
 
-@mixin sui-grid {
+@mixin sui-grid($add-gutter: true) {
   display: flex;
   flex-wrap: wrap;
-  padding: 0 $gutter $gutter;
+
+  @if $add-gutter == true {
+    padding: 0 $gutter $gutter;
+  }
 }
 
 @mixin sui-cell {
@@ -33,5 +36,21 @@
 
   &:not(:nth-last-child(-n+#{$col-num})) {
     margin-bottom: $gutter;
+  }
+}
+
+// Inline grid
+@mixin sui-grid-inline {
+  display: flex;
+  overflow-x: auto;
+  padding: 0 $gutter $gutter;
+}
+
+@mixin sui-cell-inline {
+  margin-right: $gutter;
+  padding: 0;
+
+  & > * {
+    height: 100%;
   }
 }
