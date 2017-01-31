@@ -9,10 +9,6 @@
 // @include sui-cell-of(2);
 
 // Grid
-@mixin sui-grid-inline ($add-gutter) {
-  @include sui-grid($add-gutter, $inline: true)
-}
-
 @mixin sui-grid ($add-gutter: true, $inline: false) {
   display: flex;
 
@@ -27,11 +23,11 @@
   }
 }
 
-// Cell
-@mixin sui-cell-inline () {
-  @include sui-cell ($inline: true)
+@mixin sui-grid-inline ($add-gutter) {
+  @include sui-grid($add-gutter, $inline: true)
 }
 
+// Cell
 @mixin sui-cell ($inline: false) {
   flex: 1;
   margin: 0;
@@ -48,6 +44,10 @@
       margin-right: $gutter;
     }
   }
+}
+
+@mixin sui-cell-inline () {
+  @include sui-cell ($inline: true)
 }
 
 @mixin sui-cell-of($col-num) {
