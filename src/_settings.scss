@@ -187,13 +187,14 @@ $size-dropdown-icon: 18px !default;
 $bd-dropdown-user-last-item: 1px solid $c-gray-light !default;
 $bg-dropdown-user-button: $c-gray !default;
 $bgc-dropdown-user: $c-white !default;
-$w-dropdown-user-avatar: 48px;
-$w-dropdown-user-text: 100px;
+$w-dropdown-user-avatar: 48px !default;
+$w-dropdown-user-text: 100px !default;
 
 // Topbar user
 $bgc-topbar-user: $c-white !default;
 $bxsh-topbar-user: $bxsh-base !default;
 $bg-topbar-user-brand: null !default;
+$bgsz-topbar-user-brand: 100% !default;
 $h-topbar-user-brand: 0 !default;
 $w-topbar-user-brand: 0 !default;
 $size-topbar-user-toggle-icon: 24px !default;
