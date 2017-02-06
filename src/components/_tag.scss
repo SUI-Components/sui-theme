@@ -4,17 +4,37 @@
 // @include sui-tag;
 
 @mixin sui-tag {
+  align-items: center;
   background-color: $bgc-tag;
   border: $bd-tag;
   border-radius: $bdrs-tag;
-  display: inline-block;
+  display: inline-flex;
   font-size: $fz-tag;
+  line-height: $lh-tag;
   margin-bottom: $m-h-xsmall;
   margin-right: $m-h-small;
   padding: $p-h-xsmall $p-h-small;
 
+}
+
+@mixin sui-tag-link {
+  @include reset-link;
+  cursor: pointer;    
+
   &:hover {
     background-color: $bgc-tag-hover;
     border-color: $c-gray-dark;
+  }
+}
+
+@mixin sui-tag-icon {
+  @include reset-button;
+  fill: $c-gray-light !important;
+  height: $lh-tag;
+  margin-left: $m-h-xsmall;
+  width: $lh-tag;
+
+  &:hover {
+    fill: $c-accent !important;
   }
 }
