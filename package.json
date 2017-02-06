@@ -1,6 +1,6 @@
 {
   "name": "@schibstedspain/theme-basic",
-  "version": "4.34.0",
+  "version": "5.0.0",
   "description": "Generic theme to add styles to all generic components",
   "main": "lib/index.scss",
   "scripts": {
@@ -11,7 +11,7 @@
     "lib": "npm run lib:styles",
     "lib:styles": "cpx './src/**/*.scss' lib/",
     "prepublish": "npm run lib",
-    "lint:js": "node_modules/.bin/eslint --ext .js,.jsx src/"
+    "lint:js": "node_modules/.bin/eslint --ext .js,.jsx ./"
   },
   "repository": {
     "type": "git",
