@@ -148,6 +148,16 @@ $bd-input: 1px solid $c-gray !default;
 $bd-input-hover: 1px solid $c-gray !default;
 $bd-input-focus: 1px solid $c-gray !default;
 
+// Radio List
+$bd-radio-list: 1px solid $c-gray !default;
+$bdrs-radio-list: $bdrs-base !default;
+
+$bgc-radio-list-checked: $c-primary !default;
+$bgc-radio-list: $c-white !default;
+
+$c-radio-list-checked: $c-white !default;
+$p-radio-list: $p-v $p-h !default;
+
 // Selects
 $bgc-select: $c-white !default;
 $bgc-select-hover: $c-white !default;
