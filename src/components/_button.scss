@@ -28,6 +28,9 @@
   @if $type == 'ghost' {
     @include sui-button--ghost;
   }
+  @if $type == 'flat' {
+    @include sui-button--flat;
+  }
 
   @if $size == 'small' {
     @include sui-button--small;
@@ -93,6 +96,7 @@
 
 @mixin sui-button--ghost {
   $c-hover: rgba($c-gray, .75);
+  $bgc-active: $c-gray-lightest;
   background-color: transparent;
   border: 1px solid $c-gray-dark;
   color: $c-gray-dark;
@@ -100,6 +104,30 @@
   &:hover {
     border-color: $c-hover;
     color: $c-hover;
+  }
+
+  &:active {
+    background-color: $bgc-active;
+  }
+
+  & > [class$='Icon'] {
+    fill: $c-gray-dark !important;
+  }
+}
+
+@mixin sui-button--flat {
+  $c-hover: rgba($c-gray, .75);
+  $bgc-active: $c-gray-lightest;
+  background-color: transparent;
+  border: 0;
+  color: $c-gray-dark;
+
+  &:hover {
+    color: $c-hover;
+  }
+
+  &:active {
+    background-color: $bgc-active;
   }
 
   & > [class$='Icon'] {

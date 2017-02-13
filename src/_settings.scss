@@ -34,6 +34,9 @@ $c-accent: #964200 !default;
 $c-white: #ffffff !default;
 $c-black: #000000 !default;
 
+$c-error: #d92b2b !default;
+$c-success: #8cbf26 !default;
+
 // Grays
 $c-gray: #777777 !default;
 $c-gray-dark: #4d4d4d !default;
@@ -67,7 +70,7 @@ $fw-bold: 700 !default;
 $fz-base: 14 !default;
 $fz-body: $fz-base * 1px !default;
 $fz-xs: ceil($fz-base * .666) * 1px !default;
-$fz-s: ceil($fz-base * .75) * 1px !default;
+$fz-s: ceil($fz-base * .8) * 1px !default;
 $fz-m: $fz-base * 1px !default;
 $fz-l: ceil($fz-base * 1.25) * 1px !default;
 $fz-xl: ceil($fz-base * 1.75) * 1px !default;
@@ -179,6 +182,26 @@ $h-ad-l-top: 90px !default;
 $w-ad-l-top:  980px !default;
 $h-ad-l-right: 600px !default;
 $w-ad-l-right:  300px !default;
+
+// Alert Basic
+$bdrs-alert-basic: 0 !default;
+$bxsh-alert-basic: $bxsh-base !default;
+$c-alert-basic-link: $c-primary !default;
+
+$c-alert-basic-info: $c-primary !default;
+$bd-alert-basic-info: 0 !default;
+$bdl-alert-basic-info: 4px solid $c-alert-basic-info !default;
+$bgc-alert-basic-info: $c-white !default;
+
+$c-alert-basic-error: $c-error !default;
+$bd-alert-basic-error: 0 !default;
+$bdl-alert-basic-error: 4px solid $c-alert-basic-error !default;
+$bgc-alert-basic-error: $c-white !default;
+
+$c-alert-basic-success: $c-success !default;
+$bd-alert-basic-success: 0 !default;
+$bdl-alert-basic-success: 4px solid $c-alert-basic-success !default;
+$bgc-alert-basic-success: $c-white !default;
 
 // Buton
 $bdrs-button: 0 !default;
