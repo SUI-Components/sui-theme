@@ -255,8 +255,13 @@ $c-tab-active: $c-primary !default;
 $bdrs-card: 0 !default;
 $bxsh-card: $bxsh-base !default;
 $bxsh-card-hover: 0 1px 6px 2px rgba($c-black, .15) !default;
-
 $c-card-title-hover: inherit !default;
+
+// Card product
+$c-card-product-title: $c-primary !default;
+$c-card-product-favorited: $c-primary !default;
+$c-card-product-slider-nav-icon: $c-primary !default;
+$size-card-product-slider-nav-icon: 30px !default;
 
 // Search box
 $bg-search-box: $c-gray-light !default;
