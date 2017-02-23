@@ -41,6 +41,7 @@ $c-white: #ffffff !default;
 $c-black: #000000 !default;
 
 $c-error: #d92b2b !default;
+$c-warning: #e69c2e !default;
 $c-success: #8cbf26 !default;
 
 // Grays
@@ -184,7 +185,7 @@ $bd-select-focus: 1px solid $c-gray !default;
 // --- Components --- //
 
 // Ads
-$h-ad-l-top: 90px !default;
+$h-ad-l-top: auto !default;
 $w-ad-l-top:  980px !default;
 $h-ad-l-right: 600px !default;
 $w-ad-l-right:  300px !default;
@@ -216,8 +217,14 @@ $bdrs-button: 0 !default;
 $bdrs-card: 0 !default;
 $bxsh-card: $bxsh-base !default;
 $bxsh-card-hover: 0 1px 6px 2px rgba($c-black, .15) !default;
+$c-card-title-hover: inherit !default;
 
-$c-card-title-hover: inherit !default
+// Card product
+$c-card-product-title: $c-primary !default;
+$c-card-product-favorited: $c-primary !default;
+$c-card-product-slider-nav-icon: $c-primary !default;
+$size-card-product-slider-nav-icon: 30px !default;
+
 
 // Dropdown
 $bdt-dropdown-menu: 1px solid $c-primary !default;
@@ -236,6 +243,10 @@ $bgc-dropdown-user: $c-white !default;
 $w-dropdown-user-avatar: 48px !default;
 $w-dropdown-user-text: 100px !default;
 
+
+// Search box
+$bg-search-box: $c-gray-light !default;
+
 // Tabs
 $bd-tab-wrap: 1px solid $c-gray-light !default;
 
@@ -251,6 +262,7 @@ $bgc-tab-hover: $c-white !default;
 $bgc-tab-active: $c-white !default;
 $bxsh-tab-active: 0 -4px 0 $c-primary inset !default;
 $c-tab-active: $c-primary !default;
+
 
 // Tag
 $bd-tag: 1px solid $c-gray-light !default;
@@ -297,6 +309,3 @@ $size-topbar-user-toggle-icon: 24px !default;
 $w-topbar-user-nav: 90% !default;
 $maw-topbar-user-nav: 350px !default;
 $bgc-topbar-user-cta: $c-accent !default;
-
-// Search box
-$bg-search-box: $c-gray-light !default;
