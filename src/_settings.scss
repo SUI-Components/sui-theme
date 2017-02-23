@@ -18,8 +18,8 @@
 // --- Animation --- //
 
 // Transitions
-$trs-speed: .3s !default;
-$trs-base: $trs-speed ease !default;
+$trsdu-base: .3s !default;
+$trs-base: $trsdu-base ease !default;
 
 // --- Misc --- //
 
@@ -277,8 +277,8 @@ $bdr-tooltip-basic: 0 !default;
 $bdw-tooltip-basic-arrow: 4px !default;
 $fz-tooltip-basic: $fz-base !default;
 $w-toolip-basic-arrow: 12px !default;
-$p-toolip-basic: 8px 21px !default;
-$trs-toolip-basic: opacity $trs-speed ease-out !default;
+$p-toolip-basic: $p-v $p-h !default;
+$trs-toolip-basic: opacity $trsdu-base ease-out !default;
 $bxsh-toolip-basic: $bxsh-base !default;
 $maw-tooltip-basic: 300px !default;
 
