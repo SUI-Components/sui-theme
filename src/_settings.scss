@@ -225,7 +225,6 @@ $c-card-product-favorited: $c-primary !default;
 $c-card-product-slider-nav-icon: $c-primary !default;
 $size-card-product-slider-nav-icon: 30px !default;
 
-
 // Dropdown
 $bdt-dropdown-menu: 1px solid $c-primary !default;
 $bgc-dropdown-button-hover: $c-white !default;
@@ -243,6 +242,29 @@ $bgc-dropdown-user: $c-white !default;
 $w-dropdown-user-avatar: 48px !default;
 $w-dropdown-user-text: 100px !default;
 
+// Modal
+$bg-modal: rgba(0, 0, 0, .6) !default;
+
+// Modal Basic
+$bd-modal-basic: 0 !default;
+$bg-modal-basic: $bg-modal !default;
+$bxsh-modal-basic: $bxsh-base !default;
+$m-modal-basic: $m-base !default;
+$maw-modal-basic: 50% !default;
+$p-modal-basic: $p-base !default;
+$w-modal-basic: auto !default;
+$z-modal-basic: 100 !default;
+$c-modal-basic-icon: $c-black !important;
+$h-modal-basic-icon: 16px !important;
+$w-modal-basic-icon: 16px !important;
+$bg-modal-basic-dialog: $c-white !default;
+$bg-modal-basic-header: transparent !default;
+$c-modal-basic-header: inherit !default;
+$p-modal-basic-header: $p-base !default;
+$m-modal-basic-header: $p-modal-basic-header !default;
+$bd-modal-basic-content: 1px solid $c-gray-light !default;
+$p-modal-basic-content: $p-base !default;
+$p-modal-basic-footer: $p-base !default;
 
 // Search box
 $bg-search-box: $c-gray-light !default;
@@ -262,7 +284,6 @@ $bgc-tab-hover: $c-white !default;
 $bgc-tab-active: $c-white !default;
 $bxsh-tab-active: 0 -4px 0 $c-primary inset !default;
 $c-tab-active: $c-primary !default;
-
 
 // Tag
 $bd-tag: 1px solid $c-gray-light !default;
