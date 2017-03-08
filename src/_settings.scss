@@ -254,9 +254,9 @@ $maw-modal-basic: 50% !default;
 $p-modal-basic: $p-base !default;
 $w-modal-basic: auto !default;
 $z-modal-basic: 100 !default;
-$c-modal-basic-icon: $c-black !important;
-$h-modal-basic-icon: 16px !important;
-$w-modal-basic-icon: 16px !important;
+$c-modal-basic-icon: $c-black !default;
+$h-modal-basic-icon: 16px !default;
+$w-modal-basic-icon: 16px !default;
 $bg-modal-basic-dialog: $c-white !default;
 $bg-modal-basic-header: transparent !default;
 $c-modal-basic-header: inherit !default;
@@ -268,6 +268,21 @@ $p-modal-basic-footer: $p-base !default;
 
 // Search box
 $bg-search-box: $c-gray-light !default;
+
+// Spinner
+$c-spinner: $c-primary !default;
+$m-spinner: $m-h-xsmall !default;
+$op-spinner: .45 !default;
+$animdur-spinner: 1500ms !default;
+$animic-spinner: infinite !default;
+$animtf-spinner: linear !default;
+
+$size-spinner-l: 60px !default;
+$bdw-spinner-l: 3px !default;
+$size-spinner-m: 30px !default;
+$bdw-spinner-m: 2px !default;
+$size-spinner-s: 15px !default;
+$bdw-spinner-s: 1px !default;
 
 // Tabs
 $bd-tab-wrap: 1px solid $c-gray-light !default;
