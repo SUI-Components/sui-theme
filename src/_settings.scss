@@ -243,19 +243,19 @@ $w-dropdown-user-avatar: 48px !default;
 $w-dropdown-user-text: 100px !default;
 
 // Form Basic
-$c-form-basic-submit-icon: $c-white;
-$ml-form-basic-submit: $m-h;
+$c-form-basic-submit-icon: $c-white !default;
+$ml-form-basic-submit: $m-h !default;
 
 // Autocompleted
 $bd-autocompleted: 1px solid $c-gray !default;
-$mt-autocompleted: 3px;
-$bdr-autocompleted: $bdrs-base;
-$bgc-autocompleted: $c-white;
-$bgc-autocompleted-item-active: $c-gray-lightest;
-$bgc-autocompleted-item-hover: $c-gray-lightest;
-$p-autocompleted-item: $p-v $p-h;
-$r-autocompleted-clear: 12px;
-$t-autocompleted-clear: 12px;
+$mt-autocompleted: 3px !default;
+$bdr-autocompleted: $bdrs-base !default;
+$bgc-autocompleted: $c-white !default;
+$bgc-autocompleted-item-active: $c-gray-lightest !default;
+$bgc-autocompleted-item-hover: $c-gray-lightest !default;
+$p-autocompleted-item: $p-v $p-h !default;
+$r-autocompleted-clear: 12px !default;
+$t-autocompleted-clear: 12px !default;
 
 
 // Modal
