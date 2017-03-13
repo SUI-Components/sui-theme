@@ -242,6 +242,22 @@ $bgc-dropdown-user: $c-white !default;
 $w-dropdown-user-avatar: 48px !default;
 $w-dropdown-user-text: 100px !default;
 
+// Form Basic
+$c-form-basic-submit-icon: $c-white;
+$ml-form-basic-submit: $m-h;
+
+// Autocompleted
+$bd-autocompleted: 1px solid $c-gray !default;
+$mt-autocompleted: 3px;
+$bdr-autocompleted: $bdrs-base;
+$bgc-autocompleted: $c-white;
+$bgc-autocompleted-item-active: $c-gray-lightest;
+$bgc-autocompleted-item-hover: $c-gray-lightest;
+$p-autocompleted-item: $p-v $p-h;
+$r-autocompleted-clear: 12px;
+$t-autocompleted-clear: 12px;
+
+
 // Modal
 $bg-modal: rgba(0, 0, 0, .6) !default;
 
