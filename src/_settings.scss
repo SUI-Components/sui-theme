@@ -242,21 +242,18 @@ $bgc-dropdown-user: $c-white !default;
 $w-dropdown-user-avatar: 48px !default;
 $w-dropdown-user-text: 100px !default;
 
-// Form Basic
-$c-form-basic-submit-icon: $c-white !default;
-$ml-form-basic-submit: $m-h !default;
-
-// Autocompleted
-$bd-autocompleted: 1px solid $c-gray !default;
-$mt-autocompleted: 3px !default;
-$bdr-autocompleted: $bdrs-base !default;
-$bgc-autocompleted: $c-white !default;
-$bgc-autocompleted-item-active: $c-gray-lightest !default;
-$bgc-autocompleted-item-hover: $c-gray-lightest !default;
-$p-autocompleted-item: $p-v $p-h !default;
-$r-autocompleted-clear: 12px !default;
-$t-autocompleted-clear: 12px !default;
-
+// Form Autocompleted
+$bd-form-autocompleted: 1px solid $c-gray !default;
+$bdr-form-autocompleted: $bdrs-base !default;
+$bgc-form-autocompleted-item-active: $c-gray-lightest !default;
+$bgc-form-autocompleted-item-hover: $c-gray-lightest !default;
+$bgc-form-autocompleted: $c-white !default;
+$c-form-autocompleted-submit-icon: $c-white !default;
+$ml-form-autocompleted-submit: $m-h !default;
+$mt-form-autocompleted: 3px !default;
+$p-form-autocompleted-item: $p-v $p-h !default;
+$r-form-autocompleted-clear: 12px !default;
+$t-form-autocompleted-clear: 12px !default;
 
 // Modal
 $bg-modal: rgba(0, 0, 0, .6) !default;
