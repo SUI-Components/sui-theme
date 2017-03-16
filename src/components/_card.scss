@@ -32,11 +32,11 @@
   }
 
   &-content {
-    padding: $p-v-large $p-h;
+    padding: $p-v $p-h $p-v-large;
   }
 
   &-title {
-    @include h2;
+    @include h3;
   }
 
   &-description {
