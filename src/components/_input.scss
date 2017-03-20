@@ -1,3 +1,5 @@
+/* sass-lint:disable class-name-format */
+
 // --- SUI Input --- //
 // @include sui-input;
 
@@ -24,5 +26,9 @@
   &:focus {
     background-color: $bgc-input-focus;
     border: $bd-input-focus;
+  }
+
+  &.has-error {
+    border: 1px solid $c-error;
   }
 }

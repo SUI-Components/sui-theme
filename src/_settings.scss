@@ -225,6 +225,18 @@ $c-card-product-favorited: $c-primary !default;
 $c-card-product-slider-nav-icon: $c-primary !default;
 $size-card-product-slider-nav-icon: 30px !default;
 
+// Card subscription
+$bgi-card-subscription: 'https://pages.github.schibsted.io/scmspain/frontend-mt--web-prototype/drive2/img/newsletter.svg' !default;
+$bgp-card-subscription: center $m-v-large !default;
+$bgc-card-subscription: $c-gray-lightest !default;
+$bgc-card-subscription-content: $c-white !default;
+$bgr-card-subscription: no-repeat !default;
+$bgsz-card-subscription: 200px !default;
+$pt-card-subscription: 130px !default;
+$fz-card-subscription-input: $fz-base !default;
+$c-card-subscription-title: $c-gray !default;
+$c-card-subscription-icon: $c-white !default;
+
 // Dropdown
 $bdt-dropdown-menu: 1px solid $c-primary !default;
 $bgc-dropdown-button-hover: $c-white !default;
