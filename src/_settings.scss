@@ -225,6 +225,15 @@ $c-card-product-favorited: $c-primary !default;
 $c-card-product-slider-nav-icon: $c-primary !default;
 $size-card-product-slider-nav-icon: 30px !default;
 
+// Card subscription
+$bg-card-subscription-image: none !default;
+$bgc-card-subscription-content: $c-white !default;
+$c-card-subscription-icon: $c-white !default;
+$c-card-subscription-title: $c-gray !default;
+$fz-card-subscription-input: $fz-base !default;
+$h-card-subscription-image: 0 !default;
+$pt-card-subscription: 0 !default;
+
 // Dropdown
 $bdt-dropdown-menu: 1px solid $c-primary !default;
 $bgc-dropdown-button-hover: $c-white !default;
