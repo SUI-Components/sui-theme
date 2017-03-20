@@ -226,13 +226,9 @@ $c-card-product-slider-nav-icon: $c-primary !default;
 $size-card-product-slider-nav-icon: 30px !default;
 
 // Card subscription
-$bgi-card-subscription: 'http://lorempicsum.com/futurama/390/190/1' !default;
-$bgp-card-subscription: center $m-v-large !default;
-$bgc-card-subscription: $c-gray-lightest !default;
 $bgc-card-subscription-content: $c-white !default;
-$bgr-card-subscription: no-repeat !default;
-$bgsz-card-subscription: 200px !default;
-$pt-card-subscription: 130px !default;
+$bg-card-subscription: none !default;
+$pt-card-subscription: 0 !default;
 $fz-card-subscription-input: $fz-base !default;
 $c-card-subscription-title: $c-gray !default;
 $c-card-subscription-icon: $c-white !default;
