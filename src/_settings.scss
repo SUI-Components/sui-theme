@@ -291,6 +291,26 @@ $p-modal-basic-footer: $p-base !default;
 // Search box
 $bg-search-box: $c-gray-light !default;
 
+// Smartbanner
+$bgc-ad-smartbanner: $c-white !default;
+$bb-ad-smartbanner: 1px solid $c-gray-light !default;
+$h-ad-smartbanner: 70px !default;
+$t-ad-smartbanner: 0 !default;
+$b-ad-smartbanner: auto !default;
+$l-ad-smartbanner: 0 !default;
+$z-ad-smartbanner: 10 !default;
+$m-ad-smartbanner-logo: 0 $m-h-small !default;
+$w-ad-smartbanner-logo: 50px !default;
+$h-ad-smartbanner-logo: 50px !default;
+$bgc-ad-smartbanner-button-install: #2899b6 !default;
+$c-ad-smartbanner-button-color: $c-white !default;
+$w-ad-smartbanner-button-close-icon: 10px !default;
+$h-ad-smartbanner-button-close-icon: 10px !default;
+$c-ad-smartbanner-button-close-icon: grey !default;
+$m-ad-smartbanner-button-close-container: 0 $m-h-small !default;
+$m-ad-smartbanner-title: 0 0 $m-v-xsmall 0 !default;
+$p-ad-smartbanner-secondary: $p-v $p-h-small !default;
+
 // Spinner
 $c-spinner: $c-primary !default;
 $m-spinner: $m-h-xsmall !default;
