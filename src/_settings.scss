@@ -227,7 +227,6 @@ $c-card-product-slider-nav-icon: $c-primary !default;
 $size-card-product-slider-nav-icon: 30px !default;
 
 // Card subscription
-$type-card-subscription-button: 'primary' !default;
 $bg-card-subscription-image: none !default;
 $bgc-card-subscription-content: $c-white !default;
 $c-card-subscription-icon: $c-white !default;
@@ -235,6 +234,8 @@ $c-card-subscription-title: $c-gray !default;
 $fz-card-subscription-input: $fz-base !default;
 $h-card-subscription-image: 0 !default;
 $pt-card-subscription: 0 !default;
+$t-card-subscription-image: 0 !default;
+$type-card-subscription-button: 'primary' !default;
 
 // Dropdown
 $bdt-dropdown-menu: 1px solid $c-primary !default;
