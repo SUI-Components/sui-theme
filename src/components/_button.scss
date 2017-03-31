@@ -28,6 +28,9 @@
   @if $type == 'ghost' {
     @include sui-button--ghost;
   }
+  @if $type == 'accent' {
+    @include sui-button--accent;
+  }
   @if $type == 'flat' {
     @include sui-button--flat;
   }
@@ -91,6 +94,20 @@
 
   & > [class$='Icon'] {
     fill: $c-gray-dark !important;
+  }
+}
+
+@mixin sui-button--accent {
+  background-color: $c-accent;
+  border: 1px solid $c-accent;
+  color: $c-white;
+
+  &:hover {
+    background-color: $c-accent-light;
+  }
+
+  & > [class$='Icon'] {
+    fill: $c-white !important;
   }
 }
 

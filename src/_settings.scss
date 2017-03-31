@@ -36,6 +36,7 @@ $c-primary-dark: #003661 !default;
 $c-highlighted: #f2cd96 !default;
 
 $c-accent: #964200 !default;
+$c-accent-light: #caa080 !default;
 
 $c-white: #ffffff !default;
 $c-black: #000000 !default;
@@ -226,7 +227,7 @@ $c-card-product-slider-nav-icon: $c-primary !default;
 $size-card-product-slider-nav-icon: 30px !default;
 
 // Card subscription
-$c-card-subscription-button: $c-primary !default;
+$type-card-subscription-button: 'primary' !default;
 $bg-card-subscription-image: none !default;
 $bgc-card-subscription-content: $c-white !default;
 $c-card-subscription-icon: $c-white !default;
