@@ -1,3 +1,5 @@
+// sass-lint:disable no-misspelled-properties
+
 // --- SUI Grid --- //
 // @include sui-grid;
 // @include sui-grid(false, false);    // init default grid without gutter
@@ -18,7 +20,8 @@
   }
 
   @if $inline == true {
-    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    overflow-x: scroll;
   } @else {
     flex-wrap: wrap;
   }
