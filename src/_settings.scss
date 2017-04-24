@@ -237,10 +237,11 @@ $bgc-button-accent: $c-accent !default;
 $bgc-button-accent-hover: darken($c-accent, 5%) !default;
 $bgc-button-accent-active: darken($c-accent, 5%) !default;
 
+$c-button-ghost: $c-white !default;
 $c-button-ghost-hover: $c-primary !default;
 $c-button-ghost-icon: $c-primary !default;
 $bd-button-ghost: $c-primary !default;
-$bd-button-ghost-hover: $c-primary !default;
+$bgc-button-ghost-hover: $c-primary !default;
 $bgc-button-ghost-active: $c-gray-lightest !default;
 
 // Card

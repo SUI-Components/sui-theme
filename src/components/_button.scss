@@ -9,8 +9,7 @@
   $size: 'medium',
   $layout: null,
   $color: null,
-  $bgcolor: null,
-  $size-icon: 16px
+  $bgcolor: null
 ) {
   align-items: center;
   border-radius: $bdrs-button;
@@ -36,6 +35,10 @@
     @include sui-button--flat;
   }
 
+  @if $type == 'disabled' {
+    @include sui-button--disabled;
+  }
+
   @if $size == 'small' {
     @include sui-button--small;
   }
@@ -55,8 +58,15 @@
   }
 
   & > [class$='Icon'] {
-    height: $size-icon;
-    width: $size-icon;
+    @if $size == 'small' {
+      @include sui-button-icon--small;
+    }
+    @if $size == 'medium' {
+      @include sui-button-icon--medium;
+    }
+    @if $size == 'large' {
+      @include sui-button-icon--large;
+    }
 
     &:first-child {
       margin-right: $m-h-small;
@@ -130,10 +140,10 @@
 @mixin sui-button--ghost {
   background-color: transparent;
   border: 1px solid $bd-button-ghost;
-  color: $c-button-primary;
+  color: $c-button-ghost;
 
   &:hover {
-    border-color: $bd-button-ghost-hover;
+    background-color: $bgc-button-ghost-hover;
     color: $c-button-ghost-hover;
   }
 
@@ -164,7 +174,12 @@
   }
 }
 
-@mixin sui-button--custom($bgcolor, $color) {
+@mixin sui-button--disabled {
+  cursor: not-allowed;
+  opacity: .4;
+}
+
+@mixin sui-button--custom($bgcolor, $color: white) {
   background-color: $bgcolor;
   border: 0;
   color: $color;
@@ -186,20 +201,25 @@
 
 @mixin sui-button--medium {
   font-size: $fz-m;
-
-  & > [class$='Icon'] {
-    height: 20px;
-    width: 20px;
-  }
 }
 
 @mixin sui-button--large {
   font-size: $fz-l;
+}
 
-  & > [class$='Icon'] {
-    height: 24px;
-    width: 24px;
-  }
+@mixin sui-button-icon--small {
+  height: 16px;
+  width: 16px;
+}
+
+@mixin sui-button-icon--medium {
+  height: 20px;
+  width: 20px;
+}
+
+@mixin sui-button-icon--large {
+  height: 24px;
+  width: 24px;
 }
 
 // Button layouts
