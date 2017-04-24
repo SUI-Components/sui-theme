@@ -9,6 +9,7 @@
   $size: 'medium',
   $layout: null,
   $color: null,
+  $bgcolor: null,
   $size-icon: 16px
 ) {
   align-items: center;
@@ -49,8 +50,8 @@
     @include sui-button--full;
   }
 
-  @if $color != null {
-    @include sui-button--custom($color);
+  @if $bgcolor != null and $c-color != null {
+    @include sui-button--custom($bgcolor, $c-color);
   }
 
   & > [class$='Icon'] {
@@ -70,99 +71,110 @@
 // Button types
 
 @mixin sui-button--primary {
-  background-color: $c-primary;
+  background-color: $bgc-button-primary;
   border: 0;
-  color: $c-white;
+  color: $c-button-primary;
 
   &:hover {
-    background-color: $c-primary-light;
+    background-color: $bgc-button-primary-hover;
+    color: $c-button-primary-hover;
+  }
+
+  &:active {
+    background-color: $bgc-button-primary-active;
   }
 
   & > [class$='Icon'] {
-    fill: $c-white !important;
+    fill: $c-button-primary-icon !important;
   }
 }
 
 @mixin sui-button--secondary {
-  background-color: $c-white;
-  border: 1px solid $c-gray-dark;
-  color: $c-gray-dark;
+  background-color: $bgc-button-secondary;
+  border: 1px solid $bd-button-secondary;
+  color: $c-button-secondary;
 
   &:hover {
-    background-color: $c-gray-lightest;
+    background-color: $bgc-button-secondary-hover;
+    color: $c-button-secondary-hover;
+  }
+
+  &:active {
+    background-color: $bgc-button-secondary-active;
   }
 
   & > [class$='Icon'] {
-    fill: $c-gray-dark !important;
+    fill: $c-button-secondary-icon !important;
   }
 }
 
 @mixin sui-button--accent {
-  background-color: $c-accent;
-  border: 1px solid $c-accent;
-  color: $c-white;
+  background-color: $bgc-button-accent;
+  border: 1px solid $bd-button-accent;
+  color: $c-button-accent;
 
   &:hover {
-    background-color: $c-accent-light;
+    background-color: $bgc-button-accent-hover;
+    color: $c-button-accent-hover;
+  }
+
+  &:active {
+    background-color: $bgc-button-accent-active;
   }
 
   & > [class$='Icon'] {
-    fill: $c-white !important;
+    fill: $c-button-accent-icon !important;
   }
 }
 
 @mixin sui-button--ghost {
-  $c-hover: rgba($c-gray, .75);
-  $bgc-active: $c-gray-lightest;
   background-color: transparent;
-  border: 1px solid $c-gray-dark;
-  color: $c-gray-dark;
+  border: 1px solid $bd-button-ghost;
+  color: $c-button-primary;
 
   &:hover {
-    border-color: $c-hover;
-    color: $c-hover;
+    border-color: $bd-button-ghost-hover;
+    color: $c-button-ghost-hover;
   }
 
   &:active {
-    background-color: $bgc-active;
+    background-color: $bgc-button-ghost-active;
   }
 
   & > [class$='Icon'] {
-    fill: $c-gray-dark !important;
+    fill: $c-button-ghost-icon !important;
   }
 }
 
 @mixin sui-button--flat {
-  $c-hover: rgba($c-gray, .75);
-  $bgc-active: $c-gray-lightest;
   background-color: transparent;
   border: 0;
-  color: $c-gray-dark;
+  color: $c-button-primary;
 
   &:hover {
-    color: $c-hover;
+    color: $c-button-primary-hover;
   }
 
   &:active {
-    background-color: $bgc-active;
+    background-color: $bgc-button-primary-active;
   }
 
   & > [class$='Icon'] {
-    fill: $c-gray-dark !important;
+    fill: $c-button-primary-icon !important;
   }
 }
 
-@mixin sui-button--custom($color) {
-  background-color: $color;
+@mixin sui-button--custom($bgcolor, $color) {
+  background-color: $bgcolor;
   border: 0;
-  color: $c-white;
+  color: $color;
 
   &:hover {
-    background-color: lighten($color, 15%);
+    background-color: lighten($bgcolor, 15%);
   }
 
   & > [class$='Icon'] {
-    fill: $c-white !important;
+    fill: $color !important;
   }
 }
 
@@ -174,10 +186,20 @@
 
 @mixin sui-button--medium {
   font-size: $fz-m;
+
+  & > [class$='Icon'] {
+    height: 20px;
+    width: 20px;
+  }
 }
 
 @mixin sui-button--large {
   font-size: $fz-l;
+
+  & > [class$='Icon'] {
+    height: 24px;
+    width: 24px;
+  }
 }
 
 // Button layouts

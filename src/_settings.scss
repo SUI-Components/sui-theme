@@ -214,6 +214,35 @@ $bgc-alert-basic-success: $c-white !default;
 // Button
 $bdrs-button: 0 !default;
 
+$c-button-primary-hover: $c-white !default;
+$c-button-primary: $c-white !default;
+$c-button-primary-icon: $c-white !default;
+$bgc-button-primary: $c-primary !default;
+$bgc-button-primary-hover: $c-primary-light !default;
+$bgc-button-primary-active: $c-primary-dark !default;
+
+$c-button-secondary: $c-primary !default;
+$c-button-secondary-hover: $c-primary !default;
+$c-button-secondary-icon: $c-primary !default;
+$bd-button-secondary: $c-primary !default;
+$bgc-button-secondary: $c-white !default;
+$bgc-button-secondary-hover: $c-gray-lightest !default;
+$bgc-button-secondary-active: $c-gray-lightest !default;
+
+$c-button-accent: $c-white !default;
+$c-button-accent-hover: $c-white !default;
+$c-button-accent-icon: $c-white !default;
+$bd-button-accent: $c-accent !default;
+$bgc-button-accent: $c-accent !default;
+$bgc-button-accent-hover: darken($c-accent, 5%) !default;
+$bgc-button-accent-active: darken($c-accent, 5%) !default;
+
+$c-button-ghost-hover: $c-primary !default;
+$c-button-ghost-icon: $c-primary !default;
+$bd-button-ghost: $c-primary !default;
+$bd-button-ghost-hover: $c-primary !default;
+$bgc-button-ghost-active: $c-gray-lightest !default;
+
 // Card
 $bdrs-card: 0 !default;
 $bxsh-card: $bxsh-base !default;
