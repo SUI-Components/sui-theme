@@ -38,6 +38,8 @@ $c-highlighted: #f2cd96 !default;
 $c-accent: #964200 !default;
 $c-accent-light: #caa080 !default;
 
+$c-featured: #ffe613 !default;
+
 $c-white: #ffffff !default;
 $c-black: #000000 !default;
 
@@ -219,6 +221,8 @@ $bdrs-card: 0 !default;
 $bxsh-card: $bxsh-base !default;
 $bxsh-card-hover: 0 1px 6px 2px rgba($c-black, .15) !default;
 $c-card-title-hover: inherit !default;
+$bdc-article-featured: $c-featured !default;
+$bd-article-featured: 4px solid $bdc-article-featured !default;
 
 // Card product
 $c-card-product-title: $c-primary !default;
