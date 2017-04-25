@@ -125,6 +125,7 @@
 
   &:hover {
     background-color: $bgc-button-accent-hover;
+    border: 1px solid $bd-button-accent-hover;
     color: $c-button-accent-hover;
   }
 
@@ -159,18 +160,19 @@
 @mixin sui-button--flat {
   background-color: transparent;
   border: 0;
-  color: $c-button-primary;
+  color: $c-button-flat;
 
   &:hover {
-    color: $c-button-primary-hover;
+    background-color: $bgc-button-flat-hover;
+    color: $c-button-flat-hover;
   }
 
   &:active {
-    background-color: $bgc-button-primary-active;
+    background-color: $bgc-button-flat-active;
   }
 
   & > [class$='Icon'] {
-    fill: $c-button-primary-icon !important;
+    fill: $c-button-flat-icon !important;
   }
 }
 
@@ -186,6 +188,10 @@
 
   &:hover {
     background-color: lighten($bgcolor, 15%);
+  }
+
+  &:active {
+    background-color: darken($bgcolor, 10%);
   }
 
   & > [class$='Icon'] {
