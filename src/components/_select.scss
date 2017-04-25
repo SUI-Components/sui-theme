@@ -22,6 +22,10 @@
   padding: $p-v $p-h;
   width: 100%;
 
+  &::-ms-expand {
+    display: none;
+  }
+
   &-wrap {
     position: relative;
   }
