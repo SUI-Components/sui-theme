@@ -1,6 +1,6 @@
 {
   "name": "@schibstedspain/theme-basic",
-  "version": "5.18.0",
+  "version": "5.18.1",
   "description": "Generic theme to add styles to all generic components",
   "main": "lib/index.scss",
   "scripts": {
