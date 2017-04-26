@@ -184,7 +184,7 @@
   }
 }
 
-@mixin sui-button--custom($bgcolor, $color: white, $icon-fill: transparent, $icon-stroke) {
+@mixin sui-button--custom($bgcolor, $color: $c-white, $icon-fill: transparent, $icon-stroke: $c-white) {
   background-color: $bgcolor;
   border: 0;
   color: $color;
