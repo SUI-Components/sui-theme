@@ -24,4 +24,8 @@
   -moz-appearance: $value;
   -webkit-appearance: $value;
   appearance: $value;
+
+  &::-ms-expand {
+    display: none;
+  }
 }
