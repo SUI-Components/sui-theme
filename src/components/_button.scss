@@ -53,19 +53,19 @@
     @include sui-button--full;
   }
 
-  @if $bgcolor != null and $c-color != null {
-    @include sui-button--custom($bgcolor, $c-color);
+  @if $bgcolor != null or $color != null {
+    @include sui-button--custom($bgcolor, $color);
   }
 
   & > [class$='Icon'] {
     @if $size == 'small' {
-      @include sui-button-icon--small;
+      @include sui-icon--small;
     }
     @if $size == 'medium' {
-      @include sui-button-icon--medium;
+      @include sui-icon--medium;
     }
     @if $size == 'large' {
-      @include sui-button-icon--large;
+      @include sui-icon--large;
     }
 
     &:first-child {
@@ -95,13 +95,14 @@
   }
 
   & > [class$='Icon'] {
-    fill: $c-button-primary-icon !important;
+    fill: $c-button-primary-icon-fill !important;
+    stroke: $c-button-primary-icon-stroke !important;
   }
 }
 
 @mixin sui-button--secondary {
   background-color: $bgc-button-secondary;
-  border: 1px solid $bd-button-secondary;
+  border: 1px solid $bdc-button-secondary;
   color: $c-button-secondary;
 
   &:hover {
@@ -114,18 +115,19 @@
   }
 
   & > [class$='Icon'] {
-    fill: $c-button-secondary-icon !important;
+    fill: $c-button-secondary-icon-fill !important;
+    stroke: $c-button-secondary-icon-stroke !important;
   }
 }
 
 @mixin sui-button--accent {
   background-color: $bgc-button-accent;
-  border: 1px solid $bd-button-accent;
+  border: 1px solid $bdc-button-accent;
   color: $c-button-accent;
 
   &:hover {
     background-color: $bgc-button-accent-hover;
-    border: 1px solid $bd-button-accent-hover;
+    border: 1px solid $bdc-button-accent-hover;
     color: $c-button-accent-hover;
   }
 
@@ -134,13 +136,14 @@
   }
 
   & > [class$='Icon'] {
-    fill: $c-button-accent-icon !important;
+    fill: $c-button-accent-icon-fill !important;
+    stroke: $c-button-accent-icon-stroke !important;
   }
 }
 
 @mixin sui-button--ghost {
   background-color: transparent;
-  border: 1px solid $bd-button-ghost;
+  border: 1px solid $bdc-button-ghost;
   color: $c-button-ghost;
 
   &:hover {
@@ -153,7 +156,8 @@
   }
 
   & > [class$='Icon'] {
-    fill: $c-button-ghost-icon !important;
+    fill: $c-button-ghost-icon-fill !important;
+    stroke: $c-button-ghost-icon-stroke !important;
   }
 }
 
@@ -172,7 +176,8 @@
   }
 
   & > [class$='Icon'] {
-    fill: $c-button-flat-icon !important;
+    fill: $c-button-flat-icon-fill !important;
+    stroke: $c-button-ghost-icon-stroke !important;
   }
 }
 
@@ -195,7 +200,8 @@
   }
 
   & > [class$='Icon'] {
-    fill: $color !important;
+    fill: $bgcolor !important;
+    stroke: $color !important;
   }
 }
 
@@ -213,17 +219,17 @@
   font-size: $fz-l;
 }
 
-@mixin sui-button-icon--small {
+@mixin sui-icon--small {
   height: 16px;
   width: 16px;
 }
 
-@mixin sui-button-icon--medium {
+@mixin sui-icon--medium {
   height: 20px;
   width: 20px;
 }
 
-@mixin sui-button-icon--large {
+@mixin sui-icon--large {
   height: 24px;
   width: 24px;
 }

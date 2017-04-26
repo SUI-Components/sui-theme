@@ -44,7 +44,6 @@
   },
   "homepage": "https://github.com/scm-spain/theme-basic#readme",
   "devDependencies": {
-    "@schibstedspain/frontend-pre-commit-rules": "7",
     "cpx": "1.5.0"
   }
 }
