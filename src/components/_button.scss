@@ -8,10 +8,10 @@
   $type: 'primary',
   $size: 'medium',
   $layout: null,
-  $color: null,
-  $bgcolor: null,
-  $icon-fill: null,
-  $icon-stroke: null
+  $background-color: $c-gray-dark,
+  $color: $c-white,
+  $icon-fill: transparent,
+  $icon-stroke: $c-white
 ) {
   align-items: center;
   border-radius: $bdrs-button;
@@ -41,6 +41,9 @@
   @if $type == 'flat' {
     @include sui-button--flat;
   }
+  @if $type == 'custom' {
+    @include sui-button--custom($background-color, $color, $icon-fill, $icon-stroke);
+  }
 
   @if $size == 'small' {
     @include sui-button--small;
@@ -54,10 +57,6 @@
 
   @if $layout == 'full' {
     @include sui-button--full;
-  }
-
-  @if $bgcolor != null or $color != null or $icon-fill != null or $icon-stroke != null {
-    @include sui-button--custom($bgcolor, $color, $icon-fill, $icon-stroke);
   }
 
   & > [class$='Icon'] {
@@ -184,17 +183,17 @@
   }
 }
 
-@mixin sui-button--custom($bgcolor: $c-gray-dark, $color: $c-white, $icon-fill: transparent, $icon-stroke: $c-white) {
-  background-color: $bgcolor;
+@mixin sui-button--custom($background-color, $color, $icon-fill, $icon-stroke) {
+  background-color: $background-color;
   border: 0;
   color: $color;
 
   &:hover {
-    background-color: lighten($bgcolor, 15%);
+    background-color: lighten($background-color, 15%);
   }
 
   &:active {
-    background-color: darken($bgcolor, 10%);
+    background-color: darken($background-color, 10%);
   }
 
   & > [class$='Icon'] {
