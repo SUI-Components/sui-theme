@@ -13,36 +13,24 @@
 // $c-primary-darkest: color-variation($c-primary, -4) -> 4 steps darker
 
 @function color-variation($color, $step: 0) {
-  $hue: hue($color);
-  $saturation: saturation($color);
-  $lightness: lightness($color);
-  $step-luminosity-positive: 7, 10, 13, 16;
-  $step-luminosity-negative: -7, -10, -13, -16;
-  $step-saturation-positive: 7, 10, 13, 16;
-  $step-saturation-negative: -7, -10, -13, -16;
-  $luminosity-variation: 0;
-  $saturation-variation: 0;
+  $step-variations-positive: 25, 50, 75, 90;
+  $step-variations-negative: 20, 35, 55, 75;
 
   @if $step == 0 {
     @return $color;
   }
 
   @if $step >= 5 {
-    @return hsl($hue, $saturation + nth($step-saturation-positive, 4), $lightness + nth($step-luminosity-positive, 4));
+    @return mix($c-white, $color, nth($step-variations-positive, 4));
   }
 
   @if $step <= -5 {
-    @return hsl($hue, $saturation + nth($step-saturation-negative, 4), $lightness + nth($step-luminosity-negative, 4));
+    @return mix($c-black, $color, nth($step-variations-negative, 4));
   }
 
   @if $step < 0 {
-    $luminosity-variation: nth($step-luminosity-negative, -$step);
-    $saturation-variation: nth($step-saturation-negative, -$step);
+      @return mix($c-black, $color, nth($step-variations-negative, -$step));
   } @else {
-    $luminosity-variation: nth($step-luminosity-positive, $step);
-    $saturation-variation: nth($step-saturation-positive, $step);
+      @return mix($c-white, $color, nth($step-variations-positive, $step));
   }
-
-  $color-step: hsl($hue, $saturation + $saturation-variation, $lightness + $luminosity-variation);
-  @return $color-step;
 }
