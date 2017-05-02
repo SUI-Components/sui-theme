@@ -1,0 +1,36 @@
+// --- Color --- //
+
+// Color Variations Function:
+
+// Description:
+// Provide a color and step to get a lighter or darker color variation.
+// If step provided is bigger than the step variation limit the lighter or darker color available will be returned.
+
+// Usage:
+// $c-primary-light: color-variation($c-primary, 1) -> 1 step lighter
+// $c-primary-lighter: color-variation($c-primary, 2) -> 2 steps lighter
+// $c-primary-dark: color-variation($c-primary, -2) -> 2 steps darker
+// $c-primary-darkest: color-variation($c-primary, -4) -> 4 steps darker
+
+@function color-variation($color, $step: 0) {
+  $step-variations-positive: 25, 50, 75, 90;
+  $step-variations-negative: 20, 35, 55, 75;
+
+  @if $step == 0 {
+    @return $color;
+  }
+
+  @if $step >= 5 {
+    @return mix(white, $color, nth($step-variations-positive, 4));
+  }
+
+  @if $step <= -5 {
+    @return mix(black, $color, nth($step-variations-negative, 4));
+  }
+
+  @if $step < 0 {
+    @return mix(black, $color, nth($step-variations-negative, -$step));
+  } @else {
+    @return mix(white, $color, nth($step-variations-positive, $step));
+  }
+}
