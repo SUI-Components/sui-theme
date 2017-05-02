@@ -89,7 +89,6 @@
 
   &:hover {
     background-color: $bgc-button-primary-hover;
-    color: $c-button-primary-hover;
   }
 
   &:active {
@@ -124,13 +123,11 @@
 
 @mixin sui-button--accent {
   background-color: $bgc-button-accent;
-  border: 1px solid $bdc-button-accent;
+  border: 0;
   color: $c-button-accent;
 
   &:hover {
     background-color: $bgc-button-accent-hover;
-    border: 1px solid $bdc-button-accent-hover;
-    color: $c-button-accent-hover;
   }
 
   &:active {
@@ -149,7 +146,7 @@
   color: $c-button-ghost;
 
   &:hover {
-    background-color: $bgc-button-ghost-hover;
+    border: 1px solid $bdc-button-ghost-hover;
     color: $c-button-ghost-hover;
   }
 
@@ -169,7 +166,6 @@
   color: $c-button-flat;
 
   &:hover {
-    background-color: $bgc-button-flat-hover;
     color: $c-button-flat-hover;
   }
 

@@ -37,6 +37,7 @@ $c-highlighted: #f2cd96 !default;
 
 $c-accent: #964200 !default;
 $c-accent-light: #caa080 !default;
+$c-accent-dark: #612a00 !default;
 
 $c-featured: #ffe613 !default;
 
@@ -217,47 +218,42 @@ $bgc-alert-basic-success: $c-white !default;
 $bdrs-button: 0 !default;
 $o-button-disabled: .4 !default;
 
-$c-button-primary-hover: $c-white !default;
 $c-button-primary: $c-white !default;
-$c-button-primary-icon-fill: $c-white !default;
+$c-button-primary-icon-fill: transparent !default;
 $c-button-primary-icon-stroke: $c-white !default;
 $bgc-button-primary: $c-primary !default;
 $bgc-button-primary-hover: $c-primary-light !default;
 $bgc-button-primary-active: $c-primary-dark !default;
 
-$c-button-secondary: $c-primary !default;
-$c-button-secondary-hover: $c-primary !default;
-$c-button-secondary-icon-fill: $c-primary !default;
-$c-button-secondary-icon-stroke: $c-primary !default;
-$bdc-button-secondary: $c-primary !default;
+$c-button-secondary: $c-gray-dark !default;
+$c-button-secondary-hover: $c-gray-dark !default;
+$c-button-secondary-icon-fill: transparent !default;
+$c-button-secondary-icon-stroke: $c-gray-dark !default;
+$bdc-button-secondary: $c-gray-dark !default;
 $bgc-button-secondary: $c-white !default;
 $bgc-button-secondary-hover: $c-gray-lightest !default;
-$bgc-button-secondary-active: $c-gray-lightest !default;
+$bgc-button-secondary-active: $c-gray-light !default;
 
 $c-button-accent: $c-white !default;
-$c-button-accent-hover: $c-white !default;
-$c-button-accent-icon-fill: $c-white !default;
+$c-button-accent-icon-fill: transparent !default;
 $c-button-accent-icon-stroke: $c-white !default;
-$bdc-button-accent: $c-accent !default;
-$bdc-button-accent-hover: darken($c-accent, 5%) !default;
 $bgc-button-accent: $c-accent !default;
-$bgc-button-accent-hover: darken($c-accent, 5%) !default;
-$bgc-button-accent-active: darken($c-accent, 5%) !default;
+$bgc-button-accent-hover: $c-accent-light !default;
+$bgc-button-accent-active: $c-accent-dark !default;
 
-$c-button-ghost: $c-white !default;
-$c-button-ghost-hover: $c-primary !default;
-$c-button-ghost-icon-fill: $c-primary !default;
-$c-button-ghost-icon-stroke: $c-primary !default;
-$bdc-button-ghost: $c-primary !default;
-$bgc-button-ghost-hover: $c-primary !default;
-$bgc-button-ghost-active: $c-gray-lightest !default;
+$c-button-ghost: $c-gray-dark !default;
+$c-button-ghost-hover: $c-gray !default;
+$c-button-ghost-icon-fill: transparent !default;
+$c-button-ghost-icon-stroke: $c-gray-dark !default;
+$bdc-button-ghost: $c-gray-dark !default;
+$bdc-button-ghost-hover: $c-gray !default;
+$bgc-button-ghost-active: $c-gray !default;
 
 $c-button-flat: $c-gray-dark !default;
-$c-button-flat-hover: rgba($c-gray, .75) !default;
-$c-button-flat-icon-fill: $c-white !default;
-$c-button-flat-icon-stroke: $c-white !default;
-$bgc-button-flat-hover: transparent !default;
-$bgc-button-flat-active: $c-gray-lightest !default;
+$c-button-flat-hover: $c-gray !default;
+$c-button-flat-icon-fill: transparent !default;
+$c-button-flat-icon-stroke: $c-gray-dark !default;
+$bgc-button-flat-active: $c-gray !default;
 
 // Card
 $bdrs-card: 0 !default;
