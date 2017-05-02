@@ -29,8 +29,8 @@
   }
 
   @if $step < 0 {
-      @return mix(black, $color, nth($step-variations-negative, -$step));
+    @return mix(black, $color, nth($step-variations-negative, -$step));
   } @else {
-      @return mix(white, $color, nth($step-variations-positive, $step));
+    @return mix(white, $color, nth($step-variations-positive, $step));
   }
 }
