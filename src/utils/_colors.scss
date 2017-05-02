@@ -21,16 +21,16 @@
   }
 
   @if $step >= 5 {
-    @return mix($c-white, $color, nth($step-variations-positive, 4));
+    @return mix(white, $color, nth($step-variations-positive, 4));
   }
 
   @if $step <= -5 {
-    @return mix($c-black, $color, nth($step-variations-negative, 4));
+    @return mix(black, $color, nth($step-variations-negative, 4));
   }
 
   @if $step < 0 {
-      @return mix($c-black, $color, nth($step-variations-negative, -$step));
+      @return mix(black, $color, nth($step-variations-negative, -$step));
   } @else {
-      @return mix($c-white, $color, nth($step-variations-positive, $step));
+      @return mix(white, $color, nth($step-variations-positive, $step));
   }
 }
