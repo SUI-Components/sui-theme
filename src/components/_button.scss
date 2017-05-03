@@ -84,12 +84,10 @@
 
 @mixin sui-button--primary {
   background-color: $bgc-button-primary;
-  border: 0;
   color: $c-button-primary;
 
   &:hover {
     background-color: $bgc-button-primary-hover;
-    color: $c-button-primary-hover;
   }
 
   &:active {
@@ -104,7 +102,7 @@
 
 @mixin sui-button--secondary {
   background-color: $bgc-button-secondary;
-  border: 1px solid $bdc-button-secondary;
+  box-shadow: 0 0 0 1px $bdc-button-secondary inset;
   color: $c-button-secondary;
 
   &:hover {
@@ -124,13 +122,10 @@
 
 @mixin sui-button--accent {
   background-color: $bgc-button-accent;
-  border: 1px solid $bdc-button-accent;
   color: $c-button-accent;
 
   &:hover {
     background-color: $bgc-button-accent-hover;
-    border: 1px solid $bdc-button-accent-hover;
-    color: $c-button-accent-hover;
   }
 
   &:active {
@@ -145,11 +140,11 @@
 
 @mixin sui-button--ghost {
   background-color: transparent;
-  border: 1px solid $bdc-button-ghost;
+  box-shadow: 0 0 0 1px $bdc-button-ghost inset;
   color: $c-button-ghost;
 
   &:hover {
-    background-color: $bgc-button-ghost-hover;
+    box-shadow: 0 0 0 1px $bdc-button-ghost-hover inset;
     color: $c-button-ghost-hover;
   }
 
@@ -165,11 +160,9 @@
 
 @mixin sui-button--flat {
   background-color: transparent;
-  border: 0;
   color: $c-button-flat;
 
   &:hover {
-    background-color: $bgc-button-flat-hover;
     color: $c-button-flat-hover;
   }
 
@@ -185,7 +178,6 @@
 
 @mixin sui-button--custom($background-color, $color, $icon-fill, $icon-stroke) {
   background-color: $background-color;
-  border: 0;
   color: $color;
 
   &:hover {
