@@ -1,4 +1,4 @@
-/* sass-lint:disable class-name-format */
+/* sass-lint:disable class-name-format, no-important */
 
 // --- SUI Card --- //
 // @include sui-card;
@@ -24,10 +24,23 @@
   }
 
   &-media {
+    position: relative;
+
     img {
       height: auto;
       vertical-align: bottom;
       width: 100%;
+    }
+
+    &Icon {
+      @include sui-icon--xlarge;
+
+      fill: $c-card-article-icon-fill !important;
+      left: 50%;
+      position: absolute;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      z-index: $z-card-article-icon;
     }
   }
 
