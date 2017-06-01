@@ -312,7 +312,8 @@ $ml-form-autocompleted-submit: $m-h !default;
 $mt-form-autocompleted: 3px !default;
 $p-form-autocompleted-item: $p-v $p-h !default;
 $r-form-autocompleted-clear: 12px !default;
-$t-form-autocompleted-clear: 12px !default;
+$t-form-autocompleted-clear: 50% !default;
+$trf-form-autocompleted-clear: translateY(-50%) !default;
 $z-form-autocompleted-suggests: 1 !default;
 $type-form-autocompleted-submit: 'primary' !default;
 
