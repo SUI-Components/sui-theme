@@ -158,9 +158,9 @@ $bgc-input: $c-white !default;
 $bgc-input-hover: $c-white !default;
 $bgc-input-focus: $c-gray-lightest !default;
 
-$bd-input: 1px solid $c-gray !default;
-$bd-input-hover: 1px solid $c-gray !default;
-$bd-input-focus: 1px solid $c-gray !default;
+$bd-input: 0 0 0 1px  $c-gray inset !default;
+$bd-input-hover: 0 0 0 1px  $c-gray inset !default;
+$bd-input-focus: 0 0 0 1px  $c-gray inset !default;
 
 // Radio List
 $bd-radio-list: 1px solid $c-gray !default;
@@ -181,9 +181,9 @@ $bgc-select-icon-wrap: $c-gray-lightest !default;
 $p-select-icon-wrap: 0 $p-h-small !default;
 $w-select-icon-wrap: 30px !default;
 
-$bd-select: 1px solid $c-gray !default;
-$bd-select-hover: 1px solid $c-gray !default;
-$bd-select-focus: 1px solid $c-gray !default;
+$bd-select: 0 0 0 1px $c-gray inset !default;
+$bd-select-hover: 0 0 0 1px $c-gray inset !default;
+$bd-select-focus: 0 0 0 1px $c-gray inset !default;
 
 
 // --- Components --- //
@@ -217,6 +217,7 @@ $bgc-alert-basic-success: $c-white !default;
 
 // Button
 $bdrs-button: 0 !default;
+$lh-button: $lh-base !default;
 $o-button-disabled: .4 !default;
 
 $c-button-primary: $c-white !default;
