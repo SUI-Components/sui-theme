@@ -157,6 +157,7 @@ $bxsh-base: 0 1px $bxsh-spread rgba($c-black, .15) !default;
 $bgc-input: $c-white !default;
 $bgc-input-hover: $c-white !default;
 $bgc-input-focus: $c-gray-lightest !default;
+$lh-input: $lh-base !default;
 
 $bd-input: 0 0 0 1px  $c-gray inset !default;
 $bd-input-hover: 0 0 0 1px  $c-gray inset !default;
@@ -176,6 +177,7 @@ $p-radio-list: $p-v $p-h !default;
 $bgc-select: $c-white !default;
 $bgc-select-hover: $c-white !default;
 $bgc-select-focus: $c-gray-lightest !default;
+$lh-select: $lh-base !default;
 
 $bgc-select-icon-wrap: $c-gray-lightest !default;
 $p-select-icon-wrap: 0 $p-h-small !default;
