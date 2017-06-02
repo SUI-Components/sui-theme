@@ -6,7 +6,8 @@
 
 @mixin sui-input($size: 'medium') {
   @include input-placeholder {
-    font-style: italic;
+    color: $c-input-placeholder;
+    font-style: $fs-input-placeholder;
   }
 
   background-color: $bgc-input;
