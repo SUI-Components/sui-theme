@@ -9,18 +9,27 @@
 // </div>
 //
 // @include sui-select;
+// @include sui-select('large');
 
-@mixin sui-select {
+@mixin sui-select($size: 'medium') {
   @include appearance(none);
   background-color: $bgc-select;
-  border: $bd-select;
+  border: 0;
   border-radius: $bdrs-base;
+  box-shadow: $bd-select;
   display: inline-block;
   font-family: $ff-sans-serif;
-  font-size: $fz-l;
+  line-height: $lh-select;
   outline: none;
   padding: $p-v $p-h;
   width: 100%;
+
+  @if $size == 'medium' {
+    font-size: $fz-base;
+  }
+  @if $size == 'large' {
+    font-size: $fz-l;
+  }
 
   &-wrap {
     position: relative;
@@ -41,11 +50,11 @@
 
   &:hover {
     background-color: $bgc-select-hover;
-    border: $bd-select-hover;
+    box-shadow: $bd-select-hover;
   }
 
   &:focus {
     background-color: $bgc-select-focus;
-    border: $bd-select-focus;
+    box-shadow: $bd-select-focus;
   }
 }

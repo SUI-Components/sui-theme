@@ -2,33 +2,43 @@
 
 // --- SUI Input --- //
 // @include sui-input;
+// @include sui-input('large');
 
-@mixin sui-input {
+@mixin sui-input($size: 'medium') {
   @include input-placeholder {
-    font-style: italic;
+    color: $c-input-placeholder;
+    font-style: $fs-input-placeholder;
   }
 
   background-color: $bgc-input;
-  border: $bd-input;
+  border: 0;
   border-radius: $bdrs-base;
+  box-shadow: $bd-input;
   font-family: $ff-sans-serif;
-  font-size: $fz-l;
   font-weight: $fw-light;
+  line-height: $lh-input;
   outline: none;
   padding: $p-v $p-h;
   width: 100%;
 
+  @if $size == 'medium' {
+    font-size: $fz-base;
+  }
+  @if $size == 'large' {
+    font-size: $fz-l;
+  }
+
   &:hover {
     background-color: $bgc-input-hover;
-    border: $bd-input-hover;
+    box-shadow: $bd-input-hover;
   }
 
   &:focus {
     background-color: $bgc-input-focus;
-    border: $bd-input-focus;
+    box-shadow: $bd-input-focus;
   }
 
   &.has-error {
-    border: 1px solid $c-error;
+    box-shadow: 1px solid $c-error;
   }
 }
