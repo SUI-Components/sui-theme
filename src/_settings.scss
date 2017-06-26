@@ -261,6 +261,14 @@ $c-button-flat-icon-fill: $c-gray-dark !default;
 $c-button-flat-icon-stroke: transparent !default;
 $bgc-button-flat-active: $c-gray !default;
 
+// Breadcrumb
+$c-breadcrumb: $c-text-base !default;
+$m-breadcrumb-items: $m-h-small !default;
+$size-breadcrumb-icon: 18px !default;
+$c-breadcrumb-icon: $c-gray !default;
+$c-breadcrumb-link: $c-primary !default;
+$c-breadcrumb-link-hover: $c-accent !default;
+
 // Card
 $bdrs-card: 0 !default;
 $bxsh-card: $bxsh-base !default;
