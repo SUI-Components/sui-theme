@@ -5,6 +5,7 @@
 
 @mixin sui-tab {
   background-color: $bgc-tab;
+  border: $bd-tag;
   color: $c-tab;
   cursor: pointer;
   display: inline-block;
