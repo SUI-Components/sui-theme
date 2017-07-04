@@ -262,12 +262,14 @@ $c-button-flat-icon-stroke: transparent !default;
 $bgc-button-flat-active: $c-gray !default;
 
 // Breadcrumb
+$bgc-breadcrumb: transparent !default;
+$bxsh-breadcrumb: none !default;
+$c-breadcrumb-icon: $c-gray !default;
+$c-breadcrumb-link-hover: $c-accent !default;
+$c-breadcrumb-link: $c-primary !default;
 $c-breadcrumb: $c-text-base !default;
 $m-breadcrumb-items: $m-h-small !default;
 $size-breadcrumb-icon: 18px !default;
-$c-breadcrumb-icon: $c-gray !default;
-$c-breadcrumb-link: $c-primary !default;
-$c-breadcrumb-link-hover: $c-accent !default;
 
 // Card
 $bdrs-card: 0 !default;
