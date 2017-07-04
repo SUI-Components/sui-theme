@@ -264,6 +264,8 @@ $bgc-button-flat-active: $c-gray !default;
 // Breadcrumb
 $bgc-breadcrumb: transparent !default;
 $bxsh-breadcrumb: none !default;
+$p-breadcrumb-desktop: $p-v $p-h !default;
+$p-breadcrumb-mobile: $p-v $p-h !default;
 $c-breadcrumb-icon: $c-gray !default;
 $c-breadcrumb-link-hover: $c-accent !default;
 $c-breadcrumb-link: $c-primary !default;
