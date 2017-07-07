@@ -306,7 +306,7 @@ $type-card-subscription-button: 'primary' !default;
 // Cookie banner
 $bgc-cookie-banner: $c-gray-lightest !default;
 $c-cookie-banner: $c-gray !default;
-$fz-cookie-banner: $fz-m !default;
+$fz-cookie-banner: $fz-s !default;
 $z-cookie-banner: 50 !default;
 
 $maw-cookie-banner-content: $w-layout-large !default;
@@ -314,6 +314,9 @@ $p-cookie-banner-content: $p-v $p-h !default;
 $ta-cookie-banner-context: center !default;
 
 $c-cookie-banner-link: $c-primary !default;
+
+$c-cookie-banner-close-icon: $c-gray-dark !default;
+$c-cookie-banner-close-icon-hover: $c-gray !default;
 
 // Dropdown
 $bdt-dropdown-menu: 1px solid $c-primary !default;
