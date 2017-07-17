@@ -120,6 +120,9 @@ $m-h-xlarge: ceil($m-h * 3) !default;
 
 // Paddings
 $p-base: 16px !default;
+$p-small: ceil($p-base / 2) !default;
+$p-xsmall: ceil($p-base / 3) !default;
+$p-xxsmall: ceil($p-base / 4) !default;
 $p-v: ceil($p-base / 2) !default;
 $p-h: $p-base !default;
 $p-v-xsmall: ceil($p-v / 3) !default;
@@ -479,7 +482,7 @@ $bgc-topbar-user-cta: $c-accent !default;
 // Thumbnail
 $bgc-thumbnail: $c-white !default;
 $bd-thumbnail: 1px solid $c-gray-lightest !default;
-$p-thumbnail: ceil($p-base / 6) !default;
+$p-thumbnail: $p-xxsmall !default;
 $bgc-thumbnail-caption: $c-black !default;
 $c-thumbnail-caption: $c-white !default;
 $fz-thumbnail-caption: $fz-h4 !default;
