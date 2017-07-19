@@ -21,6 +21,7 @@
 
 // Transitions
 $trsdu-base: .3s !default;
+$trsdu-slow: $trsdu-base * 2 !default;
 $trs-base: $trsdu-base ease !default;
 
 // --- Misc --- //
@@ -119,6 +120,9 @@ $m-h-xlarge: ceil($m-h * 3) !default;
 
 // Paddings
 $p-base: 16px !default;
+$p-small: ceil($p-base / 2) !default;
+$p-xsmall: ceil($p-base / 3) !default;
+$p-xxsmall: ceil($p-base / 4) !default;
 $p-v: ceil($p-base / 2) !default;
 $p-h: $p-base !default;
 $p-v-xsmall: ceil($p-v / 3) !default;
@@ -474,3 +478,13 @@ $size-topbar-user-toggle-icon: 24px !default;
 $w-topbar-user-nav: 90% !default;
 $maw-topbar-user-nav: 350px !default;
 $bgc-topbar-user-cta: $c-accent !default;
+
+// Thumbnail
+$bgc-thumbnail-basic: $c-white !default;
+$bd-thumbnail-basic: 1px solid $c-gray-lightest !default;
+$p-thumbnail-basic: $p-xxsmall !default;
+$bgc-thumbnail-basic-caption: $c-black !default;
+$c-thumbnail-basic-caption: $c-white !default;
+$fz-thumbnail-basic-caption: $fz-h4 !default;
+$trs-thumbnail-basic: $trsdu-slow ease-in-out !default;
+$p-thumbnail-basic-caption: ceil($p-base / 3) !default;
