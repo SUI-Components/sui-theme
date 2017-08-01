@@ -441,6 +441,12 @@ $bdrs-tag: $bdrs-base !default;
 $fz-tag: $fz-s !default;
 $lh-tag: 1.5em !default;
 
+// Title
+$c-title-basic-main-title: $c-primary !default;
+$c-title-basic-subtitle: $c-primary !default;
+$c-title-multisize-primary: $c-primary !default;
+$c-title-multisize-secondary: $c-gray !default;
+
 // Tooltip basic
 $bdr-tooltip-basic: 0 !default;
 $bdw-tooltip-basic-arrow: 4px !default;
