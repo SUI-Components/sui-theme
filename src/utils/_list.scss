@@ -3,43 +3,29 @@
 // @include sui-list('inline');
 // @include sui-list('grow');
 
-@mixin sui-list(
-  $type: 'block'
-){
+@mixin sui-list-gutter {
+  &:not(:last-child) {
+    margin-right: $m-list-gutter;
+  }
+}
+
+@mixin sui-list($type: 'block'){
   @include reset-list;
   display: flex;
 
   @if $type == 'block' {
-    @include sui-list--block;
+    flex-direction: column;
   }
 
   li {
     @if $type == 'inline' {
-      @include sui-list--inline;
+      flex: 0 0 auto;
+      @include sui-list-gutter;
     }
 
     @if $type == 'grow' {
-      @include sui-list--grow;
+      flex: 1 1 auto;
+      @include sui-list-gutter;
     }
   }
 };
-
-@mixin sui-list--block {
-  flex-direction: column;
-}
-
-@mixin sui-list--inline {
-  flex: 0 0 auto;
-
-  &:not(:last-child) {
-    margin-right: $m-list-gutter;
-  }
-}
-
-@mixin sui-list--grow {
-  flex: 1 1 auto;
-
-  &:not(:last-child) {
-    margin-right: $m-list-gutter;
-  }
-}
