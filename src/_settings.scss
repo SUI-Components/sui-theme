@@ -497,7 +497,7 @@ $p-thumbnail-basic-caption: ceil($p-base / 3) !default;
 
 // Cover Basic
 $mah-cover-basic: map-get($breakpoints, 's') !default;
-$hmediabreaks-cover-basic: 30% !default;
+$h-cover-basic-small: 30% !default;
 $fz-cover-basic-button: $fz-base !default;
 $ml-cover-basic-buttons: $m-base !default;
 $mt-cover-basic-buttons: $m-base !default;
