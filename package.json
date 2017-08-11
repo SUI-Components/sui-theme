@@ -4,13 +4,18 @@
   "description": "Generic theme to add styles to all generic components",
   "main": "lib/index.scss",
   "scripts": {
-    "lint": "npm run lint:sass",
-    "lint:sass": "node_modules/.bin/sass-lint src/**/*.scss -c -v",
     "clean:lib": "rimraf ./lib/*",
-    "prelib": "npm run clean:lib -s",
+    "co": "sui-mono commit",
     "lib": "npm run lib:styles",
     "lib:styles": "cpx './src/**/*.scss' lib/",
-    "prepublish": "npm run lib"
+    "lint": "npm run lint:sass",
+    "lint:sass": "sui-lint sass",
+    "phoenix": "rimraf node_modules && npm i",
+    "precommit": "sui-precommit run",
+    "prelib": "npm run clean:lib -s",
+    "prepublish": "npm run lib",
+    "release": "sui-mono release",
+    "release:check": "sui-mono check"
   },
   "repository": {
     "type": "git",
@@ -20,9 +25,6 @@
     "sass",
     "theme",
     "basic"
-  ],
-  "pre-commit": [
-    "lint"
   ],
   "author": "David Garcia <david.garcia@scmspain.com>",
   "contributors": [
@@ -43,7 +45,21 @@
   },
   "homepage": "https://github.com/scm-spain/theme-basic#readme",
   "devDependencies": {
+    "@schibstedspain/sui-lint": "2",
+    "@schibstedspain/sui-mono": "1",
+    "@schibstedspain/sui-precommit": "2",
     "cpx": "1.5.0",
-    "rimraf": "2"
-  }
+    "husky": "0.13.3",
+    "rimraf": "2.5.4",
+    "validate-commit-msg": "2.12.2"
+  },
+  "config": {
+    "sui-mono": {
+      "access": "public"
+    },
+    "validate-commit-msg": {
+      "types": "@schibstedspain/sui-mono/src/types"
+    }
+  },
+  "sasslintConfig": "./node_modules/@schibstedspain/sui-lint/sass-lint.yml"
 }
