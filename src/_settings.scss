@@ -382,6 +382,14 @@ $p-modal-basic-footer: $p-base !default;
 // Search box
 $bg-search-box: $c-gray-light !default;
 
+// Section
+$c-section-basic-main-title: $c-black !default;
+$c-section-basic-subtitle: $c-gray-light !default;
+$c-section-basic-content-text-paragraph: $c-gray !default;
+$mb-section-basic: $m-v-xlarge * 2 !default;
+$mb-section-basic-header: $m-v-xlarge !default;
+$m-v-section-basic-content-text-paragraph: $m-v-xlarge !default;
+
 // Smartbanner
 $bgc-ad-smartbanner: $c-white !default;
 $bb-ad-smartbanner: 1px solid $c-gray-light !default;
