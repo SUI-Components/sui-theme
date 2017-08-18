@@ -386,9 +386,12 @@ $bg-search-box: $c-gray-light !default;
 $c-section-basic-main-title: $c-black !default;
 $c-section-basic-subtitle: $c-gray-light !default;
 $c-section-basic-content-text-paragraph: $c-gray !default;
+$fz-section-basic-subtitle: $fz-h5 !default;
+$fz-section-basic-content-text-paragraph: $fz-m !default;
+$lh-section-basic-paragraph: $lh-base !default;
 $mb-section-basic: $m-v-xlarge * 2 !default;
 $mb-section-basic-header: $m-v-xlarge !default;
-$m-v-section-basic-content-text-paragraph: $m-v-xlarge !default;
+$m-v-section-basic-content-text-paragraph: $m-v-large !default;
 
 // Smartbanner
 $bgc-ad-smartbanner: $c-white !default;
