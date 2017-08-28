@@ -8,13 +8,13 @@
   background-color: $bgc-tag;
   border: $bd-tag;
   border-radius: $bdrs-tag;
+  color: $c-tag;
   display: inline-flex;
   font-size: $fz-tag;
   line-height: $lh-tag;
   margin-bottom: $m-h-xsmall;
   margin-right: $m-h-small;
   padding: $p-h-xsmall $p-h-small;
-
 }
 
 @mixin sui-tag-link {
