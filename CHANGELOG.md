@@ -2,8 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+<a name="7.15.0"></a>
+# 7.15.0 (2017-08-31)
+
+
+### Features
+
+* **components:** add zindex variable for range datepicker component ([72479ce](https://github.com/SUI-Components/theme-basic/commit/72479ce))
+
+
+
 <a name="7.14.0"></a>
-# 7.14.0 (2017-08-28)
+# [7.14.0](https://github.com/SUI-Components/theme-basic/compare/7.13.0...7.14.0) (2017-08-28)
 
 
 ### Features
