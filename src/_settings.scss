@@ -17,6 +17,8 @@
 // * ta = text-align
 // * z = z-index
 
+@import './utils/z-index';
+
 // --- Animation --- //
 
 // Transitions
@@ -156,6 +158,14 @@ $bdrs-small: ceil($bdrs-base / 2) !default;
 $bxsh-spread: 3px !default;
 $bxsh-base: 0 1px $bxsh-spread rgba($c-black, .15) !default;
 
+// Layers (z-index) sorting.
+$z-layers: (
+  'modal-basic': 100
+  'cookie-banner': 50,
+  'ad-smartbanner': 10,
+  'card-article-icon': 1,
+  'form-autocompleted-suggests': 1
+) !default;
 
 // --- Forms --- //
 
@@ -287,8 +297,7 @@ $c-card-title-hover: inherit !default;
 $bdc-article-featured: $c-featured !default;
 $bd-article-featured: 4px solid $bdc-article-featured !default;
 $c-card-article-icon-fill: $c-white !default;
-$z-card-article-icon: 1 !default;
-
+$z-card-article-icon: z('card-article-icon') !default;
 
 // Card product
 $c-card-product-title: $c-primary !default;
@@ -311,7 +320,7 @@ $type-card-subscription-button: 'primary' !default;
 $bgc-cookie-banner: $c-gray-lightest !default;
 $c-cookie-banner: $c-gray !default;
 $fz-cookie-banner: $fz-s !default;
-$z-cookie-banner: 50 !default;
+$z-cookie-banner: z('cookie-banner') !default;
 
 $maw-cookie-banner-content: $w-layout-large !default;
 $p-cookie-banner-content: $p-v $p-h !default;
@@ -352,7 +361,7 @@ $p-form-autocompleted-item: $p-v $p-h !default;
 $r-form-autocompleted-clear: 12px !default;
 $t-form-autocompleted-clear: 50% !default;
 $trf-form-autocompleted-clear: translateY(-50%) !default;
-$z-form-autocompleted-suggests: 1 !default;
+$z-form-autocompleted-suggests: z('form-autocompleted-suggests') !default;
 $type-form-autocompleted-submit: 'primary' !default;
 
 // Modal
@@ -366,7 +375,7 @@ $m-modal-basic: $m-base !default;
 $maw-modal-basic: 50% !default;
 $p-modal-basic: $p-base !default;
 $w-modal-basic: auto !default;
-$z-modal-basic: 100 !default;
+$z-modal-basic: z('modal-basic') !default;
 $c-modal-basic-icon: $c-black !default;
 $h-modal-basic-icon: 16px !default;
 $w-modal-basic-icon: 16px !default;
@@ -400,7 +409,7 @@ $h-ad-smartbanner: 70px !default;
 $t-ad-smartbanner: 0 !default;
 $b-ad-smartbanner: auto !default;
 $l-ad-smartbanner: 0 !default;
-$z-ad-smartbanner: 10 !default;
+$z-ad-smartbanner: z('ad-smartbanner') !default;
 $m-ad-smartbanner-logo: 0 $m-h-small !default;
 $w-ad-smartbanner-logo: 50px !default;
 $h-ad-smartbanner-logo: 50px !default;
