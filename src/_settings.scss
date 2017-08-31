@@ -163,6 +163,7 @@ $z-layers: (
   'modal-basic': 100
   'cookie-banner': 50,
   'ad-smartbanner': 10,
+  'range-datepicker-icon': 2,
   'card-article-icon': 1,
   'form-autocompleted-suggests': 1
 ) !default;
@@ -528,4 +529,4 @@ $c-cover-basic-children: $c-white !default;
 $m-list-gutter: $m-h !default;
 
 // Range datepicker
-$z-range-datepicker-icon: 2 !default;
+$z-range-datepicker-icon: z('range-datepicker-icon') !default;
