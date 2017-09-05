@@ -2,8 +2,24 @@
 
 All notable changes to this project will be documented in this file.
 
+<a name="7.17.0"></a>
+# 7.17.0 (2017-09-05)
+
+
+
+<a name="7.16.0"></a>
+# [7.16.0](https://github.com/SUI-Components/theme-basic/compare/7.15.0...7.16.0) (2017-09-04)
+
+
+### Features
+
+* **components:** add new scss variables for section-basic and cover-basic components. ([3a93296](https://github.com/SUI-Components/theme-basic/commit/3a93296))
+* **components:** add new variable for range datepicker component ([6524b8f](https://github.com/SUI-Components/theme-basic/commit/6524b8f))
+
+
+
 <a name="7.15.0"></a>
-# 7.15.0 (2017-08-31)
+# [7.15.0](https://github.com/SUI-Components/theme-basic/compare/7.14.0...7.15.0) (2017-08-31)
 
 
 ### Features
