@@ -61,12 +61,12 @@
     @include sui-button--full;
   }
 
-  & > [class$='Icon'] {
+  & > [class$='icon'] {
     @if $size == 'small' {
       @include sui-icon--small;
     }
     @if $size == 'medium' {
-      @include sui-icon--medium;
+      @include sui-icon--small;
     }
     @if $size == 'large' {
       @include sui-icon--large;
@@ -96,7 +96,7 @@
     background-color: $bgc-button-primary-active;
   }
 
-  & > [class$='Icon'] {
+  & > [class$='icon'] {
     fill: $c-button-primary-icon-fill !important;
     stroke: $c-button-primary-icon-stroke !important;
   }
@@ -116,7 +116,7 @@
     background-color: $bgc-button-secondary-active;
   }
 
-  & > [class$='Icon'] {
+  & > [class$='icon'] {
     fill: $c-button-secondary-icon-fill !important;
     stroke: $c-button-secondary-icon-stroke !important;
   }
@@ -134,7 +134,7 @@
     background-color: $bgc-button-accent-active;
   }
 
-  & > [class$='Icon'] {
+  & > [class$='icon'] {
     fill: $c-button-accent-icon-fill !important;
     stroke: $c-button-accent-icon-stroke !important;
   }
@@ -172,7 +172,7 @@
     background-color: $bgc-button-flat-active;
   }
 
-  & > [class$='Icon'] {
+  & > [class$='icon'] {
     fill: $c-button-flat-icon-fill !important;
     stroke: $c-button-flat-icon-stroke !important;
   }
@@ -190,7 +190,7 @@
     background-color: darken($background-color, 10%);
   }
 
-  & > [class$='Icon'] {
+  & > [class$='icon'] {
     fill: $icon-fill !important;
     stroke: $icon-stroke !important;
   }
