@@ -2,8 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+<a name="7.20.0"></a>
+# 7.20.0 (2017-09-08)
+
+
+### Features
+
+* **components:** add Collapsible component vars. ([b24d0b1](https://github.com/SUI-Components/theme-basic/commit/b24d0b1))
+
+
+
 <a name="7.18.0"></a>
-# 7.18.0 (2017-09-06)
+# [7.18.0](https://github.com/SUI-Components/theme-basic/compare/7.17.0...7.18.0) (2017-09-06)
 
 
 ### Features
