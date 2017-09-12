@@ -530,3 +530,11 @@ $jc-range-datepicker-inputs: space-between !default;
 $bgc-collapsible-basic: $c-gray-lightest !default;
 $lh-collapsible-basic: $lh-base !default;
 $c-collapsible-basic: $c-gray-dark !default;
+
+// List image
+$fxb-list-image-item-desktop: 196px !default;
+$fxb-list-image-item-mobile: 50% !default;
+$m-v-list-image-item-full-gutter: $m-v * 2 !default;
+$m-h-list-image-item-full-gutter: $m-h !default;
+$bg-list-image-last-item: $c-gray-dark !default;
+$op-list-image-last-item: .65 !default;
