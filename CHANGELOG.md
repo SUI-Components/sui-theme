@@ -2,8 +2,23 @@
 
 All notable changes to this project will be documented in this file.
 
+<a name="7.22.0"></a>
+# 7.22.0 (2017-09-13)
+
+
+
+<a name="7.21.0"></a>
+# [7.21.0](https://github.com/SUI-Components/theme-basic/compare/7.20.0...7.21.0) (2017-09-12)
+
+
+### Features
+
+* **components:** merge branch with latest changes in master. ([a397391](https://github.com/SUI-Components/theme-basic/commit/a397391))
+
+
+
 <a name="7.20.0"></a>
-# 7.20.0 (2017-09-08)
+# [7.20.0](https://github.com/SUI-Components/theme-basic/compare/7.19.0...7.20.0) (2017-09-08)
 
 
 ### Features
@@ -18,6 +33,8 @@ All notable changes to this project will be documented in this file.
 
 ### Features
 
+* **components:** add new variable background color range datepicker" ([1a0297e](https://github.com/SUI-Components/theme-basic/commit/1a0297e))
+* **components:** add scss variables for new list image component. ([6dc636d](https://github.com/SUI-Components/theme-basic/commit/6dc636d))
 * **components:** add size variable in tag component ([6e84dfd](https://github.com/SUI-Components/theme-basic/commit/6e84dfd))
 
 
