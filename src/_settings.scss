@@ -289,6 +289,10 @@ $bd-article-featured: 4px solid $bdc-article-featured !default;
 $c-card-article-icon-fill: $c-white !default;
 $z-card-article-icon: 1 !default;
 
+// Card composable
+$bgc-card-composable: $c-white !default;
+$p-card-composable-primary: 0 !default;
+$p-card-composable-secondary: $p-base !default;
 
 // Card product
 $c-card-product-title: $c-primary !default;
