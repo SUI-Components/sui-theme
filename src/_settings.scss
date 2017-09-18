@@ -61,6 +61,9 @@ $c-gray-lightest: #f1f1f1 !default;
 $c-text-base: $c-gray-dark !default;
 $c-text-accent: $c-accent !default;
 $c-text-link: $c-text-accent !default;
+$td-text-link: underline !default;
+$td-hover-text-link: none !default;
+$fz-text-link: null !default;
 
 // Social
 $c-facebook: #3b5998 !default;

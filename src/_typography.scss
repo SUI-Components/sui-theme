@@ -30,10 +30,11 @@
 
 @mixin text-link {
   color: $c-text-link;
-  text-decoration: underline;
+  font-size: $fz-text-link;
+  text-decoration: $td-text-link;
 
   &:hover {
-    text-decoration: none;
+    text-decoration: $td-hover-text-link;
   }
 }
 
