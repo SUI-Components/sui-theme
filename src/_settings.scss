@@ -538,6 +538,8 @@ $bgc-range-datepicker-selected: $c-primary !default;
 $bgc-collapsible-basic: $c-gray-lightest !default;
 $lh-collapsible-basic: $lh-base !default;
 $c-collapsible-basic: $c-gray-dark !default;
+$bdc-collapsible-basic: $c-gray-lightest !default;
+$bd-collapsible-basic: 1px solid $bdc-collapsible-basic !default;
 
 // List image
 $fxb-list-image-item-desktop: 196px !default;
