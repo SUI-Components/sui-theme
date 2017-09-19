@@ -2,8 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+<a name="7.25.0"></a>
+# 7.25.0 (2017-09-19)
+
+
+### Features
+
+* **components:** add border vars for collapsible-basic component. ([43b1c15](https://github.com/SUI-Components/theme-basic/commit/43b1c15))
+
+
+
 <a name="7.24.0"></a>
-# 7.24.0 (2017-09-19)
+# [7.24.0](https://github.com/SUI-Components/theme-basic/compare/v7.23.0...7.24.0) (2017-09-19)
 
 
 ### Features
