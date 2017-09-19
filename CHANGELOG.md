@@ -2,8 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+<a name="7.24.0"></a>
+# 7.24.0 (2017-09-19)
+
+
+### Features
+
+* **utils:** use variables instead of values so that they can be overwritten. ([ecedf67](https://github.com/SUI-Components/theme-basic/commit/ecedf67))
+
+
+
 <a name="7.22.0"></a>
-# 7.22.0 (2017-09-13)
+# [7.22.0](https://github.com/SUI-Components/theme-basic/compare/7.21.0...7.22.0) (2017-09-13)
 
 
 
