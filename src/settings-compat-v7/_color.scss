@@ -1,0 +1,11 @@
+// --- Colors --- //
+// This is a layer to maintain compatiblity with version 7-
+
+// Colors non-existing in the new color palette
+$c-highlighted: #f2cd96 !default; // seem not used
+$c-featured: #ffe613 !default; // used as category tag
+$c-white: #ffffff !default; // not semantic
+$c-black: $c-system !default; // not semantic
+
+// Colors renamed in the new color palette
+$c-warning: $c-alert !default; // This color corresponds to $c-alert
