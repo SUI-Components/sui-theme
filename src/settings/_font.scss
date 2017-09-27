@@ -6,29 +6,35 @@ $ff-sans-serif: 'Open Sans', Helvetica, sans-serif !default;
 // Font weights
 $fw-light: 300 !default;
 $fw-regular: 400 !default;
-$fw-semi-bold: 600 !default;
+$fw-semi-bold: 500 !default;
 $fw-bold: 700 !default;
 
 // Font sizes
-$fz-base: 14 !default;
-$fz-body: $fz-base * 1px !default;
-$fz-xs: ceil($fz-base * .666) * 1px !default;
-$fz-s: ceil($fz-base * .8) * 1px !default;
-$fz-m: $fz-base * 1px !default;
-$fz-l: ceil($fz-base * 1.25) * 1px !default;
-$fz-xl: ceil($fz-base * 1.75) * 1px !default;
+$fz-m: 16px !default;           // 16px
+$fz-giant: $fz-m + 20 !default; // 36px
+$fz-xxxl: $fz-m + 12 !default;  // 28px
+$fz-xxl: $fz-m + 8 !default;    // 24px
+$fz-xl: $fz-m + 4 !default;     // 20px
+$fz-l: $fz-m + 2 !default;      // 18px
+$fz-s: $fz-m - 2 !default;      // 14px
+$fz-xs: $fz-m - 4 !default;     // 12px
+$fz-xxs: $fz-m - 6 !default;    // 10px
 
-// Font sizes for headings
-$fz-h1: 32px !default;
-$fz-h2: 24px !default;
-$fz-h3: 18px !default;
-$fz-h4: 14px !default;
-$fz-h5: 12px !default;
+// Semantic font sizes
+$fz-h1: $fz-giant !default; // 36px
+$fz-h2: $fz-xxxl !default;  // 28px
+$fz-h3: $fz-xxl !default;   // 24px
+$fz-h4: $fz-xl !default;    // 20px
+$fz-h5: $fz-l !default;     // 18px
+$fz-body: $fz-m !default;   // 16px
 
 // Line heights
-$lh-base: 1.715 !default;
-
-// Text link
-$td-text-link: underline !default;
-$td-hover-text-link: none !default;
-$fz-text-link: null !default;
+$lh-giant: $fz-giant * 1.2 !default;
+$lh-xxxl: $fz-xxxl * 1.2 !default;
+$lh-xxl: $fz-xxl * 1.2 !default;
+$lh-xl: $fz-xl * 1.2 !default;
+$lh-l: $fz-l * 1.2 !default;
+$lh-m: $fz-m * 1.3 !default;
+$lh-s: $fz-s * 1.3 !default;
+$lh-xs: $fz-xs * 1.2 !default;
+$lh-xxs: $fz-xxs * 1.2 !default;

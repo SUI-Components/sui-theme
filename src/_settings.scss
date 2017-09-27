@@ -22,6 +22,7 @@ $url-statics: '' !default;
 
 @import './settings/color';
 @import './settings/font';
+@import './settings-compat-v7/font';
 @import './settings/spacing';
 @import './settings/layout';
 @import './settings/box-style';
