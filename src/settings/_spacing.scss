@@ -1,4 +1,3 @@
-
 // Margins
 $m-base: 16px !default;
 $m-v: ceil($m-base / 2) !default;
@@ -27,3 +26,6 @@ $p-v-large: ceil($p-v * 2) !default;
 $p-h-large: ceil($p-h * 2) !default;
 $p-v-xlarge: ceil($p-v * 3) !default;
 $p-h-xlarge: ceil($p-h * 3) !default;
+
+// Gutter
+$gutter: $p-base !default;

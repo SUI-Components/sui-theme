@@ -13,6 +13,3 @@ $breakpoints: (
   xl: 1200px
 ) !default;
 $breakpoint-names: map-keys($breakpoints) !default;
-
-// Gutter
-$gutter: $p-base !default;
