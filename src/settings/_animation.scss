@@ -1,0 +1,6 @@
+// --- Animation --- //
+
+// Transitions
+$trsdu-base: .3s !default;
+$trsdu-slow: $trsdu-base * 2 !default;
+$trs-base: $trsdu-base ease !default;

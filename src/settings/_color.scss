@@ -1,0 +1,37 @@
+// --- Colors --- //
+
+// Main
+$c-primary-light: #80a9ca !default;
+$c-primary: #005496 !default;
+$c-primary-dark: #003661 !default;
+$c-highlighted: #f2cd96 !default;
+
+$c-accent: #964200 !default;
+$c-accent-light: #caa080 !default;
+$c-accent-dark: #612a00 !default;
+
+$c-featured: #ffe613 !default;
+
+$c-white: #ffffff !default;
+$c-black: #000000 !default;
+
+$c-error: #d92b2b !default;
+$c-warning: #e69c2e !default;
+$c-success: #8cbf26 !default;
+
+// Grays
+$c-gray: #777777 !default;
+$c-gray-dark: #4d4d4d !default;
+$c-gray-light: #bbbbbb !default;
+$c-gray-lightest: #f1f1f1 !default;
+
+// Text
+$c-text-base: $c-gray-dark !default;
+$c-text-accent: $c-accent !default;
+$c-text-link: $c-text-accent !default;
+
+// Social
+$c-facebook: #3b5998 !default;
+$c-twitter: #55acee !default;
+$c-google: #d34836 !default;
+$c-youtube: #bb0000 !default;
