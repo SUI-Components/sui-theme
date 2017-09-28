@@ -2,8 +2,19 @@
 
 All notable changes to this project will be documented in this file.
 
+<a name="7.26.0"></a>
+# 7.26.0 (2017-09-28)
+
+
+### Features
+
+* **components:** adapt var name to convention. ([50f6451](https://github.com/SUI-Components/theme-basic/commit/50f6451))
+* **components:** add bgc-expanded var for collapsible component. ([a070b42](https://github.com/SUI-Components/theme-basic/commit/a070b42))
+
+
+
 <a name="7.25.0"></a>
-# 7.25.0 (2017-09-19)
+# [7.25.0](https://github.com/SUI-Components/theme-basic/compare/7.24.0...7.25.0) (2017-09-19)
 
 
 ### Features
