@@ -10,15 +10,17 @@ $fw-semi-bold: 500 !default;
 $fw-bold: 700 !default;
 
 // Font sizes
-$fz-m: 16px !default;           // 16px
-$fz-giant: $fz-m + 20 !default; // 36px
-$fz-xxxl: $fz-m + 12 !default;  // 28px
-$fz-xxl: $fz-m + 8 !default;    // 24px
-$fz-xl: $fz-m + 4 !default;     // 20px
-$fz-l: $fz-m + 2 !default;      // 18px
-$fz-s: $fz-m - 2 !default;      // 14px
-$fz-xs: $fz-m - 4 !default;     // 12px
-$fz-xxs: $fz-m - 6 !default;    // 10px
+$fz-base: 16px !default;           // 16px
+
+$fz-giant: $fz-base + 20 !default; // 36px
+$fz-xxxl: $fz-base + 12 !default;  // 28px
+$fz-xxl: $fz-base + 8 !default;    // 24px
+$fz-xl: $fz-base + 4 !default;     // 20px
+$fz-l: $fz-base + 2 !default;      // 18px
+$fz-m: $fz-base !default;          // 16px
+$fz-s: $fz-base - 2 !default;      // 14px
+$fz-xs: $fz-base - 4 !default;     // 12px
+$fz-xxs: $fz-base - 6 !default;    // 10px
 
 // Semantic font sizes
 $fz-h1: $fz-giant !default; // 36px
