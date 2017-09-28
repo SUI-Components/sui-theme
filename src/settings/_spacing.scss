@@ -1,31 +1,30 @@
-// Margins
-$m-base: 16px !default;
-$m-v: ceil($m-base / 2) !default;
-$m-h: $m-base !default;
-$m-v-xsmall: ceil($m-v / 3) !default;
-$m-h-xsmall: ceil($m-h / 3) !default;
-$m-v-small: ceil($m-v / 2) !default;
-$m-h-small: ceil($m-h / 2) !default;
-$m-v-large: ceil($m-v * 2) !default;
-$m-h-large: ceil($m-h * 2) !default;
-$m-v-xlarge: ceil($m-v * 3) !default;
-$m-h-xlarge: ceil($m-h * 3) !default;
+// Spacings
+//
+// The naming convention used for variables is based on Emmet.
+// See [Emmet cheat sheet](http://docs.emmet.io/cheat-sheet/)
+//
+// Primary prefixes:
+// * m = margin
+// * p = padding
+//
+// Secondary prefixes:
+// * v = vertical
+// * h = horizontal
 
 // Paddings
-$p-base: 16px !default;
-$p-small: ceil($p-base / 2) !default;
-$p-xsmall: ceil($p-base / 3) !default;
-$p-xxsmall: ceil($p-base / 4) !default;
-$p-v: ceil($p-base / 2) !default;
-$p-h: $p-base !default;
-$p-v-xsmall: ceil($p-v / 3) !default;
-$p-h-xsmall: ceil($p-h / 3) !default;
-$p-v-small: ceil($p-v / 2) !default;
-$p-h-small: ceil($p-h / 2) !default;
-$p-v-large: ceil($p-v * 2) !default;
-$p-h-large: ceil($p-h * 2) !default;
-$p-v-xlarge: ceil($p-v * 3) !default;
-$p-h-xlarge: ceil($p-h * 3) !default;
+$p-m: 8px !default;         // 8px
+$p-giant: $p-m*6 !default;  // 48px
+$p-xxxl: $p-m*5 !default;   // 40px
+$p-xxl: $p-m*4 !default;    // 32px
+$p-xl: $p-m*3 !default;     // 24px
+$p-l: $p-m*2 !default;      // 16px
+$p-s: $p-m/2 !default;      // 4px
 
-// Gutter
-$gutter: $p-base !default;
+// Margins
+$m-m: 8px !default;         // 8px
+$m-giant: $m-m*6 !default;  // 48px
+$m-xxxl: $m-m*5 !default;   // 40px
+$m-xxl: $m-m*4 !default;    // 32px
+$m-xl: $m-m*3 !default;     // 24px
+$m-l: $m-m*2 !default;      // 16px
+$m-s: $m-m/2 !default;      // 4px
