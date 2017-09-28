@@ -20,14 +20,17 @@
 // URLs
 $url-statics: '' !default;
 
-@import './settings/color';
 @import './settings-compat-v7/color';
-@import './settings/font';
 @import './settings-compat-v7/font';
-@import './settings/spacing';
 @import './settings-compat-v7/spacing';
+@import './settings-compat-v7/box-style';
 @import './settings-compat-v7/animation';
 @import './settings-compat-v7/layout';
+
+@import './settings/color';
+@import './settings/font';
+@import './settings/spacing';
 @import './settings/box-style';
 @import './settings/icon';
+
 @import './components/settings';
