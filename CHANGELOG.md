@@ -2,8 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+<a name="7.27.0"></a>
+# 7.27.0 (2017-09-28)
+
+
+### Bug Fixes
+
+* **settings:** add need functions in settings/color ([3f791e2](https://github.com/SUI-Components/theme-basic/commit/3f791e2))
+
+
+
 <a name="7.26.0"></a>
-# 7.26.0 (2017-09-28)
+# [7.26.0](https://github.com/SUI-Components/theme-basic/compare/7.25.0...7.26.0) (2017-09-28)
 
 
 ### Features

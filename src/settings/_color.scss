@@ -1,5 +1,7 @@
 // --- Colors --- //
 
+@import '../utils/_colors';
+
 // Shade step {color}-light or {color}-dark variation
 $c-dark-step: -2 !default;
 $c-light-step: 2 !default;
