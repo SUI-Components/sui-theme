@@ -1,9 +1,5 @@
 // --- Color --- //
 
-// Variation step {color}-light or {color}-dark variation
-$c-dark-variation-step: -2 !default;
-$c-light-variation-step: 2 !default;
-
 // Color Variations Function:
 
 // Description:
@@ -37,16 +33,4 @@ $c-light-variation-step: 2 !default;
   } @else {
     @return mix(white, $color, nth($step-variations-positive, $step));
   }
-}
-
-// Dark Variations Function
-// Returns the darker variation of a color, as defined in color palette
-@function dark-variation($color) {
-  @return color-variation($color, $c-dark-variation-step)
-}
-
-// Light Variations Function
-// Returns the lighter variation of a color, as defined in color palette
-@function light-variation($color) {
-  @return color-variation($color, $c-light-variation-step)
 }
