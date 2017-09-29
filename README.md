@@ -1,4 +1,4 @@
-> @schibstedspain/theme-basic is deprecated. Please use @s-ui/theme instead.
+> @schibstedspain/theme-basic is deprecated. Please use @schibstedspain/sui-theme instead.
 
 # SUI Components Basic Theme
 
