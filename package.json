@@ -1,7 +1,7 @@
 {
-  "name": "@schibstedspain/theme-basic",
+  "name": "@schibstedspain/sui-theme",
   "version": "7.28.0",
-  "description": "Generic theme to add styles to all generic components",
+  "description": "Generic theme to add styles to all SUI components",
   "main": "lib/index.scss",
   "scripts": {
     "clean:lib": "rimraf ./lib/*",
@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SUI-Components/theme-basic.git"
+    "url": "git+https://github.com/SUI-Components/sui-theme.git"
   },
   "keywords": [
     "sass",
@@ -41,13 +41,13 @@
   ],
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/scm-spain/theme-basic/issues"
+    "url": "https://github.com/SUI-Components/sui-theme/issues"
   },
-  "homepage": "https://github.com/scm-spain/theme-basic#readme",
+  "homepage": "https://github.com/SUI-Components/sui-theme#readme",
   "devDependencies": {
-    "@schibstedspain/sui-lint": "2",
-    "@schibstedspain/sui-mono": "1",
-    "@schibstedspain/sui-precommit": "2",
+    "@s-ui/lint": "2",
+    "@s-ui/mono": "1",
+    "@s-ui/precommit": "2",
     "cpx": "1.5.0",
     "husky": "0.13.3",
     "rimraf": "2.5.4",
@@ -58,8 +58,8 @@
       "access": "public"
     },
     "validate-commit-msg": {
-      "types": "@schibstedspain/sui-mono/src/types"
+      "types": "@s-ui/mono/src/types"
     }
   },
-  "sasslintConfig": "./node_modules/@schibstedspain/sui-lint/sass-lint.yml"
+  "sasslintConfig": "./node_modules/@s-ui/lint/sass-lint.yml"
 }
