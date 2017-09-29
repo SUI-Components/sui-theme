@@ -1,6 +1,9 @@
 // --- Colors --- //
+//
+// Prefixes used:
+// * c = color
 
-@import '../utils/_colors';
+@import '../utils/colors';
 
 // Shade step {color}-light or {color}-dark variation
 $c-dark-step: -2 !default;

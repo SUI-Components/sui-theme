@@ -1,3 +1,5 @@
+> @schibstedspain/theme-basic is deprecated. Please use @schibstedspain/sui-theme instead.
+
 # SUI Components Basic Theme
 
 This repository contains:
