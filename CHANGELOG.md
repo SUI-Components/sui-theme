@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+<a name="7.28.0"></a>
+# 7.28.0 (2017-09-29)
+
+
+### Bug Fixes
+
+* **META:** deprecated this version in favor of upcoming v8 ([ec3a893](https://github.com/SUI-Components/theme-basic/commit/ec3a893))
+* **META:** rename deprecation to [@schibstedspain](https://github.com/schibstedspain)/sui-theme ([23ad73e](https://github.com/SUI-Components/theme-basic/commit/23ad73e))
+
+
+
 <a name="7.27.0"></a>
 # 7.27.0 (2017-09-28)
 
