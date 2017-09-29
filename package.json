@@ -41,9 +41,9 @@
   ],
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/scm-spain/sui-theme/issues"
+    "url": "https://github.com/SUI-Components/sui-theme/issues"
   },
-  "homepage": "https://github.com/scm-spain/sui-theme#readme",
+  "homepage": "https://github.com/SUI-Components/sui-theme#readme",
   "devDependencies": {
     "@s-ui/lint": "2",
     "@s-ui/mono": "1",

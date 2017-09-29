@@ -21,6 +21,27 @@ If you want to customize your components, create your own theme and add it to yo
 @import '~@schibstedspain/sui-theme/src/index';
 ```
 
+## Upgrade from theme-basic@7
+Compatibility variables are still available to import manually.
+
+**Import only what you need, in inheritance order**
+
+For instance:
+```
+@import '../custom-settings';
+@import '~@schibstedspain/sui-theme/src/settings-compat-v7/color';
+@import '~@schibstedspain/sui-theme/src/settings-compat-v7/spacing';
+@import '~@schibstedspain/sui-theme/src/index';
+```
+
+Find below de compat varible groups available:
+
+* [settings-compat-v7/color](https://github.com/SUI-Components/sui-theme/blob/master/src/settings-compat-v7/_color.scss)
+* [settings-compat-v7/font](https://github.com/SUI-Components/sui-theme/blob/master/src/settings-compat-v7/_font.scss)
+* [settings-compat-v7/spacing](https://github.com/SUI-Components/sui-theme/blob/master/src/settings-compat-v7/_spacing.scss)
+* [settings-compat-v7/box-style](https://github.com/SUI-Components/sui-theme/blob/master/src/settings-compat-v7/_box-style.scss)
+* [settings-compat-v7/animation](https://github.com/SUI-Components/sui-theme/blob/master/src/settings-compat-v7/_animation.scss)
+* [settings-compat-v7/layout](https://github.com/SUI-Components/sui-theme/blob/master/src/settings-compat-v7/_layout.scss)
 
 ## Update
 If you need to update any of these variables please pull request.
