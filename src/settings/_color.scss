@@ -17,12 +17,12 @@ $c-light-step: 2 !default;
 $c-system: #000 !default;
 
 // Primary color
-$c-primary: #005496 !default;
+$c-primary: #2b91c1 !default;
 $c-primary-light: color-variation($c-primary, $c-light-step) !default;
 $c-primary-dark: color-variation($c-primary, $c-dark-step) !default;
 
 // Secondary/Accent color
-$c-accent: #964200 !default;
+$c-accent: #d57c1b !default;
 $c-accent-light: color-variation($c-accent, $c-light-step) !default;
 $c-accent-dark: color-variation($c-accent, $c-dark-step) !default;
 
