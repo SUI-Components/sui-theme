@@ -2,8 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+<a name="8.1.0"></a>
+# 8.1.0 (2017-10-02)
+
+
+### Bug Fixes
+
+* **settings:** remove components settings as part of old naming ([7955126](https://github.com/SUI-Components/sui-theme/commit/7955126))
+
+
+
 <a name="8.0.0"></a>
-# 8.0.0 (2017-09-29)
+# [8.0.0](https://github.com/SUI-Components/sui-theme/compare/7.28.0...8.0.0) (2017-09-29)
 
 
 ### Features
