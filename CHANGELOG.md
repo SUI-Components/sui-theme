@@ -2,13 +2,30 @@
 
 All notable changes to this project will be documented in this file.
 
-<a name="8.1.0"></a>
-# 8.1.0 (2017-10-02)
+<a name="8.2.0"></a>
+# 8.2.0 (2017-10-04)
 
 
 ### Bug Fixes
 
-* **settings:** remove components settings as part of old naming ([7955126](https://github.com/SUI-Components/sui-theme/commit/7955126))
+* **settings:** apply color changes from design ([b61a2a6](https://github.com/SUI-Components/sui-theme/commit/b61a2a6))
+* **settings:** rename icons sizes to sz-icon-* ([8c3fa50](https://github.com/SUI-Components/sui-theme/commit/8c3fa50))
+
+
+### Features
+
+* **settings:** add border-radius value as defined in design ([1a9faa4](https://github.com/SUI-Components/sui-theme/commit/1a9faa4))
+* **settings-compat-v7:** add all compat settings ([cf5f97d](https://github.com/SUI-Components/sui-theme/commit/cf5f97d))
+
+
+
+<a name="8.1.0"></a>
+# 8.1.0 (2017-10-04)
+
+
+### Bug Fixes
+
+* **settings:** remove components settings as part of old naming ([d4c9fdd](https://github.com/SUI-Components/sui-theme/commit/d4c9fdd))
 
 
 
@@ -18,6 +35,7 @@ All notable changes to this project will be documented in this file.
 
 ### Features
 
+* **components:** add new vars for form elements: input, textarea, checkbox. ([7ac9194](https://github.com/SUI-Components/sui-theme/commit/7ac9194))
 * **settings:** remove compat imports ([fa842e6](https://github.com/SUI-Components/sui-theme/commit/fa842e6))
 * **settings:** rename to sui-theme ([398f8e3](https://github.com/SUI-Components/sui-theme/commit/398f8e3))
 
