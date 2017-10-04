@@ -1,0 +1,31 @@
+// --- SUI List --- //
+// @include sui-list;
+// @include sui-list('inline');
+// @include sui-list('grow');
+
+@mixin sui-list-gutter {
+  &:not(:last-child) {
+    margin-right: $m-list-gutter;
+  }
+}
+
+@mixin sui-list($type: 'block'){
+  @include reset-list;
+  display: flex;
+
+  @if $type == 'block' {
+    flex-direction: column;
+  }
+
+  &-item {
+    @if $type == 'inline' {
+      flex: 0 0 auto;
+      @include sui-list-gutter;
+    }
+
+    @if $type == 'grow' {
+      flex: 1 1 auto;
+      @include sui-list-gutter;
+    }
+  }
+};

@@ -1,28 +1,30 @@
 {
-  "name": "@schibstedspain/theme-basic",
-  "version": "7.5.0",
-  "description": "Generic theme to add styles to all generic components",
+  "name": "@schibstedspain/sui-theme",
+  "version": "8.2.0",
+  "description": "Generic theme to add styles to all SUI components",
   "main": "lib/index.scss",
   "scripts": {
-    "lint": "npm run lint:sass",
-    "lint:sass": "node_modules/.bin/sass-lint src/**/*.scss -c -v",
     "clean:lib": "rimraf ./lib/*",
-    "prelib": "npm run clean:lib -s",
+    "co": "sui-mono commit",
     "lib": "npm run lib:styles",
     "lib:styles": "cpx './src/**/*.scss' lib/",
-    "prepublish": "npm run lib"
+    "lint": "npm run lint:sass",
+    "lint:sass": "sui-lint sass",
+    "phoenix": "rimraf node_modules && npm i",
+    "precommit": "sui-precommit run",
+    "prelib": "npm run clean:lib -s",
+    "prepublish": "npm run lib",
+    "release": "sui-mono release",
+    "release:check": "sui-mono check"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SUI-Components/theme-basic.git"
+    "url": "git+https://github.com/SUI-Components/sui-theme.git"
   },
   "keywords": [
     "sass",
     "theme",
     "basic"
-  ],
-  "pre-commit": [
-    "lint"
   ],
   "author": "David Garcia <david.garcia@scmspain.com>",
   "contributors": [
@@ -39,11 +41,25 @@
   ],
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/scm-spain/theme-basic/issues"
+    "url": "https://github.com/SUI-Components/sui-theme/issues"
   },
-  "homepage": "https://github.com/scm-spain/theme-basic#readme",
+  "homepage": "https://github.com/SUI-Components/sui-theme#readme",
   "devDependencies": {
+    "@s-ui/lint": "2",
+    "@s-ui/mono": "1",
+    "@s-ui/precommit": "2",
     "cpx": "1.5.0",
-    "rimraf": "2"
-  }
+    "husky": "0.13.3",
+    "rimraf": "2.5.4",
+    "validate-commit-msg": "2.12.2"
+  },
+  "config": {
+    "sui-mono": {
+      "access": "public"
+    },
+    "validate-commit-msg": {
+      "types": "@s-ui/mono/src/types"
+    }
+  },
+  "sasslintConfig": "./node_modules/@s-ui/lint/sass-lint.yml"
 }

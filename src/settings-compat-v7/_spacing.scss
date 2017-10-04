@@ -1,0 +1,31 @@
+// Margins
+$m-base: 16px !default;
+$m-v: ceil($m-base / 2) !default;
+$m-h: $m-base !default;
+$m-v-xsmall: ceil($m-v / 3) !default;
+$m-h-xsmall: ceil($m-h / 3) !default;
+$m-v-small: ceil($m-v / 2) !default;
+$m-h-small: ceil($m-h / 2) !default;
+$m-v-large: ceil($m-v * 2) !default;
+$m-h-large: ceil($m-h * 2) !default;
+$m-v-xlarge: ceil($m-v * 3) !default;
+$m-h-xlarge: ceil($m-h * 3) !default;
+
+// Paddings
+$p-base: 16px !default;
+$p-small: ceil($p-base / 2) !default;
+$p-xsmall: ceil($p-base / 3) !default;
+$p-xxsmall: ceil($p-base / 4) !default;
+$p-v: ceil($p-base / 2) !default;
+$p-h: $p-base !default;
+$p-v-xsmall: ceil($p-v / 3) !default;
+$p-h-xsmall: ceil($p-h / 3) !default;
+$p-v-small: ceil($p-v / 2) !default;
+$p-h-small: ceil($p-h / 2) !default;
+$p-v-large: ceil($p-v * 2) !default;
+$p-h-large: ceil($p-h * 2) !default;
+$p-v-xlarge: ceil($p-v * 3) !default;
+$p-h-xlarge: ceil($p-h * 3) !default;
+
+// Gutter
+$gutter: $p-base !default;

@@ -1,0 +1,15 @@
+// --- Layout --- //
+
+$w-layout: 980px !default;
+$w-layout-large: 1280px !default;
+
+// Breakpoints
+$breakpoints: (
+  xxs: 0,
+  xs: 320px,
+  s: 576px,
+  m: 768px,
+  l: 992px,
+  xl: 1200px
+) !default;
+$breakpoint-names: map-keys($breakpoints) !default;

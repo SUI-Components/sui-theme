@@ -1,0 +1,64 @@
+// --- Colors --- //
+//
+// Prefixes used:
+// * c = color
+
+@import '../utils/colors';
+
+// Shade step {color}-light or {color}-dark variation
+$c-dark-step: -2 !default;
+$c-light-step: 2 !default;
+
+///////////////////////////////////////////////////////////////////////////////
+// Color Palette
+///////////////////////////////////////////////////////////////////////////////
+
+// System color
+$c-system: #000 !default;
+
+// Primary color
+$c-primary: #2b91c1 !default;
+$c-primary-light: color-variation($c-primary, $c-light-step) !default;
+$c-primary-dark: color-variation($c-primary, $c-dark-step) !default;
+
+// Secondary/Accent color
+$c-accent: #d57c1b !default;
+$c-accent-light: color-variation($c-accent, $c-light-step) !default;
+$c-accent-dark: color-variation($c-accent, $c-dark-step) !default;
+
+// Gray color
+$c-gray: #777777 !default;
+$c-gray-light: color-variation($c-gray, $c-light-step) !default;
+$c-gray-dark: color-variation($c-gray, $c-dark-step) !default;
+$c-gray-lightest: color-variation($c-gray, 4) !default;
+
+
+// Success color
+$c-success: #8bc34a !default;
+$c-success-light: color-variation($c-success, $c-light-step) !default;
+$c-success-dark: color-variation($c-success, $c-dark-step) !default;
+
+// Alert color
+$c-alert: #f5a623 !default;
+$c-alert-light: color-variation($c-alert, $c-light-step) !default;
+$c-alert-dark: color-variation($c-alert, $c-dark-step) !default;
+
+// Error/Warning color
+$c-error: #f44c23 !default;
+$c-error-light: color-variation($c-error, $c-light-step) !default;
+$c-error-dark: color-variation($c-error, $c-dark-step) !default;
+
+///////////////////////////////////////////////////////////////////////////////
+// Specific Colors
+///////////////////////////////////////////////////////////////////////////////
+
+// Text colors
+$c-text-base: $c-gray-dark !default;
+$c-text-accent: $c-accent !default;
+$c-text-link: $c-text-accent !default;
+
+// Social brand colors
+$c-facebook: #3b5998 !default;
+$c-twitter: #55acee !default;
+$c-google: #d34836 !default;
+$c-youtube: #bb0000 !default;
