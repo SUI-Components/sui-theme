@@ -388,3 +388,22 @@ $m-v-list-image-item-full-gutter: $m-v * 2 !default;
 $m-h-list-image-item-full-gutter: $m-h !default;
 $bg-list-image-last-item: $c-gray-dark !default;
 $op-list-image-last-item: .65 !default;
+
+// Form elements
+// - Checkbox
+$fz-form-checkbox-text-label: $fz-s !default;
+$fz-form-checkbox-error-message: $fz-s !default;
+$c-form-checkbox-text-label: $c-gray-dark !default;
+$c-form-checkbox-error-message: $c-error !default;
+
+// - Text area
+$bgc-form-textarea: $c-gray-lightest !default;
+$c-form-textarea-inner-text: $c-gray-dark !default;
+$fz-form-textarea-inner-text: $fz-m !default;
+
+// - Text input
+$c-form-text-input-placeholder: $c-gray-light !default;
+$c-form-text-input-value: $c-gray-dark !default;
+$c-form-text-input-error-message: $c-error !default;
+$fz-form-text-input-inner-text: $fz-m !default;
+$fw-form-text-input-inner-text: $fw-light !default;
