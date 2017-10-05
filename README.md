@@ -11,14 +11,14 @@ This repository contains:
 Import `sui-theme` into your sui-component including the path in `index.scss`:
 
 ```
-@import '../node_modules/@schibstedspain/sui-theme/src/index';
+@import '../node_modules/@schibstedspain/sui-theme/lib/index';
 ```
 
 If you want to customize your components, create your own theme and add it to your component just __before__ the sui-theme import.
 
 ```
 @import '../custom-settings';
-@import '~@schibstedspain/sui-theme/src/index';
+@import '~@schibstedspain/sui-theme/lib/index';
 ```
 
 ## Upgrade from theme-basic@7
@@ -29,9 +29,9 @@ Compatibility variables are still available to import manually.
 For instance:
 ```
 @import '../custom-settings';
-@import '~@schibstedspain/sui-theme/src/settings-compat-v7/color';
-@import '~@schibstedspain/sui-theme/src/settings-compat-v7/spacing';
-@import '~@schibstedspain/sui-theme/src/index';
+@import '~@schibstedspain/sui-theme/lib/settings-compat-v7/color';
+@import '~@schibstedspain/sui-theme/lib/settings-compat-v7/spacing';
+@import '~@schibstedspain/sui-theme/lib/index';
 ```
 
 Find below de compat varible groups available:
@@ -43,6 +43,13 @@ Find below de compat varible groups available:
 * [settings-compat-v7/animation](https://github.com/SUI-Components/sui-theme/blob/master/src/settings-compat-v7/_animation.scss)
 * [settings-compat-v7/layout](https://github.com/SUI-Components/sui-theme/blob/master/src/settings-compat-v7/_layout.scss)
 * [settings-compat-v7/components](https://github.com/SUI-Components/sui-theme/blob/master/src/settings-compat-v7/_components.scss)
+
+
+**Also, if you need it all for older components, you can do**
+```
+@import '~@schibstedspain/sui-theme/lib/settings-compat-v7/index';
+@import '~@schibstedspain/sui-theme/lib/index';
+```
 
 ## Update
 If you need to update any of these variables please pull request.
