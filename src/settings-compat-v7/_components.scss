@@ -297,9 +297,12 @@ $c-tab-active: $c-primary !default;
 
 // Tag
 $c-tag: $c-text-base !default;
+$c-tag-selected: $c-text-base !default;
 $bd-tag: 1px solid $c-gray-light !default;
+$bd-tag-selected: 1px solid $c-primary !default;
 $bgc-tag: $c-white !default;
 $bgc-tag-hover: $c-white !default;
+$bgc-tag-selected: $c-white !default;
 $bdrs-tag: $bdrs-base !default;
 $fz-tag: $fz-s !default;
 $lh-tag: 1.5em !default;
