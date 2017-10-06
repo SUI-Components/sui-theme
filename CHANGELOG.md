@@ -2,8 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+<a name="8.4.0"></a>
+# 8.4.0 (2017-10-06)
+
+
+### Features
+
+* **settings-compat-v7:** add an easier way to make fully compatible with v7 ([2107412](https://github.com/SUI-Components/sui-theme/commit/2107412))
+
+
+
 <a name="8.2.0"></a>
-# 8.2.0 (2017-10-04)
+# [8.2.0](https://github.com/SUI-Components/sui-theme/compare/8.0.0...8.2.0) (2017-10-04)
 
 
 ### Bug Fixes
