@@ -2,8 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+<a name="8.5.0"></a>
+# 8.5.0 (2017-10-09)
+
+
+### Features
+
+* **components:** new variables for seletable tag ([ccb9d65](https://github.com/SUI-Components/sui-theme/commit/ccb9d65))
+
+
+
 <a name="8.4.0"></a>
-# 8.4.0 (2017-10-06)
+# [8.4.0](https://github.com/SUI-Components/sui-theme/compare/8.3.0...8.4.0) (2017-10-06)
 
 
 ### Features
