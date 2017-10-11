@@ -413,3 +413,10 @@ $c-form-text-input-value: $c-gray-dark !default;
 $c-form-text-input-error-message: $c-error !default;
 $fz-form-text-input-inner-text: $fz-m !default;
 $fw-form-text-input-inner-text: $fw-light !default;
+
+// Status spot
+$c-status-spot-default: $c-primary !default;
+$c-status-spot-high: $c-success !default;
+$c-status-spot-medium: $c-alert !default;
+$c-status-spot-low: $c-error !default;
+$size-status-spot: 15px !default;
