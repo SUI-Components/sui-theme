@@ -5,7 +5,7 @@
 // @include sui-badge-notification($pseudo:true);
 // Markup ---> data-notification-counter={5}
 
-%sui-badge-notification-element {
+@mixin sui-badge-notification-element {
   background-color: $c-primary;
   border: $bd-badge-notification;
   border-radius: 50%;
@@ -18,7 +18,7 @@
   min-width: $badge-notification-size;
   padding: $p-badge-notification;
   text-align: center;
-  text-shadow: $tsh-badge-notification;
+  text-shadow: $bxsh-base;
 }
 
 @mixin sui-badge-notification($pseudo: false, $top: 0, $right: 0) {
@@ -26,14 +26,14 @@
     position: relative;
 
     &::before {
-      @extend %sui-badge-notification-element;
+      @include sui-badge-notification-element;
       content: attr(data-notification-counter);
       position: absolute;
       right: $right;
       top: $top;
     }
   } @else {
-    @extend %sui-badge-notification-element;
-      border: 0;
+    @include sui-badge-notification-element;
+    border: 0;
   }
 }
