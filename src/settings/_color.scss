@@ -34,17 +34,17 @@ $c-gray-lightest: color-variation($c-gray, 4) !default;
 
 
 // Success color
-$c-success: #8bc34a !default;
+$c-success: #00a544 !default;
 $c-success-light: color-variation($c-success, $c-light-step) !default;
 $c-success-dark: color-variation($c-success, $c-dark-step) !default;
 
 // Alert color
-$c-alert: #f5a623 !default;
+$c-alert: #ff6335 !default;
 $c-alert-light: color-variation($c-alert, $c-light-step) !default;
 $c-alert-dark: color-variation($c-alert, $c-dark-step) !default;
 
-// Error/Warning color
-$c-error: #f44c23 !default;
+// Error color
+$c-error: #e93e40 !default;
 $c-error-light: color-variation($c-error, $c-light-step) !default;
 $c-error-dark: color-variation($c-error, $c-dark-step) !default;
 
