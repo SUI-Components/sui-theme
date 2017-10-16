@@ -12,10 +12,10 @@
   color: $c-white;
   display: inline-block;
   font-size: $fz-xs;
-  line-height: $badge-notification-size;
+  line-height: $size-badge-notification;
   margin: $m-badge-notification;
-  min-height: $badge-notification-size;
-  min-width: $badge-notification-size;
+  min-height: $size-badge-notification;
+  min-width: $size-badge-notification;
   padding: $p-badge-notification;
   text-align: center;
   text-shadow: $bxsh-base;
