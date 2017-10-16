@@ -2,8 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+<a name="8.6.0"></a>
+# 8.6.0 (2017-10-13)
+
+
+### Bug Fixes
+
+* **settings:** new success, alert and error colors ([bd5ac09](https://github.com/SUI-Components/sui-theme/commit/bd5ac09))
+
+
+
 <a name="8.5.0"></a>
-# 8.5.0 (2017-10-09)
+# [8.5.0](https://github.com/SUI-Components/sui-theme/compare/8.4.0...8.5.0) (2017-10-09)
 
 
 ### Features
