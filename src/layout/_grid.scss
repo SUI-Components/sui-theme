@@ -10,9 +10,14 @@
 // @include sui-cell-inline;
 // or...
 // @include sui-cell-of(2);
+//
+// Custom gutter:
+// @include sui-grid($gutter: $custom-gutter)
+// @include sui-cell-of($col-num, $gutter: $custom-gutter)
+
 
 // Grid
-@mixin sui-grid ($add-gutter: true, $inline: false) {
+@mixin sui-grid ($add-gutter: true, $inline: false, $gutter: $gutter) {
   display: flex;
 
   @if $add-gutter == true {
@@ -32,7 +37,7 @@
 }
 
 // Cell
-@mixin sui-cell ($inline: false) {
+@mixin sui-cell ($inline: false, $gutter: $gutter) {
   flex: 1;
   margin: 0;
   padding: 0;
@@ -50,14 +55,14 @@
   }
 }
 
-@mixin sui-cell-inline () {
+@mixin sui-cell-inline {
   @include sui-cell ($inline: true)
 }
 
-@mixin sui-cell-of($col-num) {
+@mixin sui-cell-of($col-num, $gutter: $gutter) {
   $w-content: 100% / $col-num;
 
-  @include sui-cell;
+  @include sui-cell($gutter: $gutter);
   flex-basis: calc(#{$w-content} - #{$gutter});
 
   &:nth-child(#{$col-num}n) {

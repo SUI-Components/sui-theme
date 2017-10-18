@@ -29,3 +29,4 @@ $p-h-xlarge: ceil($p-h * 3) !default;
 
 // Gutter
 $gutter: $p-base !default;
+$gutter-s: $gutter / 2 !default;
