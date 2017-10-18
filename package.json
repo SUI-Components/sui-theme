@@ -1,6 +1,6 @@
 {
   "name": "@schibstedspain/sui-theme",
-  "version": "8.10.0",
+  "version": "8.11.0",
   "description": "Generic theme to add styles to all SUI components",
   "main": "lib/index.scss",
   "scripts": {
