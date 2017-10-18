@@ -2,8 +2,23 @@
 
 All notable changes to this project will be documented in this file.
 
+<a name="8.8.0"></a>
+# 8.8.0 (2017-10-17)
+
+
+
+<a name="8.7.0"></a>
+# 8.7.0 (2017-10-17)
+
+
+### Features
+
+* **settings-compat-v7:** change var in notification badge ([f0b75bb](https://github.com/SUI-Components/sui-theme/commit/f0b75bb))
+
+
+
 <a name="8.6.0"></a>
-# 8.6.0 (2017-10-13)
+# [8.6.0](https://github.com/SUI-Components/sui-theme/compare/8.5.0...8.6.0) (2017-10-13)
 
 
 ### Bug Fixes
