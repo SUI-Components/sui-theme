@@ -5,12 +5,12 @@ $fw-semi-bold: 600 !default;
 
 // Font sizes
 $fz-base: 14 !default;
-$fz-body: $fz-base * 1px !default;
-$fz-xs: ceil($fz-base * .666) * 1px !default;
-$fz-s: ceil($fz-base * .8) * 1px !default;
-$fz-m: $fz-base * 1px !default;
-$fz-l: ceil($fz-base * 1.25) * 1px !default;
-$fz-xl: ceil($fz-base * 1.75) * 1px !default;
+$fz-body: strip-unit($fz-base) * 1px !default;
+$fz-xs: strip-unit($ceil($fz-base * .666)) * 1px !default;
+$fz-s: strip-unit(ceil($fz-base * .8)) * 1px !default;
+$fz-m: strip-unit($fz-base) * 1px !default;
+$fz-l: strip-unit(ceil($fz-base * 1.25)) * 1px !default;
+$fz-xl: strip-unit(ceil($fz-base * 1.75)) * 1px !default;
 
 // Font sizes for headings
 $fz-h1: 32px !default;
