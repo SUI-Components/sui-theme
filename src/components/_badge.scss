@@ -6,7 +6,7 @@
 // Markup ---> data-notification-counter={5}
 
 @mixin sui-badge-notification-element {
-  background-color: $c-primary;
+  background-color: $c-badge-notification;
   border: $bd-badge-notification;
   border-radius: 50%;
   color: $c-white;
