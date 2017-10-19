@@ -2,8 +2,20 @@
 
 All notable changes to this project will be documented in this file.
 
+<a name="8.12.0"></a>
+# 8.12.0 (2017-10-19)
+
+
+### Features
+
+* **components:** add new var color in badge notification ([6274623](https://github.com/SUI-Components/sui-theme/commit/6274623))
+* **components:** change in background color badge notification ([fa6fd1b](https://github.com/SUI-Components/sui-theme/commit/fa6fd1b))
+* **settings-compat-v7:** undo wrong color assign in badge notification to primary ([fb5d610](https://github.com/SUI-Components/sui-theme/commit/fb5d610))
+
+
+
 <a name="8.8.0"></a>
-# 8.8.0 (2017-10-17)
+# [8.8.0](https://github.com/SUI-Components/sui-theme/compare/8.6.0...8.8.0) (2017-10-17)
 
 
 
