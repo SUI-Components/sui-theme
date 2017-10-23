@@ -2,8 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+<a name="8.14.0"></a>
+# 8.14.0 (2017-10-23)
+
+
+### Features
+
+* **settings-compat-v7:** remove title and cover vars from settings-compat-v7 file. ([45c6dbd](https://github.com/SUI-Components/sui-theme/commit/45c6dbd))
+
+
+
 <a name="8.12.0"></a>
-# 8.12.0 (2017-10-19)
+# [8.12.0](https://github.com/SUI-Components/sui-theme/compare/8.11.0...8.12.0) (2017-10-19)
 
 
 ### Features
