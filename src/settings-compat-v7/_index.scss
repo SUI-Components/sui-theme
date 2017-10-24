@@ -20,19 +20,19 @@
 // URLs
 $url-statics: '' !default;
 
-@import './_color.scss';
-@import '../settings/_color.scss';
+@import './color';
+@import '../settings/color';
 
-@import './_font.scss';
-@import '../settings/_font.scss';
+@import './font';
+@import '../settings/font';
 
-@import './_box-style.scss';
-@import '../settings/_box-style.scss';
+@import './box-style';
+@import '../settings/box-style';
 
-@import './_spacing.scss';
-@import '../settings/_spacing.scss';
-@import '../settings/_size.scss';
+@import './spacing';
+@import '../settings/spacing';
+@import '../settings/size';
 
-@import './_animation.scss';
-@import './_layout.scss';
-@import './_components.scss';
+@import './animation';
+@import './layout';
+@import './components';
