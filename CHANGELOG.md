@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 
 <a name="8.14.0"></a>
+# 8.14.1 (2017-10-24)
+
+
+### Bug Fixes
+
+* **components:** fixed flex-basis value on list grow type ([947afaf](https://github.com/SUI-Components/sui-theme/commit/947afaf))
+
+
+
+<a name="8.14.0"></a>
 # 8.14.0 (2017-10-23)
 
 
@@ -249,6 +259,3 @@ All notable changes to this project will be documented in this file.
 * **cover/basic:** add default css properties ([c645647](https://github.com/SUI-Components/sui-theme/commit/c645647))
 * **META:** sui migration ([e9142cd](https://github.com/SUI-Components/sui-theme/commit/e9142cd))
 * **META:** version fix ([ae31ec1](https://github.com/SUI-Components/sui-theme/commit/ae31ec1))
-
-
-
