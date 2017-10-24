@@ -7,10 +7,11 @@
 // * lh = line height
 
 // Font family in case no font was defined
-$sui-theme-ff-sans-serif: 'Open Sans', Helvetica, sans-serif;
+$ff-open-sans: 'Open Sans', Helvetica, sans-serif;
+$ff-open-sans-import: true !default;
 
 // Font family
-$ff-sans-serif: $sui-theme-ff-sans-serif !default;
+$ff-sans-serif: $ff-open-sans !default;
 
 // Font weights
 $fw-light: 300 !default;
@@ -51,6 +52,7 @@ $lh-xs: $fz-xs * 1.2 !default;
 $lh-xxs: $fz-xxs * 1.2 !default;
 
 // Loads font only if its default one
-@if($ff-sans-serif == $sui-theme-ff-sans-serif) {
-  @import url('https://fonts.googleapis.com/css?family=Open+Sans:#{$fw-light},#{$fw-regular},#{$fw-regular}i,#{$fw-semi-bold},#{$fw-bold},#{$fw-bold}i')
+@if($ff-open-sans-import == true and $ff-sans-serif == $ff-open-sans) {
+  @import url('https://fonts.googleapis.com/css?family=Open+Sans:#{$fw-light},#{$fw-regular},#{$fw-regular}i,#{$fw-semi-bold},#{$fw-bold},#{$fw-bold}i');
+  $ff-open-sans-import: false !global;
 }
