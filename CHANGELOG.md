@@ -2,12 +2,20 @@
 
 All notable changes to this project will be documented in this file.
 
+<a name="8.16.0"></a>
+# 8.16.0 (2017-10-25)
+
+
+
 <a name="8.15.0"></a>
-# 8.15.0 (2017-10-25)
+# [8.15.0](https://github.com/SUI-Components/sui-theme/compare/8.14.1...8.15.0) (2017-10-25)
 
 
 ### Features
 
+* **components:** change format of sass-lint comment to avoid comments compilation ([f48dec7](https://github.com/SUI-Components/sui-theme/commit/f48dec7))
+* **settings:** add absolute colors ([451cffd](https://github.com/SUI-Components/sui-theme/commit/451cffd))
+* **settings:** add gutter vars ([11e2396](https://github.com/SUI-Components/sui-theme/commit/11e2396))
 * **settings-compat-v7:** remove form elements vars from settings-compat-v7 file. ([59e9d77](https://github.com/SUI-Components/sui-theme/commit/59e9d77))
 * **settings-compat-v7:** remove range datepicker vars ([f7435bd](https://github.com/SUI-Components/sui-theme/commit/f7435bd))
 
