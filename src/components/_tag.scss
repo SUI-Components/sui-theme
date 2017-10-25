@@ -1,4 +1,4 @@
-/* sass-lint:disable class-name-format */
+// sass-lint:disable class-name-format
 
 // --- SUI Tag --- //
 // @include sui-tag;
@@ -19,7 +19,7 @@
 
 @mixin sui-tag-link {
   @include reset-link;
-  cursor: pointer;    
+  cursor: pointer;
 
   &:hover {
     background-color: $bgc-tag-hover;

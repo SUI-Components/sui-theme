@@ -14,7 +14,7 @@ $c-light-step: 2 !default;
 ///////////////////////////////////////////////////////////////////////////////
 
 // System color
-$c-system: #000 !default;
+$c-system: #000000 !default;
 
 // Primary color
 $c-primary: #2b91c1 !default;
@@ -51,6 +51,10 @@ $c-error-dark: color-variation($c-error, $c-dark-step) !default;
 ///////////////////////////////////////////////////////////////////////////////
 // Specific Colors
 ///////////////////////////////////////////////////////////////////////////////
+
+// Absolute colors / common colors to avoid linting alerts on hardcoded values
+$c-white: #ffffff !default;
+$c-black: #000000 !default;
 
 // Text colors
 $c-text-base: $c-gray-dark !default;

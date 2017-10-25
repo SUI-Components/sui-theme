@@ -28,3 +28,8 @@ $m-xl: $m-base*3 !default;    // 24px
 $m-m: $m-base !default;       // 8px
 $m-l: $m-base*2 !default;     // 16px
 $m-s: $m-base/2 !default;     // 4px
+
+
+// Gutter
+$gutter: $p-l !default;
+$gutter-s: $gutter / 2 !default;
