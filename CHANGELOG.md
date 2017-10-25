@@ -2,18 +2,19 @@
 
 All notable changes to this project will be documented in this file.
 
+<a name="8.15.0"></a>
+# 8.15.0 (2017-10-25)
+
+
+### Features
+
+* **settings-compat-v7:** remove form elements vars from settings-compat-v7 file. ([59e9d77](https://github.com/SUI-Components/sui-theme/commit/59e9d77))
+* **settings-compat-v7:** remove range datepicker vars ([f7435bd](https://github.com/SUI-Components/sui-theme/commit/f7435bd))
+
+
+
 <a name="8.14.0"></a>
-# 8.14.1 (2017-10-24)
-
-
-### Bug Fixes
-
-* **components:** fixed flex-basis value on list grow type ([947afaf](https://github.com/SUI-Components/sui-theme/commit/947afaf))
-
-
-
-<a name="8.14.0"></a>
-# 8.14.0 (2017-10-23)
+# [8.14.0](https://github.com/SUI-Components/sui-theme/compare/8.13.0...8.14.0) (2017-10-23)
 
 
 ### Features
@@ -259,3 +260,6 @@ All notable changes to this project will be documented in this file.
 * **cover/basic:** add default css properties ([c645647](https://github.com/SUI-Components/sui-theme/commit/c645647))
 * **META:** sui migration ([e9142cd](https://github.com/SUI-Components/sui-theme/commit/e9142cd))
 * **META:** version fix ([ae31ec1](https://github.com/SUI-Components/sui-theme/commit/ae31ec1))
+
+
+
