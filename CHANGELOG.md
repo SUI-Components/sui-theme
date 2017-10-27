@@ -2,13 +2,23 @@
 
 All notable changes to this project will be documented in this file.
 
+<a name="8.19.0"></a>
+# 8.19.0 (2017-10-27)
+
+
+### Features
+
+* **settings:** added whatsapp corporative color ([cb548f4](https://github.com/SUI-Components/sui-theme/commit/cb548f4))
+
+
+
 <a name="8.16.0"></a>
 # 8.16.0 (2017-10-25)
 
 
 
 <a name="8.15.0"></a>
-# [8.15.0](https://github.com/SUI-Components/sui-theme/compare/8.14.1...8.15.0) (2017-10-25)
+# 8.15.0 (2017-10-25)
 
 
 ### Features
