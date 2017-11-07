@@ -4,9 +4,7 @@
 // @include sui-list('grow');
 
 @mixin sui-list-gutter {
-  &:not(:last-child) {
-    margin-right: $m-list-gutter;
-  }
+  margin-left: $m-list-gutter;
 }
 
 @mixin sui-list($type: 'block'){
@@ -15,6 +13,8 @@
 
   @if $type == 'block' {
     flex-direction: column;
+  } @else if $type == 'inline' or $type == 'grow' {
+    margin-left: -$m-list-gutter;
   }
 
   &-item {
