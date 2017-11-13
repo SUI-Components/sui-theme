@@ -2,8 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+<a name="8.20.0"></a>
+# 8.20.0 (2017-11-13)
+
+
+### Features
+
+* **components:** add new varibles to inputs ([ef157af](https://github.com/SUI-Components/sui-theme/commit/ef157af))
+
+
+
 <a name="8.19.0"></a>
-# 8.19.0 (2017-10-27)
+# [8.19.0](https://github.com/SUI-Components/sui-theme/compare/8.17.0...8.19.0) (2017-10-27)
 
 
 ### Features
@@ -13,12 +23,12 @@ All notable changes to this project will be documented in this file.
 
 
 <a name="8.16.0"></a>
-# 8.16.0 (2017-10-25)
+# [8.16.0](https://github.com/SUI-Components/sui-theme/compare/8.15.0...8.16.0) (2017-10-25)
 
 
 
 <a name="8.15.0"></a>
-# 8.15.0 (2017-10-25)
+# [8.15.0](https://github.com/SUI-Components/sui-theme/compare/8.14.1...8.15.0) (2017-10-25)
 
 
 ### Features
