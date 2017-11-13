@@ -12,8 +12,9 @@
 
   background-color: $bgc-input;
   border: 0;
-  border-radius: $bdrs-base;
+  border-radius: $bdrs-input;
   box-shadow: $bd-input;
+  color: $c-input;
   font-family: $ff-sans-serif;
   font-weight: $fw-light;
   line-height: $lh-input;
@@ -31,11 +32,13 @@
   &:hover {
     background-color: $bgc-input-hover;
     box-shadow: $bd-input-hover;
+    color: $c-input-hover;
   }
 
   &:focus {
     background-color: $bgc-input-focus;
     box-shadow: $bd-input-focus;
+    color: $c-input-focus;
   }
 
   &.has-error {
