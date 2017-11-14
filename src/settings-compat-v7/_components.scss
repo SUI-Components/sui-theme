@@ -375,14 +375,6 @@ $p-thumbnail-basic-caption: ceil($p-base / 3) !default;
 // List
 $m-list-gutter: $m-h !default;
 
-// Collapsible
-$bgc-collapsible-basic: $c-gray-lightest !default;
-$bgc-collapsible-basic-expanded: $c-gray-lightest !default;
-$lh-collapsible-basic: $lh-base !default;
-$c-collapsible-basic: $c-gray-dark !default;
-$bdc-collapsible-basic: $c-gray-lightest !default;
-$bd-collapsible-basic: 1px solid $bdc-collapsible-basic !default;
-
 // List image
 $fxb-list-image-item-desktop: 196px !default;
 $fxb-list-image-item-mobile: 50% !default;
