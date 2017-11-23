@@ -2,8 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+<a name="8.24.0"></a>
+# 8.24.0 (2017-11-23)
+
+
+### Features
+
+* **settings-compat-v7:** remove variables and export to component directly ([e10e864](https://github.com/SUI-Components/sui-theme/commit/e10e864))
+
+
+
 <a name="8.20.0"></a>
-# 8.20.0 (2017-11-13)
+# [8.20.0](https://github.com/SUI-Components/sui-theme/compare/8.19.0...8.20.0) (2017-11-13)
 
 
 ### Features
