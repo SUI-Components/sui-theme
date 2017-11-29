@@ -3,4 +3,5 @@
 // Transitions
 $trsdu-base: .3s !default;
 $trsdu-slow: $trsdu-base * 2 !default;
+$trsdu-fast: $trsdu-base / 2 !default;
 $trs-base: $trsdu-base ease !default;
