@@ -14,7 +14,7 @@
 $fw-semi-bold: 600 !default;
 
 // Font sizes
-$fz-base: 14 !default;
+$fz-base: 14px !default;
 $fz-body: strip-unit($fz-base) * 1px !default;
 $fz-xs: strip-unit(ceil($fz-base * .666)) * 1px !default;
 $fz-s: strip-unit(ceil($fz-base * .8)) * 1px !default;
