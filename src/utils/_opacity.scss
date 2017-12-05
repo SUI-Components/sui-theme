@@ -3,10 +3,8 @@
 // alpha parameter for rgba Colors
 // @include bgcolor-opacity($c-black);
 
-$opacity-value: (15, 25, 50, 75, 100) !default;
-
 @mixin bgcolor-opacity ($color) {
-  @each $value in $opacity-value {
+  @each $value in $c-opacity {
     &-#{$value} {
       background-color: rgba($color, $value/100);
     }
