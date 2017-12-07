@@ -2,8 +2,19 @@
 
 All notable changes to this project will be documented in this file.
 
+<a name="8.26.0"></a>
+# 8.26.0 (2017-12-07)
+
+
+### Features
+
+* **settings:** move vars to settings and fix name file ([551148c](https://github.com/SUI-Components/sui-theme/commit/551148c))
+* **utils:** opacity colors and new color vars ([a302706](https://github.com/SUI-Components/sui-theme/commit/a302706))
+
+
+
 <a name="8.24.0"></a>
-# 8.24.0 (2017-11-23)
+# [8.24.0](https://github.com/SUI-Components/sui-theme/compare/8.23.0...8.24.0) (2017-11-23)
 
 
 ### Features
