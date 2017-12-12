@@ -19,9 +19,9 @@
   @each $value in $c-opacity {
 
     &-overlay-#{$value} {
-    position: relative;
+      position: relative;
 
-    &::before {
+      &::before {
         background-color: rgba($color, $value/100);
         content: '';
         display: block;
