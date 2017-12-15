@@ -2,8 +2,23 @@
 
 All notable changes to this project will be documented in this file.
 
+<a name="8.28.0"></a>
+# 8.28.0 (2017-12-15)
+
+
+### Bug Fixes
+
+* **examples:** include opacity on utils and settings ([bf969d6](https://github.com/SUI-Components/sui-theme/commit/bf969d6))
+
+
+### Features
+
+* **settings-compat-v7:** remove vars for list image component. ([84a1232](https://github.com/SUI-Components/sui-theme/commit/84a1232))
+
+
+
 <a name="8.26.0"></a>
-# 8.26.0 (2017-12-07)
+# [8.26.0](https://github.com/SUI-Components/sui-theme/compare/8.25.0...8.26.0) (2017-12-07)
 
 
 ### Features
