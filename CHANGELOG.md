@@ -2,18 +2,25 @@
 
 All notable changes to this project will be documented in this file.
 
+<a name="8.29.0"></a>
+# 8.29.0 (2017-12-18)
+
+
+
 <a name="8.28.0"></a>
-# 8.28.0 (2017-12-15)
+# [8.28.0](https://github.com/SUI-Components/sui-theme/compare/8.27.0...8.28.0) (2017-12-15)
 
 
 ### Bug Fixes
 
 * **examples:** include opacity on utils and settings ([bf969d6](https://github.com/SUI-Components/sui-theme/commit/bf969d6))
+* **utils:** fix tab alignment ([4c31ce3](https://github.com/SUI-Components/sui-theme/commit/4c31ce3))
 
 
 ### Features
 
 * **settings-compat-v7:** remove vars for list image component. ([84a1232](https://github.com/SUI-Components/sui-theme/commit/84a1232))
+* **utils:** add mixin to overlay colors and  opacity 1 on mixin color panels ([12abaff](https://github.com/SUI-Components/sui-theme/commit/12abaff))
 
 
 
