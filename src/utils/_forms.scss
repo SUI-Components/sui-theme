@@ -30,12 +30,22 @@
   }
 }
 
-// Any form field: input, textarea, ...
-// e.g: @include formField(input);
+/*
+
+.sui-Form {
+  @include form-field(input);
+}
+
+<div class="sui-AtomInput sui-AtomInput-success">
+  <label for="text">Simple text input</label>
+  <div class="sui-AtomInput-input-wrapper sui-AtomInput-medium">
+    <input class="sui-AtomInput-input" label="Simple text input" placeholder="Input + placeholder" type="text">
+  </div>
+</div>
+
+*/
 
 @mixin form-field($field) {
-  overflow: hidden;
-
   &-#{$field} {
     border-color: $c-gray-light;
     border-style: solid;
