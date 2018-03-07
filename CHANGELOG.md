@@ -2,8 +2,29 @@
 
 All notable changes to this project will be documented in this file.
 
+<a name="8.31.0"></a>
+# 8.31.0 (2018-03-07)
+
+
+### Features
+
+* **META:** remove compat variables by defult ([e67b100](https://github.com/SUI-Components/sui-theme/commit/e67b100))
+* **settings:** commit to force release ([e035f50](https://github.com/SUI-Components/sui-theme/commit/e035f50))
+
+
+
+<a name="8.30.0"></a>
+# [8.30.0](https://github.com/SUI-Components/sui-theme/compare/8.29.0...8.30.0) (2018-01-12)
+
+
+### Features
+
+* **settings:** add instagram color ([cfb33b0](https://github.com/SUI-Components/sui-theme/commit/cfb33b0))
+
+
+
 <a name="8.29.0"></a>
-# 8.29.0 (2017-12-18)
+# [8.29.0](https://github.com/SUI-Components/sui-theme/compare/8.28.0...8.29.0) (2017-12-18)
 
 
 
