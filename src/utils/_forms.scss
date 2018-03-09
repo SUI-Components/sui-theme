@@ -30,20 +30,17 @@
   }
 }
 
-/*
+//.sui-Form {
+//  @include form-field(input);
+//}
 
-.sui-Form {
-  @include form-field(input);
-}
+//<div class="sui-AtomInput sui-AtomInput-success">
+//  <label for="text">Simple text input</label>
+//  <div class="sui-AtomInput-input-wrapper sui-AtomInput-medium">
+//    <input class="sui-AtomInput-input" label="Simple text input" placeholder="Input + placeholder" type="text">
+//  </div>
+//</div>
 
-<div class="sui-AtomInput sui-AtomInput-success">
-  <label for="text">Simple text input</label>
-  <div class="sui-AtomInput-input-wrapper sui-AtomInput-medium">
-    <input class="sui-AtomInput-input" label="Simple text input" placeholder="Input + placeholder" type="text">
-  </div>
-</div>
-
-*/
 
 @mixin form-field($field) {
   &-#{$field} {
@@ -93,6 +90,8 @@
       }
     }
   }
+
+  @include field-size(input);
 }
 
 // Help text for form elements
