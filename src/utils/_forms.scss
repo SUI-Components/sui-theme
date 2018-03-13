@@ -94,14 +94,6 @@
   @include field-size(input);
 }
 
-// Help text for form elements
-@mixin help-text {
-  color: $c-gray-light;
-  display: block;
-  font-size: $fz-xs;
-  margin: $m-s 0 0;
-}
-
 // Size for form elements
 @mixin field-size($field) {
   $size: null !default;
