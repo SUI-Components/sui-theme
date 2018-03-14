@@ -5,7 +5,7 @@ $breakpoints: (
   medium: 840px,
   large: 960px,
   xLarge: 1280px,
-  xxLarge: 1440
+  xxLarge: 1440px
 ) !default;
 
 $breakpoint-names: map-keys($breakpoints) !default;
