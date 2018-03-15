@@ -81,13 +81,6 @@
       #{$field} {
         border-color: $color;
       }
-
-      &-validation-text {
-        color: $color;
-        display: block;
-        font-size: $fz-xs;
-        margin: $m-s 0 0;
-      }
     }
   }
 
