@@ -2,8 +2,23 @@
 
 All notable changes to this project will be documented in this file.
 
+<a name="8.32.0"></a>
+# 8.32.0 (2018-03-22)
+
+
+### Bug Fixes
+
+* **layout:** added forgotten px ([ec71d9f](https://github.com/SUI-Components/sui-theme/commit/ec71d9f))
+
+
+### Features
+
+* **layout:** sui breakpoints ([da4440f](https://github.com/SUI-Components/sui-theme/commit/da4440f))
+
+
+
 <a name="8.31.0"></a>
-# 8.31.0 (2018-03-07)
+# [8.31.0](https://github.com/SUI-Components/sui-theme/compare/8.30.0...8.31.0) (2018-03-07)
 
 
 ### Features
