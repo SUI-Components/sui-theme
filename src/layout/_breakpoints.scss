@@ -1,0 +1,11 @@
+$breakpoints: (
+  zero: 0,
+  xSmall: 480px,
+  small: 600px,
+  medium: 840px,
+  large: 960px,
+  xLarge: 1280px,
+  xxLarge: 1440px
+) !default;
+
+$breakpoint-names: map-keys($breakpoints) !default;
