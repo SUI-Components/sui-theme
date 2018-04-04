@@ -2,8 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+<a name="8.33.0"></a>
+# 8.33.0 (2018-04-04)
+
+
+### Features
+
+* **layout:** sui breakpoints ([362ac6f](https://github.com/SUI-Components/sui-theme/commit/362ac6f))
+
+
+
 <a name="8.32.0"></a>
-# 8.32.0 (2018-03-22)
+# [8.32.0](https://github.com/SUI-Components/sui-theme/compare/8.31.0...8.32.0) (2018-03-22)
 
 
 ### Bug Fixes
