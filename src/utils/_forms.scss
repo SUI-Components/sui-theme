@@ -34,9 +34,9 @@
 //  @include form-field(input);
 //}
 
-//<div class="sui-AtomInput sui-AtomInput-success">
+//<div class="sui-AtomInput sui-AtomInput--success">
 //  <label for="text">Simple text input</label>
-//  <div class="sui-AtomInput-input-wrapper sui-AtomInput-medium">
+//  <div class="sui-AtomInput-inputWrapper sui-AtomInput--medium">
 //    <input class="sui-AtomInput-input" label="Simple text input" placeholder="Input + placeholder" type="text">
 //  </div>
 //</div>
@@ -69,21 +69,6 @@
     }
   }
 
-  //sui-AtomInput-success & sui-AtomInput-error
-  $validation: success $c-success, error $c-error;
-
-  @each $type, $color in $validation {
-    &-#{$type} {
-      label {
-        color: $color;
-      }
-
-      #{$field} {
-        border-color: $color;
-      }
-    }
-  }
-
   @include field-size(input);
 }
 
@@ -97,7 +82,7 @@
   }
 
   @each $type, $h in $size {
-    &-#{$type} {
+    &--#{$type} {
       #{$field} {
         height: $h;
       }
