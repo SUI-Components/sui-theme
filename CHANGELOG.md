@@ -2,8 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+<a name="8.34.0"></a>
+# 8.34.0 (2018-04-10)
+
+
+### Features
+
+* **utils:** fix classNames and remove validation-text classes ([fdcc117](https://github.com/SUI-Components/sui-theme/commit/fdcc117))
+
+
+
 <a name="8.33.0"></a>
-# 8.33.0 (2018-04-04)
+# [8.33.0](https://github.com/SUI-Components/sui-theme/compare/8.32.0...8.33.0) (2018-04-04)
 
 
 ### Features
