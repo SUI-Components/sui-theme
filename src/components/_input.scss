@@ -45,3 +45,9 @@
     box-shadow: 1px solid $c-error;
   }
 }
+
+
+@mixin sui-input-focus() {
+    box-shadow: $bxsh-input-focus;
+    border: $bdrs-input-focus;
+}
