@@ -47,7 +47,7 @@
 }
 
 
-@mixin sui-focus() {
-  box-shadow: $bxsh-focus;
-  border: $bdrs-focus;
+@mixin sui-focus($shadow: $bxsh-focus, $border: $bdrs-focus) {
+  box-shadow: $shadow;
+  border: $border;
 }
