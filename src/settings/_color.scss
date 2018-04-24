@@ -52,6 +52,9 @@ $c-error-dark: color-variation($c-error, $c-dark-step) !default;
 // Specific Colors
 ///////////////////////////////////////////////////////////////////////////////
 
+// Focus colors
+$c-focus-shadow: #22749a !default;
+
 // Absolute colors / common colors to avoid linting alerts on hardcoded values
 $c-white: #ffffff !default;
 $c-black: #000000 !default;
