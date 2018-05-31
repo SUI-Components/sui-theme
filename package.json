@@ -7,7 +7,7 @@
     "clean:lib": "rimraf ./lib/*",
     "co": "sui-mono commit",
     "lib": "npm run lib:styles",
-    "lib:styles": "cpx './src/**/*.scss' lib/",
+    "lib:styles": "cpx \"./src/**/*.scss\" lib/",
     "lint": "npm run lint:sass",
     "lint:sass": "sui-lint sass",
     "phoenix": "rimraf node_modules && npm i",
