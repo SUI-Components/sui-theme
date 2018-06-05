@@ -3,3 +3,7 @@
 
 // Border radius
 $bdrs-m: 2px !default;
+
+// Form focus
+$bxsh-focus: 0 0 3px 0 color-variation($c-primary, 1) !default;
+$bdrs-focus: solid 1px $c-focus-shadow;

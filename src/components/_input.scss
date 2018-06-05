@@ -45,3 +45,9 @@
     box-shadow: 1px solid $c-error;
   }
 }
+
+
+@mixin sui-focus($shadow: $bxsh-focus, $border: $bdrs-focus) {
+  box-shadow: $shadow;
+  border: $border;
+}
