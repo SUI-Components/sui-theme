@@ -2,8 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+<a name="8.35.0"></a>
+# 8.35.0 (2018-06-14)
+
+
+### Features
+
+* **settings:** added bdrs-l variable ([b922448](https://github.com/SUI-Components/sui-theme/commit/b922448))
+
+
+
 <a name="8.34.0"></a>
-# 8.34.0 (2018-04-10)
+# [8.34.0](https://github.com/SUI-Components/sui-theme/compare/8.33.0...8.34.0) (2018-04-10)
 
 
 ### Features
