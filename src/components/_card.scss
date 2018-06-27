@@ -50,6 +50,10 @@
 
   &-title {
     @include h3;
+
+    &--primary {
+      color: $c-primary;
+    }
   }
 
   &-description {
