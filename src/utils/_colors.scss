@@ -20,21 +20,17 @@ $step-variations-negative: 20, 35, 55, 75;
   $positive-steps: length($step-variations-positive);
   $negative-steps: length($step-variations-negative);
 
-  @if $step == 0 {
-    @return $color;
+  $variation: $color;
+
+  @if ($step > $positive-steps) {
+    $variation: mix(white, $color, nth($step-variations-positive, $positive-steps));
+  } @else if ($step < -$negative-steps) {
+    $variation: mix(black, $color, nth($step-variations-negative, $negative-steps));
+  } @else if ($step < 0) {
+    $variation: mix(black, $color, nth($step-variations-negative, -$step));
+  } @else if ($step > 0) {
+    $variation: mix(white, $color, nth($step-variations-positive, $step));
   }
 
-  @if $step > $positive-steps {
-    @return mix(white, $color, nth($step-variations-positive, $positive-steps));
-  }
-
-  @if $step < -$negative-steps {
-    @return mix(black, $color, nth($step-variations-negative, $negative-steps));
-  }
-
-  @if $step < 0 {
-    @return mix(black, $color, nth($step-variations-negative, -$step));
-  } @else {
-    @return mix(white, $color, nth($step-variations-positive, $step));
-  }
+  @return $variation;
 }
