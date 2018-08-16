@@ -2,8 +2,31 @@
 
 All notable changes to this project will be documented in this file.
 
+<a name="8.37.0"></a>
+# 8.37.0 (2018-08-16)
+
+
+### Features
+
+* **settings:** added box-shadow variables according basic styles specifications ([0f3f9b3](https://github.com/SUI-Components/sui-theme/commit/0f3f9b3))
+* **utils:** add configurable color steps ([77e11f9](https://github.com/SUI-Components/sui-theme/commit/77e11f9))
+* **utils:** add new color variation ([92b786e](https://github.com/SUI-Components/sui-theme/commit/92b786e))
+
+
+
+<a name="8.36.0"></a>
+# [8.36.0](https://github.com/SUI-Components/sui-theme/compare/8.35.0...8.36.0) (2018-07-02)
+
+
+### Features
+
+* **components:** add card title primary style ([878da57](https://github.com/SUI-Components/sui-theme/commit/878da57))
+* **components:** remove not needed card basic small modifier mixin ([3aaadad](https://github.com/SUI-Components/sui-theme/commit/3aaadad))
+
+
+
 <a name="8.35.0"></a>
-# 8.35.0 (2018-06-14)
+# [8.35.0](https://github.com/SUI-Components/sui-theme/compare/8.34.0...8.35.0) (2018-06-14)
 
 
 ### Features
