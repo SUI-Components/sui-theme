@@ -20,6 +20,7 @@
 @mixin sui-tag-link {
   @include reset-link;
   cursor: pointer;
+  font-weight: $fw-regular;
 
   &:hover {
     background-color: $bgc-tag-hover;
