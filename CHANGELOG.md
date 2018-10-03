@@ -2,8 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+<a name="8.40.0"></a>
+# 8.40.0 (2018-10-03)
+
+
+### Features
+
+* **settings:** add variable for highlight color ([10f5962](https://github.com/SUI-Components/sui-theme/commit/10f5962))
+
+
+
 <a name="8.39.0"></a>
-# 8.39.0 (2018-08-31)
+# [8.39.0](https://github.com/SUI-Components/sui-theme/compare/8.38.0...8.39.0) (2018-08-31)
 
 
 ### Features
