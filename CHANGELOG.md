@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+<a name="8.41.0"></a>
+# 8.41.0 (2018-10-17)
+
+
+### Features
+
+* **settings:** new variables for z-index ([ef262f8](https://github.com/SUI-Components/sui-theme/commit/ef262f8))
+
+
+
 <a name="8.40.0"></a>
 # 8.40.0 (2018-10-03)
 
