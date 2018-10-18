@@ -2,8 +2,24 @@
 
 All notable changes to this project will be documented in this file.
 
+<a name="8.43.0"></a>
+# 8.43.0 (2018-10-18)
+
+
+### Bug Fixes
+
+* **META:** layers file wasn't being imported ([40fa81a](https://github.com/SUI-Components/sui-theme/commit/40fa81a))
+
+
+### Features
+
+* **components:** Moved breadcrumb styles in folder components/_breadcrump.scss ([2282b30](https://github.com/SUI-Components/sui-theme/commit/2282b30))
+* **settings-compat-v7:** added text decoration in breadcrumb component ([eba2049](https://github.com/SUI-Components/sui-theme/commit/eba2049))
+
+
+
 <a name="8.41.0"></a>
-# 8.41.0 (2018-10-17)
+# [8.41.0](https://github.com/SUI-Components/sui-theme/compare/8.40.0...8.41.0) (2018-10-17)
 
 
 ### Features
@@ -13,7 +29,7 @@ All notable changes to this project will be documented in this file.
 
 
 <a name="8.40.0"></a>
-# 8.40.0 (2018-10-03)
+# [8.40.0](https://github.com/SUI-Components/sui-theme/compare/8.39.0...8.40.0) (2018-10-03)
 
 
 ### Features
