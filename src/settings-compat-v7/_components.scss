@@ -131,6 +131,7 @@ $c-breadcrumb-link: $c-primary !default;
 $c-breadcrumb: $c-text-base !default;
 $m-breadcrumb-items: $m-h-small !default;
 $size-breadcrumb-icon: 18px !default;
+$td-breadcrumb-link-hover: none !default;
 
 // Card
 $bdrs-card: 0 !default;
@@ -295,7 +296,7 @@ $bdw-spinner-s: 1px !default;
 
 // Tabs
 $bd-tab-wrap: 1px solid $c-gray-light !default;
-$bd-tab: 0px !default;
+$bd-tab: 0 !default;
 $bgc-tab: $c-white !default;
 $c-tab: $c-text-base !default;
 $fw-tab: $fw-semi-bold !default;
