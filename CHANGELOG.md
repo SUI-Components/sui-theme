@@ -2,8 +2,21 @@
 
 All notable changes to this project will be documented in this file.
 
+<a name="8.44.0"></a>
+# 8.44.0 (2018-11-02)
+
+
+### Features
+
+* **settings:** border tokens ([4fd7b14](https://github.com/SUI-Components/sui-theme/commit/4fd7b14))
+* **settings:** bxsh-focus variable ([ea1fc58](https://github.com/SUI-Components/sui-theme/commit/ea1fc58))
+* **settings:** comment removed ([74b41d0](https://github.com/SUI-Components/sui-theme/commit/74b41d0))
+* **settings:** solved conflict after merge ([c4be79c](https://github.com/SUI-Components/sui-theme/commit/c4be79c))
+
+
+
 <a name="8.43.0"></a>
-# 8.43.0 (2018-10-18)
+# [8.43.0](https://github.com/SUI-Components/sui-theme/compare/v8.42.0...8.43.0) (2018-10-18)
 
 
 ### Bug Fixes
@@ -29,7 +42,7 @@ All notable changes to this project will be documented in this file.
 
 
 <a name="8.40.0"></a>
-# [8.40.0](https://github.com/SUI-Components/sui-theme/compare/8.39.0...8.40.0) (2018-10-03)
+# 8.40.0 (2018-10-03)
 
 
 ### Features
