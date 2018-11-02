@@ -1,9 +1,14 @@
 // --- Box Style --- //
-// TODO: Box style variables like shadows being defined by design
 
 // Border radius
 $bdrs-m: 2px !default;
 $bdrs-l: 4px !default;
+
+// Border widths
+$bdw-s: 1px !default;
+$bdw-m: 2px !default;
+$bdw-l: 4px !default;
+$bdw-xl: 8px !default;
 
 // Box shadows
 $bxsh-m: 0 1px 4px 0 rgba(0, 0, 0, .24) !default;
