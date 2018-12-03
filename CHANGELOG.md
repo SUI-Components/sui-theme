@@ -2,8 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+<a name="8.45.0"></a>
+# 8.45.0 (2018-12-03)
+
+
+### Features
+
+* **components:** shared styles from atomInput ([9a99472](https://github.com/SUI-Components/sui-theme/commit/9a99472))
+
+
+
 <a name="8.44.0"></a>
-# 8.44.0 (2018-11-02)
+# [8.44.0](https://github.com/SUI-Components/sui-theme/compare/8.43.0...8.44.0) (2018-11-02)
 
 
 ### Features
