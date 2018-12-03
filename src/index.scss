@@ -8,6 +8,7 @@
 @import './typography';
 // Reset
 @import './reset';
+
 // Components
 @import './components/icon';
 @import './components/button';
@@ -17,6 +18,10 @@
 @import './components/tag';
 @import './components/card';
 @import './components/badge';
+
+// SUI-Components
+@import './components/atom/input/index';
+
 // Icons
 @import './icons/arrow';
 // Layout
