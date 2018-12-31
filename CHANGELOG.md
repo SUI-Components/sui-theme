@@ -2,8 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+<a name="8.46.0"></a>
+# 8.46.0 (2018-12-31)
+
+
+### Features
+
+* **components:** min-height placeholder atom-input ([d8fbba7](https://github.com/SUI-Components/sui-theme/commit/d8fbba7))
+
+
+
 <a name="8.45.0"></a>
-# 8.45.0 (2018-12-03)
+# [8.45.0](https://github.com/SUI-Components/sui-theme/compare/8.44.0...8.45.0) (2018-12-03)
 
 
 ### Features
