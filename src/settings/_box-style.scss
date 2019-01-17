@@ -1,8 +1,13 @@
 // --- Box Style --- //
 
 // Border radius
+$bdrs-n: 0 !default;
+
 $bdrs-m: 2px !default;
 $bdrs-l: 4px !default;
+
+$bdrs-h: 50% !default;
+$bdrs-f: 100% !default;
 
 // Border widths
 $bdw-s: 1px !default;
