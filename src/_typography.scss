@@ -38,6 +38,33 @@
   }
 }
 
+@mixin link {
+  color: $c-primary;
+  font-family: $ff-sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: $lh-l;
+  letter-spacing: normal;
+  text-align: left;
+
+  &:hover,
+  &:active {
+    color: $c-primary-dark;
+    text-decoration: underline;
+  }
+}
+
+@mixin link-negative {
+  @include link;
+
+  &,
+  &:hover,
+  &:active {
+    color: $c-white;
+  }
+}
+
 @mixin text-highlighted {
   background-color: $c-highlighted;
 }
