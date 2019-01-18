@@ -2,8 +2,19 @@
 
 All notable changes to this project will be documented in this file.
 
+<a name="8.47.0"></a>
+# 8.47.0 (2019-01-18)
+
+
+### Features
+
+* **settings:** border radius tokens ([0468246](https://github.com/SUI-Components/sui-theme/commit/0468246))
+* **settings:** new names variables ([a6b7614](https://github.com/SUI-Components/sui-theme/commit/a6b7614))
+
+
+
 <a name="8.46.0"></a>
-# 8.46.0 (2018-12-31)
+# [8.46.0](https://github.com/SUI-Components/sui-theme/compare/8.45.0...8.46.0) (2018-12-31)
 
 
 ### Features
