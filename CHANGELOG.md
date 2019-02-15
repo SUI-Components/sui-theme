@@ -2,12 +2,24 @@
 
 All notable changes to this project will be documented in this file.
 
-<a name="8.47.0"></a>
-# 8.47.0 (2019-01-18)
+<a name="8.48.0"></a>
+# 8.48.0 (2019-02-15)
 
 
 ### Features
 
+* **META:** refactored code w/ mixin parameters & variables ([2dbde7a](https://github.com/SUI-Components/sui-theme/commit/2dbde7a))
+* **settings:** add colors gradient sass variables ([f834a4d](https://github.com/SUI-Components/sui-theme/commit/f834a4d))
+
+
+
+<a name="8.47.0"></a>
+# [8.47.0](https://github.com/SUI-Components/sui-theme/compare/8.46.0...8.47.0) (2019-01-18)
+
+
+### Features
+
+* **META:** links typography ([8926dd5](https://github.com/SUI-Components/sui-theme/commit/8926dd5))
 * **settings:** border radius tokens ([0468246](https://github.com/SUI-Components/sui-theme/commit/0468246))
 * **settings:** new names variables ([a6b7614](https://github.com/SUI-Components/sui-theme/commit/a6b7614))
 
@@ -73,7 +85,7 @@ All notable changes to this project will be documented in this file.
 
 
 <a name="8.40.0"></a>
-# 8.40.0 (2018-10-03)
+# [8.40.0](https://github.com/SUI-Components/sui-theme/compare/8.39.0...8.40.0) (2018-10-03)
 
 
 ### Features
