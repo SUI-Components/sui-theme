@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+<a name="8.49.0"></a>
+# 8.49.0 (2019-04-05)
+
+
+
 <a name="8.48.0"></a>
 # 8.48.0 (2019-02-15)
 
@@ -14,7 +19,7 @@ All notable changes to this project will be documented in this file.
 
 
 <a name="8.47.0"></a>
-# [8.47.0](https://github.com/SUI-Components/sui-theme/compare/8.46.0...8.47.0) (2019-01-18)
+# 8.47.0 (2019-01-18)
 
 
 ### Features
@@ -26,7 +31,7 @@ All notable changes to this project will be documented in this file.
 
 
 <a name="8.46.0"></a>
-# [8.46.0](https://github.com/SUI-Components/sui-theme/compare/8.45.0...8.46.0) (2018-12-31)
+# 8.46.0 (2018-12-31)
 
 
 ### Features
@@ -36,7 +41,7 @@ All notable changes to this project will be documented in this file.
 
 
 <a name="8.45.0"></a>
-# [8.45.0](https://github.com/SUI-Components/sui-theme/compare/8.44.0...8.45.0) (2018-12-03)
+# 8.45.0 (2018-12-03)
 
 
 ### Features
@@ -46,7 +51,7 @@ All notable changes to this project will be documented in this file.
 
 
 <a name="8.44.0"></a>
-# [8.44.0](https://github.com/SUI-Components/sui-theme/compare/8.43.0...8.44.0) (2018-11-02)
+# 8.44.0 (2018-11-02)
 
 
 ### Features
@@ -59,7 +64,7 @@ All notable changes to this project will be documented in this file.
 
 
 <a name="8.43.0"></a>
-# [8.43.0](https://github.com/SUI-Components/sui-theme/compare/v8.42.0...8.43.0) (2018-10-18)
+# 8.43.0 (2018-10-18)
 
 
 ### Bug Fixes
@@ -75,7 +80,7 @@ All notable changes to this project will be documented in this file.
 
 
 <a name="8.41.0"></a>
-# [8.41.0](https://github.com/SUI-Components/sui-theme/compare/8.40.0...8.41.0) (2018-10-17)
+# 8.41.0 (2018-10-17)
 
 
 ### Features
@@ -85,7 +90,7 @@ All notable changes to this project will be documented in this file.
 
 
 <a name="8.40.0"></a>
-# [8.40.0](https://github.com/SUI-Components/sui-theme/compare/8.39.0...8.40.0) (2018-10-03)
+# 8.40.0 (2018-10-03)
 
 
 ### Features
@@ -95,7 +100,7 @@ All notable changes to this project will be documented in this file.
 
 
 <a name="8.39.0"></a>
-# [8.39.0](https://github.com/SUI-Components/sui-theme/compare/8.38.0...8.39.0) (2018-08-31)
+# 8.39.0 (2018-08-31)
 
 
 ### Features
@@ -105,12 +110,12 @@ All notable changes to this project will be documented in this file.
 
 
 <a name="8.38.0"></a>
-# [8.38.0](https://github.com/SUI-Components/sui-theme/compare/8.37.0...8.38.0) (2018-08-23)
+# [8.38.0](https://github.com/SUI-Components/sui-theme/compare/8.25.0...8.38.0) (2018-08-23)
 
 
 
 <a name="8.37.0"></a>
-# [8.37.0](https://github.com/SUI-Components/sui-theme/compare/8.36.0...8.37.0) (2018-08-16)
+# 8.37.0 (2018-08-16)
 
 
 ### Features
@@ -122,7 +127,7 @@ All notable changes to this project will be documented in this file.
 
 
 <a name="8.36.0"></a>
-# [8.36.0](https://github.com/SUI-Components/sui-theme/compare/8.35.0...8.36.0) (2018-07-02)
+# 8.36.0 (2018-07-02)
 
 
 ### Features
@@ -133,7 +138,7 @@ All notable changes to this project will be documented in this file.
 
 
 <a name="8.35.0"></a>
-# [8.35.0](https://github.com/SUI-Components/sui-theme/compare/8.34.0...8.35.0) (2018-06-14)
+# 8.35.0 (2018-06-14)
 
 
 ### Features
@@ -143,7 +148,7 @@ All notable changes to this project will be documented in this file.
 
 
 <a name="8.34.0"></a>
-# [8.34.0](https://github.com/SUI-Components/sui-theme/compare/8.33.0...8.34.0) (2018-04-10)
+# 8.34.0 (2018-04-10)
 
 
 ### Features
@@ -153,7 +158,7 @@ All notable changes to this project will be documented in this file.
 
 
 <a name="8.33.0"></a>
-# [8.33.0](https://github.com/SUI-Components/sui-theme/compare/8.32.0...8.33.0) (2018-04-04)
+# 8.33.0 (2018-04-04)
 
 
 ### Features
@@ -163,7 +168,7 @@ All notable changes to this project will be documented in this file.
 
 
 <a name="8.32.0"></a>
-# [8.32.0](https://github.com/SUI-Components/sui-theme/compare/8.31.0...8.32.0) (2018-03-22)
+# 8.32.0 (2018-03-22)
 
 
 ### Bug Fixes
@@ -178,7 +183,7 @@ All notable changes to this project will be documented in this file.
 
 
 <a name="8.31.0"></a>
-# [8.31.0](https://github.com/SUI-Components/sui-theme/compare/8.30.0...8.31.0) (2018-03-07)
+# 8.31.0 (2018-03-07)
 
 
 ### Features
@@ -189,7 +194,7 @@ All notable changes to this project will be documented in this file.
 
 
 <a name="8.30.0"></a>
-# [8.30.0](https://github.com/SUI-Components/sui-theme/compare/8.29.0...8.30.0) (2018-01-12)
+# 8.30.0 (2018-01-12)
 
 
 ### Features
@@ -199,12 +204,12 @@ All notable changes to this project will be documented in this file.
 
 
 <a name="8.29.0"></a>
-# [8.29.0](https://github.com/SUI-Components/sui-theme/compare/8.28.0...8.29.0) (2017-12-18)
+# 8.29.0 (2017-12-18)
 
 
 
 <a name="8.28.0"></a>
-# [8.28.0](https://github.com/SUI-Components/sui-theme/compare/8.27.0...8.28.0) (2017-12-15)
+# 8.28.0 (2017-12-15)
 
 
 ### Bug Fixes
@@ -221,7 +226,7 @@ All notable changes to this project will be documented in this file.
 
 
 <a name="8.26.0"></a>
-# [8.26.0](https://github.com/SUI-Components/sui-theme/compare/8.25.0...8.26.0) (2017-12-07)
+# 8.26.0 (2017-12-07)
 
 
 ### Features
@@ -232,7 +237,7 @@ All notable changes to this project will be documented in this file.
 
 
 <a name="8.24.0"></a>
-# [8.24.0](https://github.com/SUI-Components/sui-theme/compare/8.23.0...8.24.0) (2017-11-23)
+# 8.24.0 (2017-11-23)
 
 
 ### Features
@@ -242,7 +247,7 @@ All notable changes to this project will be documented in this file.
 
 
 <a name="8.20.0"></a>
-# [8.20.0](https://github.com/SUI-Components/sui-theme/compare/8.19.0...8.20.0) (2017-11-13)
+# 8.20.0 (2017-11-13)
 
 
 ### Features
@@ -252,7 +257,7 @@ All notable changes to this project will be documented in this file.
 
 
 <a name="8.19.0"></a>
-# [8.19.0](https://github.com/SUI-Components/sui-theme/compare/8.17.0...8.19.0) (2017-10-27)
+# 8.19.0 (2017-10-27)
 
 
 ### Features
@@ -262,12 +267,12 @@ All notable changes to this project will be documented in this file.
 
 
 <a name="8.16.0"></a>
-# [8.16.0](https://github.com/SUI-Components/sui-theme/compare/8.15.0...8.16.0) (2017-10-25)
+# 8.16.0 (2017-10-25)
 
 
 
 <a name="8.15.0"></a>
-# [8.15.0](https://github.com/SUI-Components/sui-theme/compare/8.14.1...8.15.0) (2017-10-25)
+# 8.15.0 (2017-10-25)
 
 
 ### Features
@@ -281,7 +286,7 @@ All notable changes to this project will be documented in this file.
 
 
 <a name="8.14.0"></a>
-# [8.14.0](https://github.com/SUI-Components/sui-theme/compare/8.13.0...8.14.0) (2017-10-23)
+# 8.14.0 (2017-10-23)
 
 
 ### Features
@@ -291,7 +296,7 @@ All notable changes to this project will be documented in this file.
 
 
 <a name="8.12.0"></a>
-# [8.12.0](https://github.com/SUI-Components/sui-theme/compare/8.11.0...8.12.0) (2017-10-19)
+# 8.12.0 (2017-10-19)
 
 
 ### Features
