@@ -179,6 +179,11 @@ $size-dropdown-arrow-up: 0 !default;
 $size-dropdown-icon: 18px !default;
 $z-dropdown-menu: 1 !default;
 
+// Dropdown basic
+$c-dropdown-basic-button-hover: $c-accent !default;
+$c-dropdown-basic-button-icon: $c-accent !default;
+$c-dropdown-basic-list-link: $c-accent !default;
+
 // Dropdown user
 $bd-dropdown-user-last-item: 1px solid $c-gray-light !default;
 $bg-dropdown-user-button: $c-gray !default;
@@ -186,6 +191,9 @@ $bgc-dropdown-user: $c-white !default;
 $w-dropdown-user-avatar: 48px !default;
 $w-dropdown-user-text: 100px !default;
 $c-dropdown-user-text-large: $c-text-base !default;
+$c-dropdown-user-icon-highlight: $c-accent !default;
+$c-dropdown-user-icon-hover: $c-accent !default;
+$c-dropdown-user-link-highlight: $c-accent !default;
 
 // Form Autocompleted
 $bd-form-autocompleted: 1px solid $c-gray !default;
