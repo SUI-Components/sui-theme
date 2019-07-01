@@ -2,7 +2,7 @@
   background: $c-white;
   border: $bdw-s solid $c-gray-light;
   box-sizing: border-box;
-  font-size: $fz-base;
+  font-size: $fz-atom-input;
   min-height: $h-atom-input--m;
   padding-left: $pl-atom-input;
   padding-right: $pr-atom-input;
@@ -10,7 +10,7 @@
 }
 
 %sui-atom-input-input-focus {
-  border: $bdw-s solid $c-primary;
-  box-shadow: $bxsh-focus;
+  border: $b-atom-input;
+  box-shadow: $bxsh-atom-input;
   outline: 0 none;
 }
