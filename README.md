@@ -2,6 +2,7 @@
 
 This repository contains:
 
+
 * Generic variables to initialize default values and component styles.
 * A set of placeholders ready to style your component (buttons, tabs, forms, grid system...).
 * Functions and mixins helpers.
