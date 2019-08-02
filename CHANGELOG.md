@@ -2,8 +2,24 @@
 
 All notable changes to this project will be documented in this file.
 
+<a name="8.52.0"></a>
+# 8.52.0 (2019-08-02)
+
+
+### Bug Fixes
+
+* **META:** remove empty line ([0a98ce8](https://github.com/SUI-Components/sui-theme/commit/0a98ce8))
+
+
+### Features
+
+* **META:** bump version ([05cf99a](https://github.com/SUI-Components/sui-theme/commit/05cf99a))
+* **Root:** bumped version ([5a98c00](https://github.com/SUI-Components/sui-theme/commit/5a98c00))
+
+
+
 <a name="8.50.0"></a>
-# 8.50.0 (2019-05-14)
+# [8.50.0](https://github.com/SUI-Components/sui-theme/compare/8.49.0...8.50.0) (2019-05-14)
 
 
 ### Features
