@@ -17,6 +17,7 @@ $p-xl: $p-base * 3 !default;    // 24px
 $p-l: $p-base * 2 !default;     // 16px
 $p-m: $p-base !default;         // 8px
 $p-s: $p-base / 2 !default;     // 4px
+$p-xs: $p-base / 4 !default;    // 2px
 
 // Margins
 $m-base: 8px;                   // 8px
@@ -28,6 +29,7 @@ $m-xl: $m-base * 3 !default;    // 24px
 $m-l: $m-base * 2 !default;     // 16px
 $m-m: $m-base !default;         // 8px
 $m-s: $m-base / 2 !default;     // 4px
+$m-xs: $m-base / 4 !default;    // 2px
 
 
 // Gutter

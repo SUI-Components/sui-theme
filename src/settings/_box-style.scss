@@ -4,8 +4,10 @@
 $bdrs-none: 0 !default;
 $bdrs-rounded: 50% !default;
 
-$bdrs-m: 2px !default;
 $bdrs-l: 4px !default;
+$bdrs-m: 2px !default;
+$bdrs-s: 1px !default;
+$bdrs-xs: $bdrs-none !default;
 
 // Border widths
 $bdw-s: 1px !default;
