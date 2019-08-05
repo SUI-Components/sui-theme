@@ -2,8 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+<a name="8.53.0"></a>
+# 8.53.0 (2019-08-05)
+
+
+### Features
+
+* **components:** adds a missing xs size in atom input ([de979b8](https://github.com/SUI-Components/sui-theme/commit/de979b8))
+
+
+
 <a name="8.52.0"></a>
-# 8.52.0 (2019-08-02)
+# [8.52.0](https://github.com/SUI-Components/sui-theme/compare/8.50.0...8.52.0) (2019-08-02)
 
 
 ### Bug Fixes
