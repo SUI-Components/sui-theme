@@ -2,8 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+<a name="8.54.0"></a>
+# 8.54.0 (2019-08-05)
+
+
+### Bug Fixes
+
+* **components:** removes hardcoded value ([8c06f88](https://github.com/SUI-Components/sui-theme/commit/8c06f88))
+
+
+
 <a name="8.53.0"></a>
-# 8.53.0 (2019-08-05)
+# [8.53.0](https://github.com/SUI-Components/sui-theme/compare/8.52.0...8.53.0) (2019-08-05)
 
 
 ### Features
