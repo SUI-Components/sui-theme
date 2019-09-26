@@ -67,3 +67,8 @@ $lh-link: $lh-l !default;
 @mixin text-highlighted {
   background-color: $c-highlighted;
 }
+
+@mixin font-rendering {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
