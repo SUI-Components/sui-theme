@@ -2,8 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+<a name="8.55.0"></a>
+# 8.55.0 (2019-09-26)
+
+
+### Features
+
+* **Root:** add mixin for font rendering ([#180](https://github.com/SUI-Components/sui-theme/issues/180)) ([67418f8](https://github.com/SUI-Components/sui-theme/commit/67418f8))
+
+
+
 <a name="8.54.0"></a>
-# 8.54.0 (2019-08-05)
+# [8.54.0](https://github.com/SUI-Components/sui-theme/compare/8.53.0...8.54.0) (2019-08-05)
 
 
 ### Bug Fixes
