@@ -14,6 +14,7 @@
   @if $type == 'block' {
     flex-direction: column;
   } @else if $type == 'inline' or $type == 'grow' {
+    flex-direction: row;
     margin-left: -$m-list-gutter;
   }
 
