@@ -2,8 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+<a name="8.56.0"></a>
+# 8.56.0 (2019-10-04)
+
+
+### Bug Fixes
+
+* **utils:** fix flex direction ([#181](https://github.com/SUI-Components/sui-theme/issues/181)) ([4e7f4b0](https://github.com/SUI-Components/sui-theme/commit/4e7f4b0))
+
+
+
 <a name="8.55.0"></a>
-# 8.55.0 (2019-09-26)
+# [8.55.0](https://github.com/SUI-Components/sui-theme/compare/8.54.0...8.55.0) (2019-09-26)
 
 
 ### Features
