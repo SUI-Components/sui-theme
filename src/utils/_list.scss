@@ -7,13 +7,13 @@
   margin-left: $m-list-gutter;
 }
 
-@mixin sui-list($type: 'block'){
+@mixin sui-list($type: 'block') {
   @include reset-list;
   display: flex;
 
   @if $type == 'block' {
     flex-direction: column;
-  } @else if $type == 'inline' or $type == 'grow' {
+  } @else {
     flex-direction: row;
     margin-left: -$m-list-gutter;
   }
@@ -25,8 +25,13 @@
     }
 
     @if $type == 'grow' {
-      flex: 1 1 100%;
       @include sui-list-gutter;
+      flex: 1 1 100%;
+    }
+
+    @if $type == 'grow-custom' {
+      @include sui-list-gutter;
+      @content;
     }
   }
 };
