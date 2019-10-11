@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+<a name="8.57.0"></a>
+# 8.57.0 (2019-10-11)
+
+
+### Features
+
+* **settings:** adds $bdrs-base sass var to standarize border-radius property ([0c6e4ca](https://github.com/SUI-Components/sui-theme/commit/0c6e4ca))
+
+
+
 <a name="8.56.0"></a>
 # 8.56.0 (2019-10-04)
 
@@ -13,7 +23,7 @@ All notable changes to this project will be documented in this file.
 
 
 <a name="8.55.0"></a>
-# [8.55.0](https://github.com/SUI-Components/sui-theme/compare/8.54.0...8.55.0) (2019-09-26)
+# 8.55.0 (2019-09-26)
 
 
 ### Features
