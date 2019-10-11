@@ -1,11 +1,14 @@
 // --- Box Style --- //
 
 // Border radius
+$bdrs-base: 8px !default;
+
 $bdrs-none: 0 !default;
 $bdrs-rounded: 50% !default;
 
-$bdrs-m: 2px !default;
-$bdrs-l: 4px !default;
+// USE $bdrs-base WITH A MULTIPLIER OR DIVIDER INSTEAD
+$bdrs-m: 2px !default; // DEPRECATED VALUE!! DON'T USE it anymore.
+$bdrs-l: 4px !default; // DEPRECATED VALUE!! DON'T USE it anymore.
 
 // Border widths
 $bdw-s: 1px !default;
@@ -14,8 +17,8 @@ $bdw-l: 4px !default;
 $bdw-xl: 8px !default;
 
 // Box shadows
-$bxsh-m: 0 1px 4px 0 rgba(0, 0, 0, .24) !default;
-$bxsh-l: 0 3px 8px 0 rgba(0, 0, 0, .16) !default;
+$bxsh-m: 0 1px 4px 0 rgba(0, 0, 0, 0.24) !default;
+$bxsh-l: 0 3px 8px 0 rgba(0, 0, 0, 0.16) !default;
 
 // Box shadows focus
 $bxsh-focus: 0 0 3px 0 $c-primary !default;
