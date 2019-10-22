@@ -2,8 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+<a name="8.58.0"></a>
+# 8.58.0 (2019-10-22)
+
+
+### Features
+
+* **Root:** reset hr ([02a6ea7](https://github.com/SUI-Components/sui-theme/commit/02a6ea7))
+
+
+
 <a name="8.57.0"></a>
-# 8.57.0 (2019-10-11)
+# [8.57.0](https://github.com/SUI-Components/sui-theme/compare/8.56.0...8.57.0) (2019-10-11)
 
 
 ### Features
@@ -13,7 +23,7 @@ All notable changes to this project will be documented in this file.
 
 
 <a name="8.56.0"></a>
-# 8.56.0 (2019-10-04)
+# [8.56.0](https://github.com/SUI-Components/sui-theme/compare/8.55.0...8.56.0) (2019-10-04)
 
 
 ### Bug Fixes
@@ -23,7 +33,7 @@ All notable changes to this project will be documented in this file.
 
 
 <a name="8.55.0"></a>
-# 8.55.0 (2019-09-26)
+# [8.55.0](https://github.com/SUI-Components/sui-theme/compare/8.54.0...8.55.0) (2019-09-26)
 
 
 ### Features
