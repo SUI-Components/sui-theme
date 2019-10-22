@@ -13,3 +13,9 @@
   box-shadow: $bxsh-atom-input;
   outline: 0 none;
 }
+
+%sui-molecule-autosuggest-focus {
+  border: $bd-molecule-autosuggest-focus;
+  box-shadow: $bxsh-molecule-autosuggest-focus;
+  outline: 0 none;
+}
