@@ -2,8 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+<a name="8.59.0"></a>
+# 8.59.0 (2019-10-22)
+
+
+### Features
+
+* **components:** add new placeholder for autosuggest when is focused ([#184](https://github.com/SUI-Components/sui-theme/issues/184)) ([8668c1e](https://github.com/SUI-Components/sui-theme/commit/8668c1e))
+
+
+
 <a name="8.58.0"></a>
-# 8.58.0 (2019-10-22)
+# [8.58.0](https://github.com/SUI-Components/sui-theme/compare/8.57.0...8.58.0) (2019-10-22)
 
 
 ### Features
