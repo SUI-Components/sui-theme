@@ -31,3 +31,8 @@
     outline: 0;
   }
 }
+
+@mixin reset-hr {
+  border: 0;
+  margin: 0;
+}
