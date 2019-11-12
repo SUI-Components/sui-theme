@@ -3,6 +3,13 @@
   background-color: transparent;
   border: 0;
   color: transparent;
-  font: 0/0 a;
+  font: 0 / 0 a;
   text-shadow: none;
+}
+//truncate
+@mixin truncate ($max-width: 100%, $text-overflow: ellipsis) {
+  max-width: $max-width;
+  overflow: hidden;
+  text-overflow: $text-overflow;
+  white-space: nowrap;
 }
