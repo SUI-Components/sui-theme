@@ -6,3 +6,10 @@
   font: 0/0 a;
   text-shadow: none;
 }
+//truncate
+@mixin truncate ($max-width, $text-overflow) {
+  max-width: $max-width;
+  overflow: hidden;
+  text-overflow: $text-overflow;
+  white-space: nowrap;
+}
