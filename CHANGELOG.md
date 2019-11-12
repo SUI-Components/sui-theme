@@ -2,8 +2,21 @@
 
 All notable changes to this project will be documented in this file.
 
+<a name="8.60.0"></a>
+# 8.60.0 (2019-11-12)
+
+
+### Features
+
+* **utils:** add default values ([e091975](https://github.com/SUI-Components/sui-theme/commit/e091975))
+* **utils:** add mixin for truncate text ([3b1d3af](https://github.com/SUI-Components/sui-theme/commit/3b1d3af))
+* **utils:** fix mixin ([4930440](https://github.com/SUI-Components/sui-theme/commit/4930440))
+* **utils:** fix sass ([ba8b0c1](https://github.com/SUI-Components/sui-theme/commit/ba8b0c1))
+
+
+
 <a name="8.59.0"></a>
-# 8.59.0 (2019-10-22)
+# [8.59.0](https://github.com/SUI-Components/sui-theme/compare/8.58.0...8.59.0) (2019-10-22)
 
 
 ### Features
