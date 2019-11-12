@@ -7,7 +7,7 @@
   text-shadow: none;
 }
 //truncate
-@mixin truncate ($max-width: 100% !default, $text-overflow: ellipsis !default) {
+@mixin truncate ($max-width: 100%, $text-overflow: ellipsis) {
   max-width: $max-width;
   overflow: hidden;
   text-overflow: $text-overflow;
