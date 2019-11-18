@@ -6,4 +6,4 @@ $bdrs-small: ceil($bdrs-base / 2) !default;
 
 // Box shadows
 $bxsh-spread: 3px !default;
-$bxsh-base: 0 1px $bxsh-spread rgba($c-black, .15) !default;
+$bxsh-base: 0 1px $bxsh-spread rgba($c-black, 0.15) !default;

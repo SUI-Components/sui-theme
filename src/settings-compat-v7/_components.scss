@@ -1,4 +1,3 @@
-
 // --- Forms --- //
 
 // Inputs
@@ -14,9 +13,9 @@ $ff-input-placeholder: $ff-sans-serif !default;
 $fs-input-placeholder: italic !default;
 $lh-input: $lh-base !default;
 
-$bd-input: 0 0 0 1px  $c-gray inset !default;
-$bd-input-hover: 0 0 0 1px  $c-gray inset !default;
-$bd-input-focus: 0 0 0 1px  $c-gray inset !default;
+$bd-input: 0 0 0 1px $c-gray inset !default;
+$bd-input-hover: 0 0 0 1px $c-gray inset !default;
+$bd-input-focus: 0 0 0 1px $c-gray inset !default;
 
 // Radio List
 $bd-radio-list: 1px solid $c-gray !default;
@@ -42,14 +41,13 @@ $bd-select: 0 0 0 1px $c-gray inset !default;
 $bd-select-hover: 0 0 0 1px $c-gray inset !default;
 $bd-select-focus: 0 0 0 1px $c-gray inset !default;
 
-
 // --- Components --- //
 
 // Ads
 $h-ad-l-top: auto !default;
-$w-ad-l-top:  980px !default;
+$w-ad-l-top: 980px !default;
 $h-ad-l-right: 600px !default;
-$w-ad-l-right:  300px !default;
+$w-ad-l-right: 300px !default;
 $mih-ad-l-top: 0 !default;
 
 // Alert Basic
@@ -82,7 +80,7 @@ $bd-badge-notification: 2px solid $c-white !default;
 // Button
 $bdrs-button: 0 !default;
 $lh-button: $lh-base !default;
-$o-button-disabled: .4 !default;
+$o-button-disabled: 0.4 !default;
 
 $c-button-primary: $c-white !default;
 $c-button-primary-icon-fill: $c-white !default;
@@ -124,7 +122,7 @@ $bgc-button-flat-active: $c-gray !default;
 // Card
 $bdrs-card: 0 !default;
 $bxsh-card: $bxsh-base !default;
-$bxsh-card-hover: 0 1px 6px 2px rgba($c-black, .15) !default;
+$bxsh-card-hover: 0 1px 6px 2px rgba($c-black, 0.15) !default;
 $c-card-title-hover: inherit !default;
 $bdc-article-featured: $c-featured !default;
 $bd-article-featured: 4px solid $bdc-article-featured !default;
@@ -213,7 +211,7 @@ $z-form-autocompleted-suggests: 1 !default;
 $type-form-autocompleted-submit: 'primary' !default;
 
 // Modal
-$bg-modal: rgba(0, 0, 0, .6) !default;
+$bg-modal: rgba(0, 0, 0, 0.6) !default;
 
 // Modal Basic
 $bd-modal-basic: 0 !default;
@@ -278,7 +276,7 @@ $c-ad-smartbanner-rating-icon: #f39c12 !default;
 // Spinner
 $c-spinner: $c-primary !default;
 $m-spinner: $m-h-xsmall !default;
-$op-spinner: .45 !default;
+$op-spinner: 0.45 !default;
 $animdur-spinner: 1500ms !default;
 $animic-spinner: infinite !default;
 $animtf-spinner: linear !default;
