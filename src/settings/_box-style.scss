@@ -5,10 +5,8 @@ $bdrs-base: 8px !default;
 
 $bdrs-none: 0 !default;
 $bdrs-rounded: 50% !default;
-
-// USE $bdrs-base WITH A MULTIPLIER OR DIVIDER INSTEAD
-$bdrs-m: 2px !default; // DEPRECATED VALUE!! DON'T USE it anymore.
-$bdrs-l: 4px !default; // DEPRECATED VALUE!! DON'T USE it anymore.
+$bdrs-m: 2px !default;
+$bdrs-l: 4px !default;
 
 // Border widths
 $bdw-s: 1px !default;
