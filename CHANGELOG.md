@@ -2,13 +2,24 @@
 
 All notable changes to this project will be documented in this file.
 
+<a name="8.62.0"></a>
+# 8.62.0 (2019-11-22)
+
+
+### Features
+
+* **settings-compat-v7:** add var for thumbnail-basic border radius ([21b4f7e](https://github.com/SUI-Components/sui-theme/commit/21b4f7e))
+
+
+
 <a name="8.61.0"></a>
-# 8.61.0 (2019-11-18)
+# [8.61.0](https://github.com/SUI-Components/sui-theme/compare/8.60.0...8.61.0) (2019-11-18)
 
 
 ### Features
 
 * **components:** add font family inherit in input ([f5057be](https://github.com/SUI-Components/sui-theme/commit/f5057be))
+* **META:** move to latest sui-lint ([31c43aa](https://github.com/SUI-Components/sui-theme/commit/31c43aa))
 * **settings-compat-v7:** add var for input placeholder font family ([08e38ae](https://github.com/SUI-Components/sui-theme/commit/08e38ae))
 * **utils:** add font family on placeholder ([26224a0](https://github.com/SUI-Components/sui-theme/commit/26224a0))
 
