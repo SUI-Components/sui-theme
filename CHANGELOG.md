@@ -2,8 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+<a name="8.63.0"></a>
+# 8.63.0 (2020-01-09)
+
+
+### Features
+
+* **settings:** add z-index dropdown mwenu ([24c91f7](https://github.com/SUI-Components/sui-theme/commit/24c91f7))
+
+
+
 <a name="8.62.0"></a>
-# 8.62.0 (2019-11-22)
+# [8.62.0](https://github.com/SUI-Components/sui-theme/compare/8.61.0...8.62.0) (2019-11-22)
 
 
 ### Features
