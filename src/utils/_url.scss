@@ -1,6 +1,11 @@
 // --- Functions --- //
 
 // Image URL
+// Take care, using this tool may generate some problems with webpack
+// cause depending on the CSS loader used it can interpret this resource
+// as an import and maybe it won't find the url returned, then it will break.
+// Better use the following mixin if you want to set a background image:
+// https://github.com/SUI-Components/sui-theme/blob/master/src/utils/_image.scss#L21
 @function image-url($image, $url: $url-statics + 'images/') {
   @return url('#{$url}#{$image}');
 }
