@@ -18,7 +18,8 @@
 // * z = z-index
 
 // URLs
-$url-statics: '' !default;
+// Note: This URL must be overwritten in your own component/site styles.
+$url-statics: 'https://statics.sui-cdn.com/' !default;
 
 @import './settings/color';
 @import './settings/font';
