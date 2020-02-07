@@ -2,8 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+<a name="8.66.0"></a>
+# 8.66.0 (2020-02-07)
+
+
+### Features
+
+* **utils:** add size to gutter on list ([1f9b1c2](https://github.com/SUI-Components/sui-theme/commit/1f9b1c2))
+
+
+
 <a name="8.65.0"></a>
-# 8.65.0 (2020-01-31)
+# [8.65.0](https://github.com/SUI-Components/sui-theme/compare/8.64.0...8.65.0) (2020-01-31)
 
 
 ### Bug Fixes
