@@ -2,8 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+<a name="8.67.0"></a>
+# 8.67.0 (2020-02-20)
+
+
+### Features
+
+* **settings-compat-v7:** add vars for add smartbanner ([#201](https://github.com/SUI-Components/sui-theme/issues/201)) ([d810b38](https://github.com/SUI-Components/sui-theme/commit/d810b38))
+
+
+
 <a name="8.66.0"></a>
-# 8.66.0 (2020-02-07)
+# [8.66.0](https://github.com/SUI-Components/sui-theme/compare/8.65.0...8.66.0) (2020-02-07)
 
 
 ### Features
