@@ -1,0 +1,27 @@
+// Settings for the SUI Motion Tokens
+
+// Duration Tokens --------------------
+// Naming & timing reference: Polaris Design System https://polaris-tokens.herokuapp.com/
+$duration-none: 0 !default;
+$duration-fast: 100ms !default;
+$duration-base: 200ms !default;
+$duration-slow: 300ms !default;
+$duration-slower: 400ms !default;
+$duration-slowest: 500ms !default;
+
+// Timing Function Tokens -------------
+// We define the default timing fuctions as a Cubic Bézier
+// to have more control and a consistence naming with other
+// custom timings functions.
+$timing-function-linear: cubic-bezier(0, 0, 1, 1) !default;
+$timing-function-ease: cubic-bezier(0.25, 0.1, 0.25, 1) !default;
+$timing-function-ease-in-out: cubic-bezier(0.42, 0, 0.58, 1) !default;
+$timing-function-ease-in: cubic-bezier(0.42, 0, 1, 1) !default;
+$timing-function-ease-out: cubic-bezier(0, 0, 0.58, 1) !default;
+
+// Aliases
+$tf-linear: $timing-function-linear;
+$tf-ease: $timing-function-ease;
+$tf-ease-in-out: $timing-function-ease-in-out;
+$tf-ease-in: $timing-function-ease-in;
+$tf-ease-out: $timing-function-ease-out;
