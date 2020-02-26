@@ -4,10 +4,14 @@
 // Naming & timing reference: Polaris Design System https://polaris-tokens.herokuapp.com/
 $duration-none: 0 !default;
 $duration-fast: 100ms !default;
-$duration-base: 200ms !default;
-$duration-slow: 300ms !default;
-$duration-slower: 400ms !default;
-$duration-slowest: 500ms !default;
+$duration-normal: 300ms !default;
+$duration-slow: 500ms !default;
+
+// Aliases to follow the Emmet naming convention
+$dur-none: $duration-none;
+$dur-fast: $duration-fast;
+$dur-normal: $duration-normal;
+$dur-slow: $duration-slow;
 
 // Timing Function Tokens -------------
 // We define the default timing fuctions as a Cubic Bézier
@@ -19,7 +23,7 @@ $timing-function-ease-in-out: cubic-bezier(0.42, 0, 0.58, 1) !default;
 $timing-function-ease-in: cubic-bezier(0.42, 0, 1, 1) !default;
 $timing-function-ease-out: cubic-bezier(0, 0, 0.58, 1) !default;
 
-// Aliases
+// Aliases to follow the Emmet naming convention
 $tf-linear: $timing-function-linear;
 $tf-ease: $timing-function-ease;
 $tf-ease-in-out: $timing-function-ease-in-out;
