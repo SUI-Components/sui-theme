@@ -2,8 +2,21 @@
 
 All notable changes to this project will be documented in this file.
 
+<a name="8.69.0"></a>
+# 8.69.0 (2020-02-26)
+
+
+### Features
+
+* **Root:** fix typo ([b40594a](https://github.com/SUI-Components/sui-theme/commit/b40594a))
+* **Root:** fix typo in version ([65b04e8](https://github.com/SUI-Components/sui-theme/commit/65b04e8))
+* **settings:** added Motion variables settings ([6e18885](https://github.com/SUI-Components/sui-theme/commit/6e18885))
+* **settings:** removed values, rceate aliases and change package name ([3a8e8f8](https://github.com/SUI-Components/sui-theme/commit/3a8e8f8))
+
+
+
 <a name="8.67.0"></a>
-# 8.67.0 (2020-02-20)
+# [8.67.0](https://github.com/SUI-Components/sui-theme/compare/8.66.0...8.67.0) (2020-02-20)
 
 
 ### Features
