@@ -2,7 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
-# 8.70.0 (2020-03-05)
+# 8.71.0 (2020-03-09)
+
+
+### Features
+
+* **components:** add input variables ([b671042](https://github.com/SUI-Components/sui-theme/commit/b671042d08c0eeb63f9d21977417584856a668a7))
+
+
+
+# [8.70.0](https://github.com/SUI-Components/sui-theme/compare/8.69.0...8.70.0) (2020-03-05)
 
 
 ### Features
@@ -11,7 +20,7 @@ All notable changes to this project will be documented in this file.
 
 
 
-# 8.69.0 (2020-02-26)
+# [8.69.0](https://github.com/SUI-Components/sui-theme/compare/8.67.0...8.69.0) (2020-02-26)
 
 
 ### Features
@@ -23,7 +32,7 @@ All notable changes to this project will be documented in this file.
 
 
 
-# 8.67.0 (2020-02-20)
+# [8.67.0](https://github.com/SUI-Components/sui-theme/compare/8.66.0...8.67.0) (2020-02-20)
 
 
 ### Features
@@ -32,7 +41,7 @@ All notable changes to this project will be documented in this file.
 
 
 
-# 8.66.0 (2020-02-07)
+# [8.66.0](https://github.com/SUI-Components/sui-theme/compare/8.65.0...8.66.0) (2020-02-07)
 
 
 ### Features
@@ -41,7 +50,7 @@ All notable changes to this project will be documented in this file.
 
 
 
-# 8.65.0 (2020-01-31)
+# [8.65.0](https://github.com/SUI-Components/sui-theme/compare/8.64.0...8.65.0) (2020-01-31)
 
 
 ### Bug Fixes
@@ -51,7 +60,7 @@ All notable changes to this project will be documented in this file.
 
 
 
-# 8.64.0 (2020-01-29)
+# [8.64.0](https://github.com/SUI-Components/sui-theme/compare/8.63.0...8.64.0) (2020-01-29)
 
 
 ### Features
@@ -60,7 +69,7 @@ All notable changes to this project will be documented in this file.
 
 
 
-# 8.63.0 (2020-01-09)
+# [8.63.0](https://github.com/SUI-Components/sui-theme/compare/8.62.0...8.63.0) (2020-01-09)
 
 
 ### Features
@@ -69,22 +78,22 @@ All notable changes to this project will be documented in this file.
 
 
 
-# 8.62.0 (2019-11-22)
+# [8.62.0](https://github.com/SUI-Components/sui-theme/compare/8.61.0...8.62.0) (2019-11-22)
 
 
 ### Features
 
+* **META:** move to latest sui-lint ([31c43aa](https://github.com/SUI-Components/sui-theme/commit/31c43aafa9b75b07fc95a0e95ad65f7e7897e2ad))
 * **settings-compat-v7:** add var for thumbnail-basic border radius ([21b4f7e](https://github.com/SUI-Components/sui-theme/commit/21b4f7e4e5affb77ade2105cca345c2ad4d77385))
 
 
 
-# 8.61.0 (2019-11-18)
+# [8.61.0](https://github.com/SUI-Components/sui-theme/compare/8.60.0...8.61.0) (2019-11-18)
 
 
 ### Features
 
 * **components:** add font family inherit in input ([f5057be](https://github.com/SUI-Components/sui-theme/commit/f5057bec29a9cb8165fa7d658f12db64a73bafc5))
-* **META:** move to latest sui-lint ([31c43aa](https://github.com/SUI-Components/sui-theme/commit/31c43aafa9b75b07fc95a0e95ad65f7e7897e2ad))
 * **settings-compat-v7:** add var for input placeholder font family ([08e38ae](https://github.com/SUI-Components/sui-theme/commit/08e38ae62dcff43c40cee85e600f9a7cdd7ffb01))
 * **utils:** add font family on placeholder ([26224a0](https://github.com/SUI-Components/sui-theme/commit/26224a0c04373da5c2886e74bc88a1561931f1d8))
 
