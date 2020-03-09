@@ -12,6 +12,9 @@ $pr-atom-input: $p-l !default;
 $bxsh-atom-input: $bxsh-focus !default;
 $bd-atom-input: $bdw-s solid $c-primary !default;
 $fz-atom-input: $fz-base !default;
+$bgc-atom-input: $c-white !default;
+$c-atom-input: initial !default;
+$bd-atom-input-base: $bdw-s solid $c-gray-light !default;
 
 $bd-molecule-autosuggest-focus: $bd-atom-input !default;
 $bxsh-molecule-autosuggest-focus: $bxsh-atom-input !default;
