@@ -1,7 +1,8 @@
 %sui-atom-input-input {
-  background: $c-white;
-  border: $bdw-s solid $c-gray-light;
+  background: $bgc-atom-input;
+  border: $bd-atom-input-base;
   box-sizing: border-box;
+  color: $c-atom-input;
   font-family: inherit;
   font-size: $fz-atom-input;
   padding-left: $pl-atom-input;
