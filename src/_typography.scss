@@ -7,6 +7,11 @@ $c-link-negative-hover: $c-white !default;
 $ff-link: $ff-sans-serif !default;
 $lh-link: $lh-l !default;
 
+// Text link
+$td-text-link: underline !default;
+$td-hover-text-link: none !default;
+$fz-text-link: null !default;
+
 @mixin link($negative: false) {
   color: if($negative, $c-link-negative, $c-link);
   font-family: $ff-link;
