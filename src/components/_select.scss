@@ -16,7 +16,7 @@
   background-color: $bgc-select;
   border: 0;
   border-radius: $bdrs-base;
-  box-shadow: $bd-select;
+  box-shadow: $bxsh-select;
   display: inline-block;
   font-family: inherit;
   line-height: $lh-select;
@@ -50,11 +50,11 @@
 
   &:hover {
     background-color: $bgc-select-hover;
-    box-shadow: $bd-select-hover;
+    box-shadow: $bxsh-select-hover;
   }
 
   &:focus {
     background-color: $bgc-select-focus;
-    box-shadow: $bd-select-focus;
+    box-shadow: $bxsh-select-focus;
   }
 }
