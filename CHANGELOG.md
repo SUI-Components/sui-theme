@@ -2,7 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
-# 8.71.0 (2020-03-09)
+# 8.72.0 (2020-03-26)
+
+
+### Bug Fixes
+
+* **components:** set right emmet prefix to sass var to avoid molecule-select collision ([f1fd5ca](https://github.com/SUI-Components/sui-theme/commit/f1fd5cafed372257cedfed09943ff226cf911a49))
+* **settings-compat-v7:** set right emmet prefix to sass var to avoid molecule-select collision ([1416732](https://github.com/SUI-Components/sui-theme/commit/1416732090e4ad331f0aaca5732a452517938927))
+
+
+
+# [8.71.0](https://github.com/SUI-Components/sui-theme/compare/8.70.0...8.71.0) (2020-03-09)
 
 
 ### Features
