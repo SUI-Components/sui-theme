@@ -2,7 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
-# 8.73.0 (2020-05-05)
+# 8.74.0 (2020-05-05)
+
+
+### Features
+
+* **settings:** add margin xs ([c6b1764](https://github.com/SUI-Components/sui-theme/commit/c6b1764a013f83ab7d28976b991b1ee6951a1593))
+
+
+
+# [8.73.0](https://github.com/SUI-Components/sui-theme/compare/8.72.0...8.73.0) (2020-05-05)
 
 
 ### Features
