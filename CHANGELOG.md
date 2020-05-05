@@ -2,7 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
-# 8.72.0 (2020-03-26)
+# 8.73.0 (2020-05-05)
+
+
+### Features
+
+* **settings:** add xs for padding ([7e204ff](https://github.com/SUI-Components/sui-theme/commit/7e204ff5b55d47f76e35fd2ea7bb4267502ffcae))
+
+
+
+# [8.72.0](https://github.com/SUI-Components/sui-theme/compare/8.71.0...8.72.0) (2020-03-26)
 
 
 ### Bug Fixes
