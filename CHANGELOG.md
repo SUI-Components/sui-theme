@@ -2,7 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
-# 8.74.0 (2020-05-05)
+# 8.75.0 (2020-05-11)
+
+
+### Bug Fixes
+
+* **utils:** add customizable black and white in mixin function ([c04282d](https://github.com/SUI-Components/sui-theme/commit/c04282d781c01425e7bfeff3b6ac71f86b37363b))
+
+
+
+# [8.74.0](https://github.com/SUI-Components/sui-theme/compare/8.73.0...8.74.0) (2020-05-05)
 
 
 ### Features
