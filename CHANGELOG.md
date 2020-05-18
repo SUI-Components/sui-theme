@@ -2,7 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
-# 8.75.0 (2020-05-11)
+# 8.76.0 (2020-05-18)
+
+
+### Features
+
+* **settings:** add new size variable $sz-icon-xxl ([00642af](https://github.com/SUI-Components/sui-theme/commit/00642af2a4d56cc21dc9754cfd5ca76bb40a6d4d))
+
+
+
+# [8.75.0](https://github.com/SUI-Components/sui-theme/compare/8.74.0...8.75.0) (2020-05-11)
 
 
 ### Bug Fixes
