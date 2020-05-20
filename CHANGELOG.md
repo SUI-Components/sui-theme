@@ -2,7 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
-# 8.76.0 (2020-05-18)
+# 8.77.0 (2020-05-20)
+
+
+### Features
+
+* **settings:** add new secondary color ([fda7883](https://github.com/SUI-Components/sui-theme/commit/fda788380db98c61474d4368de3c8269946c0a95))
+
+
+
+# [8.76.0](https://github.com/SUI-Components/sui-theme/compare/8.75.0...8.76.0) (2020-05-18)
 
 
 ### Features
