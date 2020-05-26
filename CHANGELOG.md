@@ -2,7 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
-# 8.77.0 (2020-05-20)
+# 8.79.0 (2020-05-26)
+
+
+### Features
+
+* **Root:** force release ([2943e48](https://github.com/SUI-Components/sui-theme/commit/2943e48e28b50ec81f97f748d800ea254fa89f4a))
+
+
+
+# [8.77.0](https://github.com/SUI-Components/sui-theme/compare/8.76.0...8.77.0) (2020-05-20)
 
 
 ### Features
