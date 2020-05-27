@@ -19,6 +19,9 @@ $bd-atom-input-base: $bdw-s solid $c-gray-light !default;
 $bd-molecule-autosuggest-focus: $bd-atom-input !default;
 $bxsh-molecule-autosuggest-focus: $bxsh-atom-input !default;
 
+$bd-atom-select-focus: $bd-atom-input !default;
+$bxsh-atom-select-focus-focus: $bxsh-atom-input !default;
+
 $sizes-atom-input: m $h-atom-input--m, xs $h-atom-input--xs, s $h-atom-input--s !default;
 $states-atom-input: success $c-atom-input--success, error $c-atom-input--error,
   alert $c-atom-input--alert !default;
