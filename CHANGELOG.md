@@ -2,7 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
-# 8.79.0 (2020-05-26)
+# 8.80.0 (2020-05-28)
+
+
+### Features
+
+* **components:** fix typo ([397faf6](https://github.com/SUI-Components/sui-theme/commit/397faf6b7a1caa7a7a93482ef68847ec492733b9))
+* **components:** update select focus ([ddda43c](https://github.com/SUI-Components/sui-theme/commit/ddda43c01482c4a67a8c21f6045258f04d815108))
+
+
+
+# [8.79.0](https://github.com/SUI-Components/sui-theme/compare/8.77.0...8.79.0) (2020-05-26)
 
 
 ### Features
