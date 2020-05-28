@@ -16,6 +16,12 @@
   outline: 0 none;
 }
 
+%sui-atom-input-select-focus {
+  border: $bd-atom-select-focus;
+  box-shadow: $bxsh-atom-select-focus;
+  outline: 0 none;
+}
+
 %sui-molecule-autosuggest-focus {
   border: $bd-molecule-autosuggest-focus;
   box-shadow: $bxsh-molecule-autosuggest-focus;
