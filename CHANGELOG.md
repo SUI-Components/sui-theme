@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
+# 8.81.0 (2020-05-28)
+
+
+### Features
+
+* **settings:** add sz-icon-xs ([6a39381](https://github.com/SUI-Components/sui-theme/commit/6a39381ce8e82fb31d60475db5b3bfc5d40a237c))
+
+
+
 # 8.80.0 (2020-05-28)
 
 
