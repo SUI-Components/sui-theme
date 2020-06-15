@@ -2,7 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
-# 8.81.0 (2020-05-28)
+# 8.82.0 (2020-06-15)
+
+
+### Bug Fixes
+
+* **Root:** import settings motion ([bafed5a](https://github.com/SUI-Components/sui-theme/commit/bafed5a384230f04b569ff9a601cfe08927b1693))
+
+
+
+# [8.81.0](https://github.com/SUI-Components/sui-theme/compare/8.80.0...8.81.0) (2020-05-28)
 
 
 ### Features
@@ -11,7 +20,7 @@ All notable changes to this project will be documented in this file.
 
 
 
-# 8.80.0 (2020-05-28)
+# [8.80.0](https://github.com/SUI-Components/sui-theme/compare/8.79.0...8.80.0) (2020-05-28)
 
 
 ### Features
