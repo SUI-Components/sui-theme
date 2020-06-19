@@ -12,10 +12,16 @@
 // $c-primary-dark: color-variation($c-primary, -2) -> 2 steps darker
 // $c-primary-darkest: color-variation($c-primary, -4) -> 4 steps darker
 
+$color-variation-dark: black;
 $color-lighten-steps: 25, 50, 75, 90, 95 !default;
 $color-darken-steps: 20, 35, 55, 75 !default;
 
-@function color-variation($color, $step: 0, $dark: black, $light: white) {
+@function color-variation(
+  $color,
+  $step: 0,
+  $color-variation-dark,
+  $light: white
+) {
   $positive-steps: length($color-lighten-steps);
   $negative-steps: length($color-darken-steps);
 
@@ -24,9 +30,17 @@ $color-darken-steps: 20, 35, 55, 75 !default;
   @if ($step > $positive-steps) {
     $variation: mix($light, $color, nth($color-lighten-steps, $positive-steps));
   } @else if ($step < -$negative-steps) {
-    $variation: mix($dark, $color, nth($color-darken-steps, $negative-steps));
+    $variation: mix(
+      $color-variation-dark,
+      $color,
+      nth($color-darken-steps, $negative-steps)
+    );
   } @else if ($step < 0) {
-    $variation: mix($dark, $color, nth($color-darken-steps, -$step));
+    $variation: mix(
+      $color-variation-dark,
+      $color,
+      nth($color-darken-steps, -$step)
+    );
   } @else if ($step > 0) {
     $variation: mix($light, $color, nth($color-lighten-steps, $step));
   }
