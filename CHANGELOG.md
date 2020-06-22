@@ -2,7 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
-# 8.82.0 (2020-06-15)
+# 8.83.0 (2020-06-22)
+
+
+### Features
+
+* **utils:** add var for white color ([5c027eb](https://github.com/SUI-Components/sui-theme/commit/5c027ebc9af478eeafc0d44e46bd214fcd648d91))
+* **utils:** define var as global var ([74f561f](https://github.com/SUI-Components/sui-theme/commit/74f561ff6d8c398aeefa6ec0d964ee9af65cbc24))
+* **utils:** initialize vars inside the function ([647ba22](https://github.com/SUI-Components/sui-theme/commit/647ba22d589ed803b15bcaa1443754849ca61165))
+
+
+
+# [8.82.0](https://github.com/SUI-Components/sui-theme/compare/8.81.0...8.82.0) (2020-06-15)
 
 
 ### Bug Fixes
