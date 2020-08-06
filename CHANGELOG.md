@@ -2,7 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
-# 8.84.0 (2020-08-06)
+# 8.85.0 (2020-08-06)
+
+
+### Bug Fixes
+
+* **Root:** import settings order for var consuming ([01a448e](https://github.com/SUI-Components/sui-theme/commit/01a448e5d1e90a4e2c11e8665177b8c1c9c6497c))
+
+
+
+# [8.84.0](https://github.com/SUI-Components/sui-theme/compare/8.83.0...8.84.0) (2020-08-06)
 
 
 ### Features
