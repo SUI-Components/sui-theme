@@ -2,7 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
-# 8.83.0 (2020-06-22)
+# 8.84.0 (2020-08-06)
+
+
+### Features
+
+* **Root:** order settings imports ([cf5d512](https://github.com/SUI-Components/sui-theme/commit/cf5d512023b8f319f4bf9f2223dc4ea7608a9ace))
+* **settings:** add transitions file with new trs-default SASS var ([f87ac91](https://github.com/SUI-Components/sui-theme/commit/f87ac913e27b641753937467f72bf93a8ad5e21a))
+* **settings:** moved trs-default new SASS var to motion file ([8081da7](https://github.com/SUI-Components/sui-theme/commit/8081da79fd9e562ecb572676849190f4e57e9c1c))
+
+
+
+# [8.83.0](https://github.com/SUI-Components/sui-theme/compare/8.82.0...8.83.0) (2020-06-22)
 
 
 ### Features
