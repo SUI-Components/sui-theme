@@ -11,7 +11,6 @@
     "lint": "npm run lint:sass",
     "lint:sass": "sui-lint sass",
     "phoenix": "rimraf node_modules && npm i",
-    "precommit": "sui-precommit run",
     "prelib": "npm run clean:lib -s",
     "prepublish": "npm run lib",
     "release": "sui-mono release",
@@ -36,7 +35,7 @@
     "@s-ui/mono": "1",
     "@s-ui/precommit": "2",
     "cpx": "1.5.0",
-    "husky": "0.13.3",
+    "husky": "4.2.5",
     "rimraf": "3.0.2",
     "validate-commit-msg": "2.14.0"
   },
@@ -56,5 +55,10 @@
       "./node_modules/@s-ui/lint/eslintrc.js"
     ]
   },
-  "prettier": "./node_modules/@s-ui/lint/.prettierrc.js"
+  "prettier": "./node_modules/@s-ui/lint/.prettierrc.js",
+  "husky": {
+    "hooks": {
+      "pre-commit": "sui-precommit run"
+    }
+  }
 }
