@@ -21,7 +21,6 @@
 // Note: This URL must be overwritten in your own component/site styles.
 $url-statics: 'https://statics.sui-cdn.com/' !default;
 
-@import './settings/box-style';
 @import './settings/color';
 @import './settings/font';
 @import './settings/layers';
@@ -29,3 +28,4 @@ $url-statics: 'https://statics.sui-cdn.com/' !default;
 @import './settings/opacity';
 @import './settings/size';
 @import './settings/spacing';
+@import './settings/box-style';
