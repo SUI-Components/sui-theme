@@ -2,7 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
-# 8.85.0 (2020-08-06)
+# 8.86.0 (2020-10-08)
+
+
+### Features
+
+* **settings:** add large size for gutter ([472f016](https://github.com/SUI-Components/sui-theme/commit/472f0167ab7aa80cec718c45dd8c219cfb0a01ba))
+
+
+
+# [8.85.0](https://github.com/SUI-Components/sui-theme/compare/8.84.0...8.85.0) (2020-08-06)
 
 
 ### Bug Fixes
