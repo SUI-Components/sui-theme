@@ -2,7 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
-# 8.86.0 (2020-10-08)
+# 8.87.0 (2020-10-22)
+
+
+### Features
+
+* **settings:** create brds xxl variable ([6618501](https://github.com/SUI-Components/sui-theme/commit/6618501f3f3258270e4dae3f7577cc0a93eb7c92))
+
+
+
+# [8.86.0](https://github.com/SUI-Components/sui-theme/compare/8.85.0...8.86.0) (2020-10-08)
 
 
 ### Features
