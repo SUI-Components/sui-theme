@@ -8,7 +8,7 @@ This repository contains:
 
 ## Usage
 
-Intall `sui-theme` in your project:
+Install `sui-theme` in your project:
 
 ```bash
 npm install @s-ui/theme --save
