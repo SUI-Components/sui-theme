@@ -1,0 +1,30 @@
+// --- Grid --- //
+
+// Description:
+// Provide a color and step to get a lighter or darker color variation.
+// If step provided is bigger than the step variation limit the lighter or darker color available will be returned.
+
+// Usage:
+// $c-primary-light: color-variation($c-primary, 1) -> 1 step lighter
+// $c-primary-lighter: color-variation($c-primary, 2) -> 2 steps lighter
+// $c-primary-dark: color-variation($c-primary, -2) -> 2 steps darker
+// $c-primary-darkest: color-variation($c-primary, -4) -> 4 steps darker
+
+@mixin grid-flex-basis($size) {
+  flex-basis: (100% / $layout-grid-columns) * $size;
+}
+
+/*
+Example of use mixin
+
+.className {
+  @include grid-value(xs, 6); // Added a `xs` breakpoint, 6 columns
+  @include grid-value(l, 12); // Added a `l` breakpoint, 12 columns
+}
+*/
+
+@mixin grid-value($breakpoint-name, $size) {
+  @include media-breakpoint-up($breakpoint-name) {
+    @include grid-flex-basis($size);
+  }
+}
