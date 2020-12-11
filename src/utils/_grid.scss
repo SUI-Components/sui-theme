@@ -1,0 +1,26 @@
+// --- Grid --- //
+
+// Description:
+// Provide a util mixins for generate your layout.
+
+// Usage:
+
+// --- grid-flex-basis --- //
+// The $columns is 12 columns based.
+// @include grid-flex-basis(6); // Added a `6/12` columns of width.
+
+// --- grid-value --- //
+// @include grid-value(xs, 6); // Added a `xs` breakpoint, 6 columns
+// @include grid-value(sm, 12); // Added a `sm` breakpoint, 12 columns
+
+$grid-columns: 12;
+
+@mixin grid-flex-basis($columns) {
+  flex-basis: (100% / $grid-columns) * $columns;
+}
+
+@mixin grid-value($breakpoint-name, $columns) {
+  @include media-breakpoint-up($breakpoint-name) {
+    @include grid-flex-basis($columns);
+  }
+}
