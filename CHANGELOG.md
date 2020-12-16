@@ -2,7 +2,19 @@
 
 All notable changes to this project will be documented in this file.
 
-# 8.87.0 (2020-10-22)
+# 8.88.0 (2020-12-16)
+
+
+### Features
+
+* **utils:** add a grid utils mixins ([ae95cf4](https://github.com/SUI-Components/sui-theme/commit/ae95cf4f828553cad9148ec333340d59b592466c))
+* **utils:** add docs of usage ([90d9075](https://github.com/SUI-Components/sui-theme/commit/90d907544967fe09fcc13d4b7a1db039ade28fed))
+* **utils:** export grid util ([e1d1c37](https://github.com/SUI-Components/sui-theme/commit/e1d1c374da1b780a30cc249cfca4459660fc9e23))
+* **utils:** update columns naming ([098ddf5](https://github.com/SUI-Components/sui-theme/commit/098ddf5874849e574c4a61a0b05b8a6348c4e50d))
+
+
+
+# [8.87.0](https://github.com/SUI-Components/sui-theme/compare/8.86.0...8.87.0) (2020-10-22)
 
 
 ### Features
