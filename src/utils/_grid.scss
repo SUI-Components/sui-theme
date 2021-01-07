@@ -16,7 +16,7 @@
 $grid-columns: 12;
 
 @mixin grid-flex-basis($columns) {
-  flex-basis: (100% / $grid-columns) * $columns;
+  min-width: (100% / $grid-columns) * $columns;
 }
 
 @mixin grid-value($breakpoint-name, $columns) {
