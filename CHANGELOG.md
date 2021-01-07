@@ -2,7 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
-# 8.88.0 (2020-12-16)
+# 8.89.0 (2021-01-07)
+
+
+### Features
+
+* **utils:** update flex bassis to min-width property ([abbbc71](https://github.com/SUI-Components/sui-theme/commit/abbbc711536e87dd2234cd6148a2a3bd3102aaf5))
+
+
+
+# [8.88.0](https://github.com/SUI-Components/sui-theme/compare/8.87.0...8.88.0) (2020-12-16)
 
 
 ### Features
