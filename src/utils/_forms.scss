@@ -45,7 +45,7 @@
   &-#{$field} {
     border-color: $c-gray-light;
     border-style: solid;
-    border-width: 1px;
+    border-width: $bdw-s;
     font-size: $fz-base;
     padding-left: $p-l;
     padding-right: $p-l;

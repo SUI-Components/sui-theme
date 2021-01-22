@@ -1,8 +1,9 @@
 // --- Box Style --- //
 
 // Border radius
-$bdrs-base: 4px !default;
-$bdrs-small: ceil($bdrs-base / 2) !default;
+$bdrs-none: 0 !default;
+$bdrs-base: 8px !default;
+$bdrs-small: ceil(4px / 2) !default;
 
 // Box shadows
 $bxsh-spread: 3px !default;

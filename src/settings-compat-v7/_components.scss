@@ -4,7 +4,7 @@
 $bgc-input: $c-white !default;
 $bgc-input-hover: $c-white !default;
 $bgc-input-focus: $c-gray-lightest !default;
-$bdrs-input: $bdrs-base !default;
+$bdrs-input: $bdrs-xl !default;
 $c-input: $c-text-base !default;
 $c-input-focus: $c-text-base !default;
 $c-input-hover: $c-text-base !default;
@@ -19,7 +19,7 @@ $bd-input-focus: 0 0 0 1px $c-gray inset !default;
 
 // Radio List
 $bd-radio-list: 1px solid $c-gray !default;
-$bdrs-radio-list: $bdrs-base !default;
+$bdrs-radio-list: $bdrs-xl !default;
 
 $bgc-radio-list-checked: $c-primary !default;
 $bgc-radio-list: $c-white !default;
@@ -57,17 +57,17 @@ $c-alert-basic-link: $c-primary !default;
 
 $c-alert-basic-info: $c-primary !default;
 $bd-alert-basic-info: 0 !default;
-$bdl-alert-basic-info: 4px solid $c-alert-basic-info !default;
+$bdl-alert-basic-info: $bdw-l solid $c-alert-basic-info !default;
 $bgc-alert-basic-info: $c-white !default;
 
 $c-alert-basic-error: $c-error !default;
 $bd-alert-basic-error: 0 !default;
-$bdl-alert-basic-error: 4px solid $c-alert-basic-error !default;
+$bdl-alert-basic-error: $bdw-l solid $c-alert-basic-error !default;
 $bgc-alert-basic-error: $c-white !default;
 
 $c-alert-basic-success: $c-success !default;
 $bd-alert-basic-success: 0 !default;
-$bdl-alert-basic-success: 4px solid $c-alert-basic-success !default;
+$bdl-alert-basic-success: $bdw-l solid $c-alert-basic-success !default;
 $bgc-alert-basic-success: $c-white !default;
 
 // Badge
@@ -75,7 +75,7 @@ $c-badge-notification: $c-primary !default;
 $size-badge-notification: 18px !default;
 $p-badge-notification: 0 5px !default;
 $m-badge-notification: 0 0 0 10px !default;
-$bd-badge-notification: 2px solid $c-white !default;
+$bd-badge-notification: $bdw-m solid $c-white !default;
 
 // Button
 $bdrs-button: 0 !default;
@@ -125,7 +125,7 @@ $bxsh-card: $bxsh-base !default;
 $bxsh-card-hover: 0 1px 6px 2px rgba($c-black, 0.15) !default;
 $c-card-title-hover: inherit !default;
 $bdc-article-featured: $c-featured !default;
-$bd-article-featured: 4px solid $bdc-article-featured !default;
+$bd-article-featured: $bdw-l solid $bdc-article-featured !default;
 $c-card-article-icon-fill: $c-white !default;
 $z-card-article-icon: 1 !default;
 
@@ -168,7 +168,7 @@ $c-cookie-banner-close-icon-hover: $c-gray !default;
 
 // Dropdown
 $c-dropdown-button-large: $c-text-base !default;
-$bdt-dropdown-menu: 1px solid $c-primary !default;
+$bdt-dropdown-menu: $bdw-s solid $c-primary !default;
 $bgc-dropdown-button-hover: $c-white !default;
 $bgc-dropdown-menu-hover: $c-white !default;
 $bgc-dropdown-menu: $c-gray-lightest !default;
@@ -195,8 +195,8 @@ $c-dropdown-user-icon-hover: $c-accent !default;
 $c-dropdown-user-link-highlight: $c-accent !default;
 
 // Form Autocompleted
-$bd-form-autocompleted: 1px solid $c-gray !default;
-$bdr-form-autocompleted: $bdrs-base !default;
+$bd-form-autocompleted: $bdw-s solid $c-gray !default;
+$bdr-form-autocompleted: $bdrs-xl !default;
 $bgc-form-autocompleted-item-active: $c-gray-lightest !default;
 $bgc-form-autocompleted-item-hover: $c-gray-lightest !default;
 $bgc-form-autocompleted: $c-white !default;
@@ -230,7 +230,7 @@ $bg-modal-basic-header: transparent !default;
 $c-modal-basic-header: inherit !default;
 $p-modal-basic-header: $p-base !default;
 $m-modal-basic-header: $p-modal-basic-header !default;
-$bd-modal-basic-content: 1px solid $c-gray-light !default;
+$bd-modal-basic-content: $bdrs-s solid $c-gray-light !default;
 $p-modal-basic-content: $p-base !default;
 $p-modal-basic-footer: $p-base !default;
 
@@ -248,11 +248,11 @@ $lh-section-basic-paragraph: $lh-base !default;
 $mb-section-basic: $m-v-xlarge * 2 !default;
 $mb-section-basic-header: $m-v-xlarge !default;
 $m-v-section-basic-content-text-paragraph: $m-v-large !default;
-$bd-section-basic-line-separator: 1px solid $c-gray-lightest !default;
+$bd-section-basic-line-separator: $bdrs-s solid $c-gray-lightest !default;
 
 // Smartbanner
 $bgc-ad-smartbanner: $c-white !default;
-$bb-ad-smartbanner: 1px solid $c-gray-light !default;
+$bb-ad-smartbanner: $bdrs-s solid $c-gray-light !default;
 $h-ad-smartbanner: 70px !default;
 $t-ad-smartbanner: 0 !default;
 $b-ad-smartbanner: auto !default;
@@ -288,12 +288,12 @@ $animtf-spinner: linear !default;
 $size-spinner-l: 60px !default;
 $bdw-spinner-l: 3px !default;
 $size-spinner-m: 30px !default;
-$bdw-spinner-m: 2px !default;
+$bdw-spinner-m: $bdw-m !default;
 $size-spinner-s: 15px !default;
-$bdw-spinner-s: 1px !default;
+$bdw-spinner-s: $bdw-s !default;
 
 // Tabs
-$bd-tab-wrap: 1px solid $c-gray-light !default;
+$bd-tab-wrap: $bdw-s solid $c-gray-light !default;
 $bd-tab: 0 !default;
 $bgc-tab: $c-white !default;
 $c-tab: $c-text-base !default;
@@ -311,12 +311,12 @@ $c-tab-active: $c-primary !default;
 // Tag
 $c-tag: $c-text-base !default;
 $c-tag-selected: $c-text-base !default;
-$bd-tag: 1px solid $c-gray-light !default;
-$bd-tag-selected: 1px solid $c-primary !default;
+$bd-tag: $bdw-s solid $c-gray-light !default;
+$bd-tag-selected: $bdw-s solid $c-primary !default;
 $bgc-tag: $c-white !default;
 $bgc-tag-hover: $c-white !default;
 $bgc-tag-selected: $c-white !default;
-$bdrs-tag: $bdrs-base !default;
+$bdrs-tag: $bdrs-xl !default;
 $fz-tag: $fz-s !default;
 $fw-tag-link: $fw-regular !default;
 $lh-tag: 1.5em !default;
@@ -328,7 +328,7 @@ $c-title-basic-subtitle: $c-primary !default;
 
 // Tooltip basic
 $bdr-tooltip-basic: 0 !default;
-$bdw-tooltip-basic-arrow: 4px !default;
+$bdw-tooltip-basic-arrow: $bdw-l !default;
 $fz-tooltip-basic: $fz-base !default;
 $w-toolip-basic-arrow: 12px !default;
 $p-toolip-basic: $p-v $p-h !default;
@@ -354,7 +354,7 @@ $bdc-tooltip-basic-info: $c-accent !default;
 
 // Thumbnail
 $bgc-thumbnail-basic: $c-white !default;
-$bd-thumbnail-basic: 1px solid $c-gray-lightest !default;
+$bd-thumbnail-basic: $bdw-s solid $c-gray-lightest !default;
 $bdrs-thumbnail-basic: 0 !default;
 $p-thumbnail-basic: $p-xxsmall !default;
 $bgc-thumbnail-basic-caption: $c-black !default;
