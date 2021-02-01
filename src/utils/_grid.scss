@@ -23,8 +23,7 @@ $grid-columns: 12;
   display: flex;
   flex-wrap: wrap;
   list-style: none;
-  margin: 0 (-$gap / 2);
-  width: calc(100% + #{$gap});
+  margin: 0 (-$gap);
 }
 
 @mixin grid-flex-basis($columns) {
