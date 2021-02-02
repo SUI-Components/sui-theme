@@ -4,7 +4,7 @@
 $bgc-input: $c-white !default;
 $bgc-input-hover: $c-white !default;
 $bgc-input-focus: $c-gray-lightest !default;
-$bdrs-input: $bdrs-xl !default;
+$bdrs-input: $bdrs-base !default;
 $c-input: $c-text-base !default;
 $c-input-focus: $c-text-base !default;
 $c-input-hover: $c-text-base !default;
@@ -19,7 +19,7 @@ $bd-input-focus: 0 0 0 1px $c-gray inset !default;
 
 // Radio List
 $bd-radio-list: 1px solid $c-gray !default;
-$bdrs-radio-list: $bdrs-xl !default;
+$bdrs-radio-list: $bdrs-base !default;
 
 $bgc-radio-list-checked: $c-primary !default;
 $bgc-radio-list: $c-white !default;
@@ -196,7 +196,7 @@ $c-dropdown-user-link-highlight: $c-accent !default;
 
 // Form Autocompleted
 $bd-form-autocompleted: $bdw-s solid $c-gray !default;
-$bdr-form-autocompleted: $bdrs-xl !default;
+$bdr-form-autocompleted: $bdrs-base !default;
 $bgc-form-autocompleted-item-active: $c-gray-lightest !default;
 $bgc-form-autocompleted-item-hover: $c-gray-lightest !default;
 $bgc-form-autocompleted: $c-white !default;
@@ -316,7 +316,7 @@ $bd-tag-selected: $bdw-s solid $c-primary !default;
 $bgc-tag: $c-white !default;
 $bgc-tag-hover: $c-white !default;
 $bgc-tag-selected: $c-white !default;
-$bdrs-tag: $bdrs-xl !default;
+$bdrs-tag: $bdrs-base !default;
 $fz-tag: $fz-s !default;
 $fw-tag-link: $fw-regular !default;
 $lh-tag: 1.5em !default;

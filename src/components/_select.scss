@@ -15,7 +15,7 @@
   @include appearance(none);
   background-color: $bgc-select;
   border: 0;
-  border-radius: $bdrs-xl;
+  border-radius: $bdrs-base;
   box-shadow: $bxsh-select;
   display: inline-block;
   font-family: inherit;
@@ -37,8 +37,8 @@
 
   &-icon-wrap {
     background-color: $bgc-select-icon-wrap;
-    border-bottom-right-radius: $bdrs-xl;
-    border-top-right-radius: $bdrs-xl;
+    border-bottom-right-radius: $bdrs-base;
+    border-top-right-radius: $bdrs-base;
     bottom: 1px;
     padding: $p-select-icon-wrap;
     pointer-events: none;
