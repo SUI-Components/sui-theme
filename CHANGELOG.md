@@ -2,7 +2,19 @@
 
 All notable changes to this project will be documented in this file.
 
-# 8.89.0 (2021-01-07)
+# 8.91.0 (2021-02-01)
+
+
+### Features
+
+* **settings:** add border radius variables ([fe62903](https://github.com/SUI-Components/sui-theme/commit/fe6290325173ed321d1cd04f8ee44834f67d709b))
+* **utils:** add grid parent mixin ([403380f](https://github.com/SUI-Components/sui-theme/commit/403380ff8208fc2aee0a042e9fd0c09392cde792))
+* **utils:** fix docs ([9d0cb06](https://github.com/SUI-Components/sui-theme/commit/9d0cb06b2327d16683998fe691f4df3b0b7a3995))
+* **utils:** prevent gap with parent container ([f1a8fc8](https://github.com/SUI-Components/sui-theme/commit/f1a8fc85908c5da0af066ef10829b4c9a7c9207a))
+
+
+
+# [8.89.0](https://github.com/SUI-Components/sui-theme/compare/8.88.0...8.89.0) (2021-01-07)
 
 
 ### Features

@@ -5,6 +5,10 @@
 
 // Usage:
 
+// --- grid-parent --- //
+// The $gap is negative margin of column spacing.
+// @include gridg-parent(8px); // Create grid parent with 8px of gap
+
 // --- grid-flex-basis --- //
 // The $columns is 12 columns based.
 // @include grid-flex-basis(6); // Added a `6/12` columns of width.
@@ -14,6 +18,13 @@
 // @include grid-value(sm, 12); // Added a `sm` breakpoint, 12 columns
 
 $grid-columns: 12;
+
+@mixin grid-parent($gap) {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0 (-$gap);
+}
 
 @mixin grid-flex-basis($columns) {
   min-width: (100% / $grid-columns) * $columns;
