@@ -2,7 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
-# 8.91.0 (2021-02-01)
+# 8.92.0 (2021-02-04)
+
+
+### Features
+
+* **Root:** normalize border variables ([ff2224a](https://github.com/SUI-Components/sui-theme/commit/ff2224a5db3e6d79d0c8a7e491928d6e814aee1f))
+* **Root:** normalize border variables ([c9c71fd](https://github.com/SUI-Components/sui-theme/commit/c9c71fd1c9e4fa94dcc24a53ce2fb91033054b22))
+
+
+
+# [8.91.0](https://github.com/SUI-Components/sui-theme/compare/8.89.0...8.91.0) (2021-02-01)
 
 
 ### Features
