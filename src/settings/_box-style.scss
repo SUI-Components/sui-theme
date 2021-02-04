@@ -3,20 +3,24 @@
 // Border radius
 $bdrs-base: 8px !default;
 
-$bdrs-none: 0 !default;
+$bdrs-xxxl: $bdrs-base * 4 !default; // 32 px
+$bdrs-xxl: $bdrs-base * 2 !default; // 16 px
+$bdrs-xl: $bdrs-base !default; // 8 px
+$bdrs-l: $bdrs-base / 2 !default; // 4 px
+$bdrs-m: $bdrs-base / 4 !default; // 2 px
+$bdrs-s: $bdrs-base / 8 !default; // 1 px
+
 $bdrs-rounded: 50% !default;
-$bdrs-s: 1px !default;
-$bdrs-m: 2px !default;
-$bdrs-l: 4px !default;
-$bdrs-xl: 8px !default;
-$bdrs-xxl: 16px !default;
 
 // Border widths
-$bdw-s: 1px !default;
-$bdw-m: 2px !default;
-$bdw-l: 4px !default;
-$bdw-xl: 8px !default;
-$bdw-xxl: 16px !default;
+$bdw-base: 8px !default;
+
+$bdw-xxxl: $bdw-base * 4 !default; // 32 px
+$bdw-xxl: $bdw-base * 2 !default; // 16 px
+$bdw-xl: $bdw-base !default; // 8 px
+$bdw-l: $bdw-base / 2 !default; // 4 px
+$bdw-m: $bdw-base / 4 !default; // 2 px
+$bdw-s: $bdw-base / 8 !default; // 1 px
 
 // Box shadows
 $bxsh-m: 0 1px 4px 0 rgba(0, 0, 0, 0.24) !default;
