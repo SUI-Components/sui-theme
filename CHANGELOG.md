@@ -2,7 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
-# 8.92.0 (2021-02-04)
+# 8.93.0 (2021-02-04)
+
+
+### Bug Fixes
+
+* **settings:** fix components using bdrs-none ([8dd9e88](https://github.com/SUI-Components/sui-theme/commit/8dd9e888109941295503f3a6dba4e1e2b5accb5b))
+
+
+
+# [8.92.0](https://github.com/SUI-Components/sui-theme/compare/8.91.0...8.92.0) (2021-02-04)
 
 
 ### Features
