@@ -2,7 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
-# 8.93.0 (2021-02-04)
+# 8.94.0 (2021-03-18)
+
+
+### Features
+
+* **settings:** add token for box-shadow s ([995b1ea](https://github.com/SUI-Components/sui-theme/commit/995b1eaab8a47d87b20e132219ee624f7d320605))
+
+
+
+# [8.93.0](https://github.com/SUI-Components/sui-theme/compare/8.92.0...8.93.0) (2021-02-04)
 
 
 ### Bug Fixes
