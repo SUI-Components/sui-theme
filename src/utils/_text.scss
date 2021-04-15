@@ -1,3 +1,5 @@
+@import '../settings/font';
+
 // Large Title
 $fz-large-title: $fz-giant !default;
 $fw-large-title: $fw-semi-bold !default;
@@ -56,7 +58,7 @@ $lh-overline: $lh-xs !default;
 
 @mixin calc-font-size($font-size, $font-weight, $letter-spacing, $line-height) {
   font-size: $font-size;
-  font-family: $ff;
+  font-family: $ff-sans-serif;
   font-weight: $font-weight;
   letter-spacing: $letter-spacing;
   line-height: $line-height;
