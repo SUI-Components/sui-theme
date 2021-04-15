@@ -2,7 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
-# 8.94.0 (2021-03-18)
+# 8.95.0 (2021-04-15)
+
+
+### Features
+
+* **settings:** add tokens for letter spacing ([f1ccb1b](https://github.com/SUI-Components/sui-theme/commit/f1ccb1bd48af8d716f1cfe7a9d25ff6a58f45edf))
+* **utils:** add mixins for text styles ([c1b0fd2](https://github.com/SUI-Components/sui-theme/commit/c1b0fd237060b88c5571a2188dd81f503fcd79c5))
+
+
+
+# [8.94.0](https://github.com/SUI-Components/sui-theme/compare/8.93.0...8.94.0) (2021-03-18)
 
 
 ### Features
