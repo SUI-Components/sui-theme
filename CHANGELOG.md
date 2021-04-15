@@ -2,7 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
-# 8.95.0 (2021-04-15)
+# 8.96.0 (2021-04-15)
+
+
+### Features
+
+* **utils:** fix var and import font ([dc317a0](https://github.com/SUI-Components/sui-theme/commit/dc317a009409b0558bead23ab10ee2db042d9d86))
+
+
+
+# [8.95.0](https://github.com/SUI-Components/sui-theme/compare/8.94.0...8.95.0) (2021-04-15)
 
 
 ### Features
