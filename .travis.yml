@@ -1,0 +1,21 @@
+sudo: false
+
+language: node_js
+
+node_js:
+  - 12
+
+cache:
+  directories:
+    - node_modules
+
+branches:
+  only:
+    - master
+
+before_install:
+  - npm config set //registry.npmjs.org/:_authToken $NPM_TOKEN
+
+script:
+  - npm run lint
+  - npx @s-ui/ci release
