@@ -4,17 +4,12 @@
   "description": "Generic theme to add styles to all SUI components",
   "main": "lib/index.scss",
   "scripts": {
-    "clean:lib": "rimraf ./lib/*",
     "co": "sui-mono commit",
-    "lib": "npm run lib:styles",
-    "lib:styles": "cpx \"./src/**/*.scss\" lib/",
-    "lint": "npm run lint:sass",
-    "lint:sass": "sui-lint sass",
-    "phoenix": "rimraf node_modules && npm i",
-    "prelib": "npm run clean:lib -s",
-    "prepublish": "npm run lib",
-    "release": "sui-mono release",
-    "release:check": "sui-mono check"
+    "lib": "cpx \"./src/**/*.scss\" lib/",
+    "lint": "sui-lint sass",
+    "phoenix": "npx -p @s-ui/mono@1 sui-mono phoenix",
+    "phoenix:ci": "npx -p @s-ui/mono@1 sui-mono phoenix --ci",
+    "prepare": "npm run lib"
   },
   "repository": {
     "type": "git",
