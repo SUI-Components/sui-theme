@@ -2,7 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
-# 8.96.0 (2021-04-15)
+# 8.97.0 (2021-04-19)
+
+
+### Bug Fixes
+
+* **settings:** move font variables to settings/fonts ([70d6dbe](https://github.com/SUI-Components/sui-theme/commit/70d6dbe07b21a5ee8a5dc295b19ea31063851341))
+* **utils:** remove variables and font import from utils file ([cd0587d](https://github.com/SUI-Components/sui-theme/commit/cd0587d9db52a0b68cb1b6b94a601b33390b8b15))
+
+
+
+# [8.96.0](https://github.com/SUI-Components/sui-theme/compare/8.95.0...8.96.0) (2021-04-15)
 
 
 ### Features
