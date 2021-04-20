@@ -1,5 +1,7 @@
 # SUI Components Theme
 
+## ⚠️ This repo has been moved to https://github.com/SUI-Components/sui/tree/master/packages/sui-theme
+
 This repository contains:
 
 * Generic variables to initialize default values and component styles.
